@@ -1,7 +1,6 @@
 # pddip
-Parallel dual dynamic integer programming
 
-This is the source code of the (P)arallel (D)ual (D)ynamic (i)nteger (P)rogramming algorithm.
+This is the source code of the (P)arallel (D)ual (D)ynamic (i)nteger (P)rogramming algorithm. 
 
 All input and output data are in .csv. We use Case 1 of our test system called 'SIN' to describe the input and output data below.
 
