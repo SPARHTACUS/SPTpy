@@ -1,0 +1,770 @@
+<BEGIN>
+<constr>
+<Comment>
+Constraint type (LB, UB or EQ);LB
+Plants in constraint separated by commas;ITAIPU
+Groups of units of each plant participating in this constraint (groups of the same plant are grouped in [] and plants are separated by commas);[50 Hz]
+Contiguous periods in which the constraint is enforced(in column B, the first period, in column C, the last one);0;0
+Bound in MW;3711.9999999999995
+</constr>
+<constr>
+<Comment>
+Constraint type (LB, UB or EQ);LB
+Plants in constraint separated by commas;ITAIPU
+Groups of units of each plant participating in this constraint (groups of the same plant are grouped in [] and plants are separated by commas);[50 Hz]
+Contiguous periods in which the constraint is enforced(in column B, the first period, in column C, the last one);1;1
+Bound in MW;3711.9999999999995
+</constr>
+<constr>
+<Comment>
+Constraint type (LB, UB or EQ);LB
+Plants in constraint separated by commas;ITAIPU
+Groups of units of each plant participating in this constraint (groups of the same plant are grouped in [] and plants are separated by commas);[50 Hz]
+Contiguous periods in which the constraint is enforced(in column B, the first period, in column C, the last one);2;2
+Bound in MW;3711.9999999999995
+</constr>
+<constr>
+<Comment>
+Constraint type (LB, UB or EQ);LB
+Plants in constraint separated by commas;ITAIPU
+Groups of units of each plant participating in this constraint (groups of the same plant are grouped in [] and plants are separated by commas);[50 Hz]
+Contiguous periods in which the constraint is enforced(in column B, the first period, in column C, the last one);3;3
+Bound in MW;3711.9999999999995
+</constr>
+<constr>
+<Comment>
+Constraint type (LB, UB or EQ);LB
+Plants in constraint separated by commas;ITAIPU
+Groups of units of each plant participating in this constraint (groups of the same plant are grouped in [] and plants are separated by commas);[50 Hz]
+Contiguous periods in which the constraint is enforced(in column B, the first period, in column C, the last one);4;4
+Bound in MW;3711.9999999999995
+</constr>
+<constr>
+<Comment>
+Constraint type (LB, UB or EQ);LB
+Plants in constraint separated by commas;ITAIPU
+Groups of units of each plant participating in this constraint (groups of the same plant are grouped in [] and plants are separated by commas);[50 Hz]
+Contiguous periods in which the constraint is enforced(in column B, the first period, in column C, the last one);5;5
+Bound in MW;3711.9999999999995
+</constr>
+<constr>
+<Comment>
+Constraint type (LB, UB or EQ);LB
+Plants in constraint separated by commas;ITAIPU
+Groups of units of each plant participating in this constraint (groups of the same plant are grouped in [] and plants are separated by commas);[50 Hz]
+Contiguous periods in which the constraint is enforced(in column B, the first period, in column C, the last one);6;6
+Bound in MW;3711.9999999999995
+</constr>
+<constr>
+<Comment>
+Constraint type (LB, UB or EQ);LB
+Plants in constraint separated by commas;ITAIPU
+Groups of units of each plant participating in this constraint (groups of the same plant are grouped in [] and plants are separated by commas);[50 Hz]
+Contiguous periods in which the constraint is enforced(in column B, the first period, in column C, the last one);7;7
+Bound in MW;3711.9999999999995
+</constr>
+<constr>
+<Comment>
+Constraint type (LB, UB or EQ);LB
+Plants in constraint separated by commas;ITAIPU
+Groups of units of each plant participating in this constraint (groups of the same plant are grouped in [] and plants are separated by commas);[50 Hz]
+Contiguous periods in which the constraint is enforced(in column B, the first period, in column C, the last one);8;8
+Bound in MW;3711.9999999999995
+</constr>
+<constr>
+<Comment>
+Constraint type (LB, UB or EQ);LB
+Plants in constraint separated by commas;ITAIPU
+Groups of units of each plant participating in this constraint (groups of the same plant are grouped in [] and plants are separated by commas);[50 Hz]
+Contiguous periods in which the constraint is enforced(in column B, the first period, in column C, the last one);9;9
+Bound in MW;3711.9999999999995
+</constr>
+<constr>
+<Comment>
+Constraint type (LB, UB or EQ);LB
+Plants in constraint separated by commas;ITAIPU
+Groups of units of each plant participating in this constraint (groups of the same plant are grouped in [] and plants are separated by commas);[50 Hz]
+Contiguous periods in which the constraint is enforced(in column B, the first period, in column C, the last one);10;10
+Bound in MW;3711.9999999999995
+</constr>
+<constr>
+<Comment>
+Constraint type (LB, UB or EQ);LB
+Plants in constraint separated by commas;ITAIPU
+Groups of units of each plant participating in this constraint (groups of the same plant are grouped in [] and plants are separated by commas);[50 Hz]
+Contiguous periods in which the constraint is enforced(in column B, the first period, in column C, the last one);11;11
+Bound in MW;3711.9999999999995
+</constr>
+<constr>
+<Comment>
+Constraint type (LB, UB or EQ);LB
+Plants in constraint separated by commas;ITAIPU
+Groups of units of each plant participating in this constraint (groups of the same plant are grouped in [] and plants are separated by commas);[50 Hz]
+Contiguous periods in which the constraint is enforced(in column B, the first period, in column C, the last one);12;12
+Bound in MW;3711.9999999999995
+</constr>
+<constr>
+<Comment>
+Constraint type (LB, UB or EQ);LB
+Plants in constraint separated by commas;ITAIPU
+Groups of units of each plant participating in this constraint (groups of the same plant are grouped in [] and plants are separated by commas);[50 Hz]
+Contiguous periods in which the constraint is enforced(in column B, the first period, in column C, the last one);13;13
+Bound in MW;3711.9999999999995
+</constr>
+<constr>
+<Comment>
+Constraint type (LB, UB or EQ);LB
+Plants in constraint separated by commas;ITAIPU
+Groups of units of each plant participating in this constraint (groups of the same plant are grouped in [] and plants are separated by commas);[50 Hz]
+Contiguous periods in which the constraint is enforced(in column B, the first period, in column C, the last one);14;14
+Bound in MW;3711.9999999999995
+</constr>
+<constr>
+<Comment>
+Constraint type (LB, UB or EQ);LB
+Plants in constraint separated by commas;ITAIPU
+Groups of units of each plant participating in this constraint (groups of the same plant are grouped in [] and plants are separated by commas);[50 Hz]
+Contiguous periods in which the constraint is enforced(in column B, the first period, in column C, the last one);15;15
+Bound in MW;3711.9999999999995
+</constr>
+<constr>
+<Comment>
+Constraint type (LB, UB or EQ);LB
+Plants in constraint separated by commas;ITAIPU
+Groups of units of each plant participating in this constraint (groups of the same plant are grouped in [] and plants are separated by commas);[50 Hz]
+Contiguous periods in which the constraint is enforced(in column B, the first period, in column C, the last one);16;16
+Bound in MW;4183.0
+</constr>
+<constr>
+<Comment>
+Constraint type (LB, UB or EQ);LB
+Plants in constraint separated by commas;ITAIPU
+Groups of units of each plant participating in this constraint (groups of the same plant are grouped in [] and plants are separated by commas);[50 Hz]
+Contiguous periods in which the constraint is enforced(in column B, the first period, in column C, the last one);17;17
+Bound in MW;4183.0
+</constr>
+<constr>
+<Comment>
+Constraint type (LB, UB or EQ);LB
+Plants in constraint separated by commas;ITAIPU
+Groups of units of each plant participating in this constraint (groups of the same plant are grouped in [] and plants are separated by commas);[50 Hz]
+Contiguous periods in which the constraint is enforced(in column B, the first period, in column C, the last one);18;18
+Bound in MW;4183.0
+</constr>
+<constr>
+<Comment>
+Constraint type (LB, UB or EQ);LB
+Plants in constraint separated by commas;ITAIPU
+Groups of units of each plant participating in this constraint (groups of the same plant are grouped in [] and plants are separated by commas);[50 Hz]
+Contiguous periods in which the constraint is enforced(in column B, the first period, in column C, the last one);19;19
+Bound in MW;4183.0
+</constr>
+<constr>
+<Comment>
+Constraint type (LB, UB or EQ);LB
+Plants in constraint separated by commas;ITAIPU
+Groups of units of each plant participating in this constraint (groups of the same plant are grouped in [] and plants are separated by commas);[50 Hz]
+Contiguous periods in which the constraint is enforced(in column B, the first period, in column C, the last one);20;20
+Bound in MW;4239.0
+</constr>
+<constr>
+<Comment>
+Constraint type (LB, UB or EQ);LB
+Plants in constraint separated by commas;ITAIPU
+Groups of units of each plant participating in this constraint (groups of the same plant are grouped in [] and plants are separated by commas);[50 Hz]
+Contiguous periods in which the constraint is enforced(in column B, the first period, in column C, the last one);21;21
+Bound in MW;4239.0
+</constr>
+<constr>
+<Comment>
+Constraint type (LB, UB or EQ);LB
+Plants in constraint separated by commas;ITAIPU
+Groups of units of each plant participating in this constraint (groups of the same plant are grouped in [] and plants are separated by commas);[50 Hz]
+Contiguous periods in which the constraint is enforced(in column B, the first period, in column C, the last one);22;22
+Bound in MW;4239.0
+</constr>
+<constr>
+<Comment>
+Constraint type (LB, UB or EQ);LB
+Plants in constraint separated by commas;ITAIPU
+Groups of units of each plant participating in this constraint (groups of the same plant are grouped in [] and plants are separated by commas);[50 Hz]
+Contiguous periods in which the constraint is enforced(in column B, the first period, in column C, the last one);23;23
+Bound in MW;4239.0
+</constr>
+<constr>
+<Comment>
+Constraint type (LB, UB or EQ);LB
+Plants in constraint separated by commas;ITAIPU
+Groups of units of each plant participating in this constraint (groups of the same plant are grouped in [] and plants are separated by commas);[50 Hz]
+Contiguous periods in which the constraint is enforced(in column B, the first period, in column C, the last one);24;24
+Bound in MW;4239.0
+</constr>
+<constr>
+<Comment>
+Constraint type (LB, UB or EQ);LB
+Plants in constraint separated by commas;ITAIPU
+Groups of units of each plant participating in this constraint (groups of the same plant are grouped in [] and plants are separated by commas);[50 Hz]
+Contiguous periods in which the constraint is enforced(in column B, the first period, in column C, the last one);25;25
+Bound in MW;4239.0
+</constr>
+<constr>
+<Comment>
+Constraint type (LB, UB or EQ);LB
+Plants in constraint separated by commas;ITAIPU
+Groups of units of each plant participating in this constraint (groups of the same plant are grouped in [] and plants are separated by commas);[50 Hz]
+Contiguous periods in which the constraint is enforced(in column B, the first period, in column C, the last one);26;26
+Bound in MW;4239.0
+</constr>
+<constr>
+<Comment>
+Constraint type (LB, UB or EQ);LB
+Plants in constraint separated by commas;ITAIPU
+Groups of units of each plant participating in this constraint (groups of the same plant are grouped in [] and plants are separated by commas);[50 Hz]
+Contiguous periods in which the constraint is enforced(in column B, the first period, in column C, the last one);27;27
+Bound in MW;4239.0
+</constr>
+<constr>
+<Comment>
+Constraint type (LB, UB or EQ);LB
+Plants in constraint separated by commas;ITAIPU
+Groups of units of each plant participating in this constraint (groups of the same plant are grouped in [] and plants are separated by commas);[50 Hz]
+Contiguous periods in which the constraint is enforced(in column B, the first period, in column C, the last one);28;28
+Bound in MW;4239.0
+</constr>
+<constr>
+<Comment>
+Constraint type (LB, UB or EQ);LB
+Plants in constraint separated by commas;ITAIPU
+Groups of units of each plant participating in this constraint (groups of the same plant are grouped in [] and plants are separated by commas);[50 Hz]
+Contiguous periods in which the constraint is enforced(in column B, the first period, in column C, the last one);29;29
+Bound in MW;4239.0
+</constr>
+<constr>
+<Comment>
+Constraint type (LB, UB or EQ);LB
+Plants in constraint separated by commas;ITAIPU
+Groups of units of each plant participating in this constraint (groups of the same plant are grouped in [] and plants are separated by commas);[50 Hz]
+Contiguous periods in which the constraint is enforced(in column B, the first period, in column C, the last one);30;30
+Bound in MW;4239.0
+</constr>
+<constr>
+<Comment>
+Constraint type (LB, UB or EQ);LB
+Plants in constraint separated by commas;ITAIPU
+Groups of units of each plant participating in this constraint (groups of the same plant are grouped in [] and plants are separated by commas);[50 Hz]
+Contiguous periods in which the constraint is enforced(in column B, the first period, in column C, the last one);31;31
+Bound in MW;4239.0
+</constr>
+<constr>
+<Comment>
+Constraint type (LB, UB or EQ);LB
+Plants in constraint separated by commas;ITAIPU
+Groups of units of each plant participating in this constraint (groups of the same plant are grouped in [] and plants are separated by commas);[50 Hz]
+Contiguous periods in which the constraint is enforced(in column B, the first period, in column C, the last one);32;32
+Bound in MW;4239.0
+</constr>
+<constr>
+<Comment>
+Constraint type (LB, UB or EQ);LB
+Plants in constraint separated by commas;ITAIPU
+Groups of units of each plant participating in this constraint (groups of the same plant are grouped in [] and plants are separated by commas);[50 Hz]
+Contiguous periods in which the constraint is enforced(in column B, the first period, in column C, the last one);33;33
+Bound in MW;4239.0
+</constr>
+<constr>
+<Comment>
+Constraint type (LB, UB or EQ);LB
+Plants in constraint separated by commas;ITAIPU
+Groups of units of each plant participating in this constraint (groups of the same plant are grouped in [] and plants are separated by commas);[50 Hz]
+Contiguous periods in which the constraint is enforced(in column B, the first period, in column C, the last one);34;34
+Bound in MW;4239.0
+</constr>
+<constr>
+<Comment>
+Constraint type (LB, UB or EQ);LB
+Plants in constraint separated by commas;ITAIPU
+Groups of units of each plant participating in this constraint (groups of the same plant are grouped in [] and plants are separated by commas);[50 Hz]
+Contiguous periods in which the constraint is enforced(in column B, the first period, in column C, the last one);35;35
+Bound in MW;4239.0
+</constr>
+<constr>
+<Comment>
+Constraint type (LB, UB or EQ);LB
+Plants in constraint separated by commas;ITAIPU
+Groups of units of each plant participating in this constraint (groups of the same plant are grouped in [] and plants are separated by commas);[50 Hz]
+Contiguous periods in which the constraint is enforced(in column B, the first period, in column C, the last one);36;36
+Bound in MW;4183.0
+</constr>
+<constr>
+<Comment>
+Constraint type (LB, UB or EQ);LB
+Plants in constraint separated by commas;ITAIPU
+Groups of units of each plant participating in this constraint (groups of the same plant are grouped in [] and plants are separated by commas);[50 Hz]
+Contiguous periods in which the constraint is enforced(in column B, the first period, in column C, the last one);37;37
+Bound in MW;4183.0
+</constr>
+<constr>
+<Comment>
+Constraint type (LB, UB or EQ);LB
+Plants in constraint separated by commas;ITAIPU
+Groups of units of each plant participating in this constraint (groups of the same plant are grouped in [] and plants are separated by commas);[50 Hz]
+Contiguous periods in which the constraint is enforced(in column B, the first period, in column C, the last one);38;38
+Bound in MW;4183.0
+</constr>
+<constr>
+<Comment>
+Constraint type (LB, UB or EQ);LB
+Plants in constraint separated by commas;ITAIPU
+Groups of units of each plant participating in this constraint (groups of the same plant are grouped in [] and plants are separated by commas);[50 Hz]
+Contiguous periods in which the constraint is enforced(in column B, the first period, in column C, the last one);39;39
+Bound in MW;4183.0
+</constr>
+<constr>
+<Comment>
+Constraint type (LB, UB or EQ);LB
+Plants in constraint separated by commas;ITAIPU
+Groups of units of each plant participating in this constraint (groups of the same plant are grouped in [] and plants are separated by commas);[50 Hz]
+Contiguous periods in which the constraint is enforced(in column B, the first period, in column C, the last one);40;40
+Bound in MW;4183.0
+</constr>
+<constr>
+<Comment>
+Constraint type (LB, UB or EQ);LB
+Plants in constraint separated by commas;ITAIPU
+Groups of units of each plant participating in this constraint (groups of the same plant are grouped in [] and plants are separated by commas);[50 Hz]
+Contiguous periods in which the constraint is enforced(in column B, the first period, in column C, the last one);41;41
+Bound in MW;4183.0
+</constr>
+<constr>
+<Comment>
+Constraint type (LB, UB or EQ);LB
+Plants in constraint separated by commas;ITAIPU
+Groups of units of each plant participating in this constraint (groups of the same plant are grouped in [] and plants are separated by commas);[50 Hz]
+Contiguous periods in which the constraint is enforced(in column B, the first period, in column C, the last one);42;42
+Bound in MW;4183.0
+</constr>
+<constr>
+<Comment>
+Constraint type (LB, UB or EQ);LB
+Plants in constraint separated by commas;ITAIPU
+Groups of units of each plant participating in this constraint (groups of the same plant are grouped in [] and plants are separated by commas);[50 Hz]
+Contiguous periods in which the constraint is enforced(in column B, the first period, in column C, the last one);43;43
+Bound in MW;4183.0
+</constr>
+<constr>
+<Comment>
+Constraint type (LB, UB or EQ);LB
+Plants in constraint separated by commas;ITAIPU
+Groups of units of each plant participating in this constraint (groups of the same plant are grouped in [] and plants are separated by commas);[50 Hz]
+Contiguous periods in which the constraint is enforced(in column B, the first period, in column C, the last one);44;44
+Bound in MW;4183.0
+</constr>
+<constr>
+<Comment>
+Constraint type (LB, UB or EQ);LB
+Plants in constraint separated by commas;ITAIPU
+Groups of units of each plant participating in this constraint (groups of the same plant are grouped in [] and plants are separated by commas);[50 Hz]
+Contiguous periods in which the constraint is enforced(in column B, the first period, in column C, the last one);45;45
+Bound in MW;4183.0
+</constr>
+<constr>
+<Comment>
+Constraint type (LB, UB or EQ);LB
+Plants in constraint separated by commas;ITAIPU
+Groups of units of each plant participating in this constraint (groups of the same plant are grouped in [] and plants are separated by commas);[50 Hz]
+Contiguous periods in which the constraint is enforced(in column B, the first period, in column C, the last one);46;46
+Bound in MW;4183.0
+</constr>
+<constr>
+<Comment>
+Constraint type (LB, UB or EQ);LB
+Plants in constraint separated by commas;ITAIPU
+Groups of units of each plant participating in this constraint (groups of the same plant are grouped in [] and plants are separated by commas);[50 Hz]
+Contiguous periods in which the constraint is enforced(in column B, the first period, in column C, the last one);47;47
+Bound in MW;4183.0
+</constr>
+<constr>
+<Comment>
+Constraint type (LB, UB or EQ);LB
+Plants in constraint separated by commas;ITAIPU
+Groups of units of each plant participating in this constraint (groups of the same plant are grouped in [] and plants are separated by commas);[60 Hz]
+Contiguous periods in which the constraint is enforced(in column B, the first period, in column C, the last one);0;0
+Bound in MW;1680.0
+</constr>
+<constr>
+<Comment>
+Constraint type (LB, UB or EQ);LB
+Plants in constraint separated by commas;ITAIPU
+Groups of units of each plant participating in this constraint (groups of the same plant are grouped in [] and plants are separated by commas);[60 Hz]
+Contiguous periods in which the constraint is enforced(in column B, the first period, in column C, the last one);1;1
+Bound in MW;1680.0
+</constr>
+<constr>
+<Comment>
+Constraint type (LB, UB or EQ);LB
+Plants in constraint separated by commas;ITAIPU
+Groups of units of each plant participating in this constraint (groups of the same plant are grouped in [] and plants are separated by commas);[60 Hz]
+Contiguous periods in which the constraint is enforced(in column B, the first period, in column C, the last one);2;2
+Bound in MW;1680.0
+</constr>
+<constr>
+<Comment>
+Constraint type (LB, UB or EQ);LB
+Plants in constraint separated by commas;ITAIPU
+Groups of units of each plant participating in this constraint (groups of the same plant are grouped in [] and plants are separated by commas);[60 Hz]
+Contiguous periods in which the constraint is enforced(in column B, the first period, in column C, the last one);3;3
+Bound in MW;1680.0
+</constr>
+<constr>
+<Comment>
+Constraint type (LB, UB or EQ);LB
+Plants in constraint separated by commas;ITAIPU
+Groups of units of each plant participating in this constraint (groups of the same plant are grouped in [] and plants are separated by commas);[60 Hz]
+Contiguous periods in which the constraint is enforced(in column B, the first period, in column C, the last one);4;4
+Bound in MW;1680.0
+</constr>
+<constr>
+<Comment>
+Constraint type (LB, UB or EQ);LB
+Plants in constraint separated by commas;ITAIPU
+Groups of units of each plant participating in this constraint (groups of the same plant are grouped in [] and plants are separated by commas);[60 Hz]
+Contiguous periods in which the constraint is enforced(in column B, the first period, in column C, the last one);5;5
+Bound in MW;1680.0
+</constr>
+<constr>
+<Comment>
+Constraint type (LB, UB or EQ);LB
+Plants in constraint separated by commas;ITAIPU
+Groups of units of each plant participating in this constraint (groups of the same plant are grouped in [] and plants are separated by commas);[60 Hz]
+Contiguous periods in which the constraint is enforced(in column B, the first period, in column C, the last one);6;6
+Bound in MW;1680.0
+</constr>
+<constr>
+<Comment>
+Constraint type (LB, UB or EQ);LB
+Plants in constraint separated by commas;ITAIPU
+Groups of units of each plant participating in this constraint (groups of the same plant are grouped in [] and plants are separated by commas);[60 Hz]
+Contiguous periods in which the constraint is enforced(in column B, the first period, in column C, the last one);7;7
+Bound in MW;1680.0
+</constr>
+<constr>
+<Comment>
+Constraint type (LB, UB or EQ);LB
+Plants in constraint separated by commas;ITAIPU
+Groups of units of each plant participating in this constraint (groups of the same plant are grouped in [] and plants are separated by commas);[60 Hz]
+Contiguous periods in which the constraint is enforced(in column B, the first period, in column C, the last one);8;8
+Bound in MW;1680.0
+</constr>
+<constr>
+<Comment>
+Constraint type (LB, UB or EQ);LB
+Plants in constraint separated by commas;ITAIPU
+Groups of units of each plant participating in this constraint (groups of the same plant are grouped in [] and plants are separated by commas);[60 Hz]
+Contiguous periods in which the constraint is enforced(in column B, the first period, in column C, the last one);9;9
+Bound in MW;1680.0
+</constr>
+<constr>
+<Comment>
+Constraint type (LB, UB or EQ);LB
+Plants in constraint separated by commas;ITAIPU
+Groups of units of each plant participating in this constraint (groups of the same plant are grouped in [] and plants are separated by commas);[60 Hz]
+Contiguous periods in which the constraint is enforced(in column B, the first period, in column C, the last one);10;10
+Bound in MW;1680.0
+</constr>
+<constr>
+<Comment>
+Constraint type (LB, UB or EQ);LB
+Plants in constraint separated by commas;ITAIPU
+Groups of units of each plant participating in this constraint (groups of the same plant are grouped in [] and plants are separated by commas);[60 Hz]
+Contiguous periods in which the constraint is enforced(in column B, the first period, in column C, the last one);11;11
+Bound in MW;1680.0
+</constr>
+<constr>
+<Comment>
+Constraint type (LB, UB or EQ);LB
+Plants in constraint separated by commas;ITAIPU
+Groups of units of each plant participating in this constraint (groups of the same plant are grouped in [] and plants are separated by commas);[60 Hz]
+Contiguous periods in which the constraint is enforced(in column B, the first period, in column C, the last one);12;12
+Bound in MW;1680.0
+</constr>
+<constr>
+<Comment>
+Constraint type (LB, UB or EQ);LB
+Plants in constraint separated by commas;ITAIPU
+Groups of units of each plant participating in this constraint (groups of the same plant are grouped in [] and plants are separated by commas);[60 Hz]
+Contiguous periods in which the constraint is enforced(in column B, the first period, in column C, the last one);13;13
+Bound in MW;1680.0
+</constr>
+<constr>
+<Comment>
+Constraint type (LB, UB or EQ);LB
+Plants in constraint separated by commas;ITAIPU
+Groups of units of each plant participating in this constraint (groups of the same plant are grouped in [] and plants are separated by commas);[60 Hz]
+Contiguous periods in which the constraint is enforced(in column B, the first period, in column C, the last one);14;14
+Bound in MW;1680.0
+</constr>
+<constr>
+<Comment>
+Constraint type (LB, UB or EQ);LB
+Plants in constraint separated by commas;ITAIPU
+Groups of units of each plant participating in this constraint (groups of the same plant are grouped in [] and plants are separated by commas);[60 Hz]
+Contiguous periods in which the constraint is enforced(in column B, the first period, in column C, the last one);15;15
+Bound in MW;1680.0
+</constr>
+<constr>
+<Comment>
+Constraint type (LB, UB or EQ);LB
+Plants in constraint separated by commas;ITAIPU
+Groups of units of each plant participating in this constraint (groups of the same plant are grouped in [] and plants are separated by commas);[60 Hz]
+Contiguous periods in which the constraint is enforced(in column B, the first period, in column C, the last one);16;16
+Bound in MW;1680.0
+</constr>
+<constr>
+<Comment>
+Constraint type (LB, UB or EQ);LB
+Plants in constraint separated by commas;ITAIPU
+Groups of units of each plant participating in this constraint (groups of the same plant are grouped in [] and plants are separated by commas);[60 Hz]
+Contiguous periods in which the constraint is enforced(in column B, the first period, in column C, the last one);17;17
+Bound in MW;1680.0
+</constr>
+<constr>
+<Comment>
+Constraint type (LB, UB or EQ);LB
+Plants in constraint separated by commas;ITAIPU
+Groups of units of each plant participating in this constraint (groups of the same plant are grouped in [] and plants are separated by commas);[60 Hz]
+Contiguous periods in which the constraint is enforced(in column B, the first period, in column C, the last one);18;18
+Bound in MW;1680.0
+</constr>
+<constr>
+<Comment>
+Constraint type (LB, UB or EQ);LB
+Plants in constraint separated by commas;ITAIPU
+Groups of units of each plant participating in this constraint (groups of the same plant are grouped in [] and plants are separated by commas);[60 Hz]
+Contiguous periods in which the constraint is enforced(in column B, the first period, in column C, the last one);19;19
+Bound in MW;1680.0
+</constr>
+<constr>
+<Comment>
+Constraint type (LB, UB or EQ);LB
+Plants in constraint separated by commas;ITAIPU
+Groups of units of each plant participating in this constraint (groups of the same plant are grouped in [] and plants are separated by commas);[60 Hz]
+Contiguous periods in which the constraint is enforced(in column B, the first period, in column C, the last one);20;20
+Bound in MW;1680.0
+</constr>
+<constr>
+<Comment>
+Constraint type (LB, UB or EQ);LB
+Plants in constraint separated by commas;ITAIPU
+Groups of units of each plant participating in this constraint (groups of the same plant are grouped in [] and plants are separated by commas);[60 Hz]
+Contiguous periods in which the constraint is enforced(in column B, the first period, in column C, the last one);21;21
+Bound in MW;1680.0
+</constr>
+<constr>
+<Comment>
+Constraint type (LB, UB or EQ);LB
+Plants in constraint separated by commas;ITAIPU
+Groups of units of each plant participating in this constraint (groups of the same plant are grouped in [] and plants are separated by commas);[60 Hz]
+Contiguous periods in which the constraint is enforced(in column B, the first period, in column C, the last one);22;22
+Bound in MW;1680.0
+</constr>
+<constr>
+<Comment>
+Constraint type (LB, UB or EQ);LB
+Plants in constraint separated by commas;ITAIPU
+Groups of units of each plant participating in this constraint (groups of the same plant are grouped in [] and plants are separated by commas);[60 Hz]
+Contiguous periods in which the constraint is enforced(in column B, the first period, in column C, the last one);23;23
+Bound in MW;1680.0
+</constr>
+<constr>
+<Comment>
+Constraint type (LB, UB or EQ);LB
+Plants in constraint separated by commas;ITAIPU
+Groups of units of each plant participating in this constraint (groups of the same plant are grouped in [] and plants are separated by commas);[60 Hz]
+Contiguous periods in which the constraint is enforced(in column B, the first period, in column C, the last one);24;24
+Bound in MW;1680.0
+</constr>
+<constr>
+<Comment>
+Constraint type (LB, UB or EQ);LB
+Plants in constraint separated by commas;ITAIPU
+Groups of units of each plant participating in this constraint (groups of the same plant are grouped in [] and plants are separated by commas);[60 Hz]
+Contiguous periods in which the constraint is enforced(in column B, the first period, in column C, the last one);25;25
+Bound in MW;1680.0
+</constr>
+<constr>
+<Comment>
+Constraint type (LB, UB or EQ);LB
+Plants in constraint separated by commas;ITAIPU
+Groups of units of each plant participating in this constraint (groups of the same plant are grouped in [] and plants are separated by commas);[60 Hz]
+Contiguous periods in which the constraint is enforced(in column B, the first period, in column C, the last one);26;26
+Bound in MW;1680.0
+</constr>
+<constr>
+<Comment>
+Constraint type (LB, UB or EQ);LB
+Plants in constraint separated by commas;ITAIPU
+Groups of units of each plant participating in this constraint (groups of the same plant are grouped in [] and plants are separated by commas);[60 Hz]
+Contiguous periods in which the constraint is enforced(in column B, the first period, in column C, the last one);27;27
+Bound in MW;1680.0
+</constr>
+<constr>
+<Comment>
+Constraint type (LB, UB or EQ);LB
+Plants in constraint separated by commas;ITAIPU
+Groups of units of each plant participating in this constraint (groups of the same plant are grouped in [] and plants are separated by commas);[60 Hz]
+Contiguous periods in which the constraint is enforced(in column B, the first period, in column C, the last one);28;28
+Bound in MW;1680.0
+</constr>
+<constr>
+<Comment>
+Constraint type (LB, UB or EQ);LB
+Plants in constraint separated by commas;ITAIPU
+Groups of units of each plant participating in this constraint (groups of the same plant are grouped in [] and plants are separated by commas);[60 Hz]
+Contiguous periods in which the constraint is enforced(in column B, the first period, in column C, the last one);29;29
+Bound in MW;1680.0
+</constr>
+<constr>
+<Comment>
+Constraint type (LB, UB or EQ);LB
+Plants in constraint separated by commas;ITAIPU
+Groups of units of each plant participating in this constraint (groups of the same plant are grouped in [] and plants are separated by commas);[60 Hz]
+Contiguous periods in which the constraint is enforced(in column B, the first period, in column C, the last one);30;30
+Bound in MW;1680.0
+</constr>
+<constr>
+<Comment>
+Constraint type (LB, UB or EQ);LB
+Plants in constraint separated by commas;ITAIPU
+Groups of units of each plant participating in this constraint (groups of the same plant are grouped in [] and plants are separated by commas);[60 Hz]
+Contiguous periods in which the constraint is enforced(in column B, the first period, in column C, the last one);31;31
+Bound in MW;1680.0
+</constr>
+<constr>
+<Comment>
+Constraint type (LB, UB or EQ);LB
+Plants in constraint separated by commas;ITAIPU
+Groups of units of each plant participating in this constraint (groups of the same plant are grouped in [] and plants are separated by commas);[60 Hz]
+Contiguous periods in which the constraint is enforced(in column B, the first period, in column C, the last one);32;32
+Bound in MW;1680.0
+</constr>
+<constr>
+<Comment>
+Constraint type (LB, UB or EQ);LB
+Plants in constraint separated by commas;ITAIPU
+Groups of units of each plant participating in this constraint (groups of the same plant are grouped in [] and plants are separated by commas);[60 Hz]
+Contiguous periods in which the constraint is enforced(in column B, the first period, in column C, the last one);33;33
+Bound in MW;1680.0
+</constr>
+<constr>
+<Comment>
+Constraint type (LB, UB or EQ);LB
+Plants in constraint separated by commas;ITAIPU
+Groups of units of each plant participating in this constraint (groups of the same plant are grouped in [] and plants are separated by commas);[60 Hz]
+Contiguous periods in which the constraint is enforced(in column B, the first period, in column C, the last one);34;34
+Bound in MW;1680.0
+</constr>
+<constr>
+<Comment>
+Constraint type (LB, UB or EQ);LB
+Plants in constraint separated by commas;ITAIPU
+Groups of units of each plant participating in this constraint (groups of the same plant are grouped in [] and plants are separated by commas);[60 Hz]
+Contiguous periods in which the constraint is enforced(in column B, the first period, in column C, the last one);35;35
+Bound in MW;1680.0
+</constr>
+<constr>
+<Comment>
+Constraint type (LB, UB or EQ);LB
+Plants in constraint separated by commas;ITAIPU
+Groups of units of each plant participating in this constraint (groups of the same plant are grouped in [] and plants are separated by commas);[60 Hz]
+Contiguous periods in which the constraint is enforced(in column B, the first period, in column C, the last one);36;36
+Bound in MW;1680.0
+</constr>
+<constr>
+<Comment>
+Constraint type (LB, UB or EQ);LB
+Plants in constraint separated by commas;ITAIPU
+Groups of units of each plant participating in this constraint (groups of the same plant are grouped in [] and plants are separated by commas);[60 Hz]
+Contiguous periods in which the constraint is enforced(in column B, the first period, in column C, the last one);37;37
+Bound in MW;1680.0
+</constr>
+<constr>
+<Comment>
+Constraint type (LB, UB or EQ);LB
+Plants in constraint separated by commas;ITAIPU
+Groups of units of each plant participating in this constraint (groups of the same plant are grouped in [] and plants are separated by commas);[60 Hz]
+Contiguous periods in which the constraint is enforced(in column B, the first period, in column C, the last one);38;38
+Bound in MW;1680.0
+</constr>
+<constr>
+<Comment>
+Constraint type (LB, UB or EQ);LB
+Plants in constraint separated by commas;ITAIPU
+Groups of units of each plant participating in this constraint (groups of the same plant are grouped in [] and plants are separated by commas);[60 Hz]
+Contiguous periods in which the constraint is enforced(in column B, the first period, in column C, the last one);39;39
+Bound in MW;1680.0
+</constr>
+<constr>
+<Comment>
+Constraint type (LB, UB or EQ);LB
+Plants in constraint separated by commas;ITAIPU
+Groups of units of each plant participating in this constraint (groups of the same plant are grouped in [] and plants are separated by commas);[60 Hz]
+Contiguous periods in which the constraint is enforced(in column B, the first period, in column C, the last one);40;40
+Bound in MW;1680.0
+</constr>
+<constr>
+<Comment>
+Constraint type (LB, UB or EQ);LB
+Plants in constraint separated by commas;ITAIPU
+Groups of units of each plant participating in this constraint (groups of the same plant are grouped in [] and plants are separated by commas);[60 Hz]
+Contiguous periods in which the constraint is enforced(in column B, the first period, in column C, the last one);41;41
+Bound in MW;1680.0
+</constr>
+<constr>
+<Comment>
+Constraint type (LB, UB or EQ);LB
+Plants in constraint separated by commas;ITAIPU
+Groups of units of each plant participating in this constraint (groups of the same plant are grouped in [] and plants are separated by commas);[60 Hz]
+Contiguous periods in which the constraint is enforced(in column B, the first period, in column C, the last one);42;42
+Bound in MW;1680.0
+</constr>
+<constr>
+<Comment>
+Constraint type (LB, UB or EQ);LB
+Plants in constraint separated by commas;ITAIPU
+Groups of units of each plant participating in this constraint (groups of the same plant are grouped in [] and plants are separated by commas);[60 Hz]
+Contiguous periods in which the constraint is enforced(in column B, the first period, in column C, the last one);43;43
+Bound in MW;1680.0
+</constr>
+<constr>
+<Comment>
+Constraint type (LB, UB or EQ);LB
+Plants in constraint separated by commas;ITAIPU
+Groups of units of each plant participating in this constraint (groups of the same plant are grouped in [] and plants are separated by commas);[60 Hz]
+Contiguous periods in which the constraint is enforced(in column B, the first period, in column C, the last one);44;44
+Bound in MW;1680.0
+</constr>
+<constr>
+<Comment>
+Constraint type (LB, UB or EQ);LB
+Plants in constraint separated by commas;ITAIPU
+Groups of units of each plant participating in this constraint (groups of the same plant are grouped in [] and plants are separated by commas);[60 Hz]
+Contiguous periods in which the constraint is enforced(in column B, the first period, in column C, the last one);45;45
+Bound in MW;1680.0
+</constr>
+<constr>
+<Comment>
+Constraint type (LB, UB or EQ);LB
+Plants in constraint separated by commas;ITAIPU
+Groups of units of each plant participating in this constraint (groups of the same plant are grouped in [] and plants are separated by commas);[60 Hz]
+Contiguous periods in which the constraint is enforced(in column B, the first period, in column C, the last one);46;46
+Bound in MW;1680.0
+</constr>
+<constr>
+<Comment>
+Constraint type (LB, UB or EQ);LB
+Plants in constraint separated by commas;ITAIPU
+Groups of units of each plant participating in this constraint (groups of the same plant are grouped in [] and plants are separated by commas);[60 Hz]
+Contiguous periods in which the constraint is enforced(in column B, the first period, in column C, the last one);47;47
+Bound in MW;1680.0
+</constr>
+</END>

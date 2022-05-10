@@ -1,0 +1,1017 @@
+<BEGIN>
+<constr>
+Comment
+Constraint type (LB, UB or EQ);UB
+Units in constraint separated by commas;275,276,
+Contiguous periods in which the constraint is enforced(in column B, the first period, in column C, the last one);0;47
+Bound in MW;0.0
+</constr>
+<constr>
+Comment
+Constraint type (LB, UB or EQ);UB
+Units in constraint separated by commas;281,282,
+Contiguous periods in which the constraint is enforced(in column B, the first period, in column C, the last one);0;47
+Bound in MW;0.0
+</constr>
+<constr>
+Comment
+Constraint type (LB, UB or EQ);UB
+Units in constraint separated by commas;94,95,96,
+Contiguous periods in which the constraint is enforced(in column B, the first period, in column C, the last one);0;21
+Bound in MW;484.99999999999994
+</constr>
+<constr>
+Comment
+Constraint type (LB, UB or EQ);UB
+Units in constraint separated by commas;94,95,96,
+Contiguous periods in which the constraint is enforced(in column B, the first period, in column C, the last one);22;41
+Bound in MW;480.0
+</constr>
+<constr>
+Comment
+Constraint type (LB, UB or EQ);UB
+Units in constraint separated by commas;94,95,96,
+Contiguous periods in which the constraint is enforced(in column B, the first period, in column C, the last one);42;47
+Bound in MW;484.99999999999994
+</constr>
+<constr>
+Comment
+Constraint type (LB, UB or EQ);UB
+Units in constraint separated by commas;6,
+Contiguous periods in which the constraint is enforced(in column B, the first period, in column C, the last one);0;47
+Bound in MW;363.0
+</constr>
+<constr>
+Comment
+Constraint type (LB, UB or EQ);UB
+Units in constraint separated by commas;7,8,
+Contiguous periods in which the constraint is enforced(in column B, the first period, in column C, the last one);0;47
+Bound in MW;262.0
+</constr>
+<constr>
+Comment
+Constraint type (LB, UB or EQ);UB
+Units in constraint separated by commas;9,10,
+Contiguous periods in which the constraint is enforced(in column B, the first period, in column C, the last one);0;47
+Bound in MW;100.0
+</constr>
+<constr>
+Comment
+Constraint type (LB, UB or EQ);UB
+Units in constraint separated by commas;11,12,
+Contiguous periods in which the constraint is enforced(in column B, the first period, in column C, the last one);0;47
+Bound in MW;132.0
+</constr>
+<constr>
+Comment
+Constraint type (LB, UB or EQ);UB
+Units in constraint separated by commas;91,92,93,
+Contiguous periods in which the constraint is enforced(in column B, the first period, in column C, the last one);0;47
+Bound in MW;0.0
+</constr>
+<constr>
+Comment
+Constraint type (LB, UB or EQ);UB
+Units in constraint separated by commas;88,
+Contiguous periods in which the constraint is enforced(in column B, the first period, in column C, the last one);0;47
+Bound in MW;0.0
+</constr>
+<constr>
+Comment
+Constraint type (LB, UB or EQ);UB
+Units in constraint separated by commas;75,
+Contiguous periods in which the constraint is enforced(in column B, the first period, in column C, the last one);0;47
+Bound in MW;178.0
+</constr>
+<constr>
+Comment
+Constraint type (LB, UB or EQ);UB
+Units in constraint separated by commas;41,42,43,44,45,46,47,48,
+Contiguous periods in which the constraint is enforced(in column B, the first period, in column C, the last one);0;47
+Bound in MW;730.0
+</constr>
+<constr>
+Comment
+Constraint type (LB, UB or EQ);UB
+Units in constraint separated by commas;13,14,15,
+Contiguous periods in which the constraint is enforced(in column B, the first period, in column C, the last one);0;47
+Bound in MW;484.0
+</constr>
+<constr>
+Comment
+Constraint type (LB, UB or EQ);UB
+Units in constraint separated by commas;279,280,
+Contiguous periods in which the constraint is enforced(in column B, the first period, in column C, the last one);0;47
+Bound in MW;0.0
+</constr>
+<constr>
+Comment
+Constraint type (LB, UB or EQ);UB
+Units in constraint separated by commas;200,201,202,203,
+Contiguous periods in which the constraint is enforced(in column B, the first period, in column C, the last one);0;47
+Bound in MW;67.0
+</constr>
+<constr>
+Comment
+Constraint type (LB, UB or EQ);UB
+Units in constraint separated by commas;221,222,223,224,
+Contiguous periods in which the constraint is enforced(in column B, the first period, in column C, the last one);0;13
+Bound in MW;135.0
+</constr>
+<constr>
+Comment
+Constraint type (LB, UB or EQ);UB
+Units in constraint separated by commas;221,222,223,224,
+Contiguous periods in which the constraint is enforced(in column B, the first period, in column C, the last one);14;33
+Bound in MW;130.0
+</constr>
+<constr>
+Comment
+Constraint type (LB, UB or EQ);UB
+Units in constraint separated by commas;221,222,223,224,
+Contiguous periods in which the constraint is enforced(in column B, the first period, in column C, the last one);34;47
+Bound in MW;135.0
+</constr>
+<constr>
+Comment
+Constraint type (LB, UB or EQ);UB
+Units in constraint separated by commas;76,77,
+Contiguous periods in which the constraint is enforced(in column B, the first period, in column C, the last one);0;47
+Bound in MW;41.0
+</constr>
+<constr>
+Comment
+Constraint type (LB, UB or EQ);UB
+Units in constraint separated by commas;225,226,227,228,
+Contiguous periods in which the constraint is enforced(in column B, the first period, in column C, the last one);0;13
+Bound in MW;135.0
+</constr>
+<constr>
+Comment
+Constraint type (LB, UB or EQ);UB
+Units in constraint separated by commas;225,226,227,228,
+Contiguous periods in which the constraint is enforced(in column B, the first period, in column C, the last one);14;33
+Bound in MW;130.0
+</constr>
+<constr>
+Comment
+Constraint type (LB, UB or EQ);UB
+Units in constraint separated by commas;225,226,227,228,
+Contiguous periods in which the constraint is enforced(in column B, the first period, in column C, the last one);34;47
+Bound in MW;135.0
+</constr>
+<constr>
+Comment
+Constraint type (LB, UB or EQ);UB
+Units in constraint separated by commas;144,145,146,147,148,149,150,151,
+Contiguous periods in which the constraint is enforced(in column B, the first period, in column C, the last one);0;47
+Bound in MW;0.0
+</constr>
+<constr>
+Comment
+Constraint type (LB, UB or EQ);UB
+Units in constraint separated by commas;84,85,86,87,
+Contiguous periods in which the constraint is enforced(in column B, the first period, in column C, the last one);0;47
+Bound in MW;150.0
+</constr>
+<constr>
+Comment
+Constraint type (LB, UB or EQ);UB
+Units in constraint separated by commas;33,34,35,36,
+Contiguous periods in which the constraint is enforced(in column B, the first period, in column C, the last one);0;47
+Bound in MW;826.0
+</constr>
+<constr>
+Comment
+Constraint type (LB, UB or EQ);UB
+Units in constraint separated by commas;18,19,20,21,22,23,24,25,
+Contiguous periods in which the constraint is enforced(in column B, the first period, in column C, the last one);0;47
+Bound in MW;250.0
+</constr>
+<constr>
+Comment
+Constraint type (LB, UB or EQ);UB
+Units in constraint separated by commas;152,153,154,
+Contiguous periods in which the constraint is enforced(in column B, the first period, in column C, the last one);0;3
+Bound in MW;159.0
+</constr>
+<constr>
+Comment
+Constraint type (LB, UB or EQ);UB
+Units in constraint separated by commas;152,153,154,
+Contiguous periods in which the constraint is enforced(in column B, the first period, in column C, the last one);4;7
+Bound in MW;151.0
+</constr>
+<constr>
+Comment
+Constraint type (LB, UB or EQ);UB
+Units in constraint separated by commas;152,153,154,
+Contiguous periods in which the constraint is enforced(in column B, the first period, in column C, the last one);8;15
+Bound in MW;159.0
+</constr>
+<constr>
+Comment
+Constraint type (LB, UB or EQ);UB
+Units in constraint separated by commas;152,153,154,
+Contiguous periods in which the constraint is enforced(in column B, the first period, in column C, the last one);16;35
+Bound in MW;151.0
+</constr>
+<constr>
+Comment
+Constraint type (LB, UB or EQ);UB
+Units in constraint separated by commas;152,153,154,
+Contiguous periods in which the constraint is enforced(in column B, the first period, in column C, the last one);36;47
+Bound in MW;159.0
+</constr>
+<constr>
+Comment
+Constraint type (LB, UB or EQ);UB
+Units in constraint separated by commas;49,50,51,52,53,54,
+Contiguous periods in which the constraint is enforced(in column B, the first period, in column C, the last one);0;47
+Bound in MW;270.0
+</constr>
+<constr>
+Comment
+Constraint type (LB, UB or EQ);UB
+Units in constraint separated by commas;155,156,157,
+Contiguous periods in which the constraint is enforced(in column B, the first period, in column C, the last one);0;3
+Bound in MW;159.0
+</constr>
+<constr>
+Comment
+Constraint type (LB, UB or EQ);UB
+Units in constraint separated by commas;155,156,157,
+Contiguous periods in which the constraint is enforced(in column B, the first period, in column C, the last one);4;7
+Bound in MW;151.0
+</constr>
+<constr>
+Comment
+Constraint type (LB, UB or EQ);UB
+Units in constraint separated by commas;155,156,157,
+Contiguous periods in which the constraint is enforced(in column B, the first period, in column C, the last one);8;15
+Bound in MW;159.0
+</constr>
+<constr>
+Comment
+Constraint type (LB, UB or EQ);UB
+Units in constraint separated by commas;155,156,157,
+Contiguous periods in which the constraint is enforced(in column B, the first period, in column C, the last one);16;35
+Bound in MW;151.0
+</constr>
+<constr>
+Comment
+Constraint type (LB, UB or EQ);UB
+Units in constraint separated by commas;155,156,157,
+Contiguous periods in which the constraint is enforced(in column B, the first period, in column C, the last one);36;47
+Bound in MW;159.0
+</constr>
+<constr>
+Comment
+Constraint type (LB, UB or EQ);UB
+Units in constraint separated by commas;177,178,179,180,181,182,183,184,185,186,187,188,189,190,191,192,193,194,195,
+Contiguous periods in which the constraint is enforced(in column B, the first period, in column C, the last one);0;47
+Bound in MW;159.0
+</constr>
+<constr>
+Comment
+Constraint type (LB, UB or EQ);UB
+Units in constraint separated by commas;158,159,160,161,162,163,164,165,166,167,168,169,170,171,172,173,174,175,176,
+Contiguous periods in which the constraint is enforced(in column B, the first period, in column C, the last one);0;47
+Bound in MW;159.0
+</constr>
+<constr>
+Comment
+Constraint type (LB, UB or EQ);UB
+Units in constraint separated by commas;78,79,80,81,
+Contiguous periods in which the constraint is enforced(in column B, the first period, in column C, the last one);0;47
+Bound in MW;20.0
+</constr>
+<constr>
+Comment
+Constraint type (LB, UB or EQ);UB
+Units in constraint separated by commas;89,90,
+Contiguous periods in which the constraint is enforced(in column B, the first period, in column C, the last one);0;47
+Bound in MW;310.0
+</constr>
+<constr>
+Comment
+Constraint type (LB, UB or EQ);UB
+Units in constraint separated by commas;277,278,
+Contiguous periods in which the constraint is enforced(in column B, the first period, in column C, the last one);0;47
+Bound in MW;175.0
+</constr>
+<constr>
+Comment
+Constraint type (LB, UB or EQ);UB
+Units in constraint separated by commas;103,104,105,106,107,108,109,110,111,112,113,114,115,116,117,118,119,120,121,122,
+Contiguous periods in which the constraint is enforced(in column B, the first period, in column C, the last one);0;13
+Bound in MW;850.0
+</constr>
+<constr>
+Comment
+Constraint type (LB, UB or EQ);UB
+Units in constraint separated by commas;103,104,105,106,107,108,109,110,111,112,113,114,115,116,117,118,119,120,121,122,
+Contiguous periods in which the constraint is enforced(in column B, the first period, in column C, the last one);14;17
+Bound in MW;840.0
+</constr>
+<constr>
+Comment
+Constraint type (LB, UB or EQ);UB
+Units in constraint separated by commas;103,104,105,106,107,108,109,110,111,112,113,114,115,116,117,118,119,120,121,122,
+Contiguous periods in which the constraint is enforced(in column B, the first period, in column C, the last one);18;33
+Bound in MW;830.0000000000001
+</constr>
+<constr>
+Comment
+Constraint type (LB, UB or EQ);UB
+Units in constraint separated by commas;103,104,105,106,107,108,109,110,111,112,113,114,115,116,117,118,119,120,121,122,
+Contiguous periods in which the constraint is enforced(in column B, the first period, in column C, the last one);34;39
+Bound in MW;840.0
+</constr>
+<constr>
+Comment
+Constraint type (LB, UB or EQ);UB
+Units in constraint separated by commas;103,104,105,106,107,108,109,110,111,112,113,114,115,116,117,118,119,120,121,122,
+Contiguous periods in which the constraint is enforced(in column B, the first period, in column C, the last one);40;47
+Bound in MW;850.0
+</constr>
+<constr>
+Comment
+Constraint type (LB, UB or EQ);UB
+Units in constraint separated by commas;16,17,
+Contiguous periods in which the constraint is enforced(in column B, the first period, in column C, the last one);0;47
+Bound in MW;200.0
+</constr>
+<constr>
+Comment
+Constraint type (LB, UB or EQ);UB
+Units in constraint separated by commas;237,238,239,240,
+Contiguous periods in which the constraint is enforced(in column B, the first period, in column C, the last one);0;47
+Bound in MW;17.0
+</constr>
+<constr>
+Comment
+Constraint type (LB, UB or EQ);UB
+Units in constraint separated by commas;0,
+Contiguous periods in which the constraint is enforced(in column B, the first period, in column C, the last one);0;47
+Bound in MW;345.0
+</constr>
+<constr>
+Comment
+Constraint type (LB, UB or EQ);UB
+Units in constraint separated by commas;287,288,
+Contiguous periods in which the constraint is enforced(in column B, the first period, in column C, the last one);0;47
+Bound in MW;53.0
+</constr>
+<constr>
+Comment
+Constraint type (LB, UB or EQ);UB
+Units in constraint separated by commas;289,
+Contiguous periods in which the constraint is enforced(in column B, the first period, in column C, the last one);0;47
+Bound in MW;0.0
+</constr>
+<constr>
+Comment
+Constraint type (LB, UB or EQ);UB
+Units in constraint separated by commas;97,98,99,100,101,102,
+Contiguous periods in which the constraint is enforced(in column B, the first period, in column C, the last one);0;47
+Bound in MW;395.0
+</constr>
+<constr>
+Comment
+Constraint type (LB, UB or EQ);UB
+Units in constraint separated by commas;290,
+Contiguous periods in which the constraint is enforced(in column B, the first period, in column C, the last one);0;47
+Bound in MW;0.0
+</constr>
+<constr>
+Comment
+Constraint type (LB, UB or EQ);UB
+Units in constraint separated by commas;291,292,293,
+Contiguous periods in which the constraint is enforced(in column B, the first period, in column C, the last one);0;47
+Bound in MW;25.0
+</constr>
+<constr>
+Comment
+Constraint type (LB, UB or EQ);UB
+Units in constraint separated by commas;294,
+Contiguous periods in which the constraint is enforced(in column B, the first period, in column C, the last one);0;47
+Bound in MW;0.0
+</constr>
+<constr>
+Comment
+Constraint type (LB, UB or EQ);UB
+Units in constraint separated by commas;328,
+Contiguous periods in which the constraint is enforced(in column B, the first period, in column C, the last one);0;47
+Bound in MW;56.00000000000001
+</constr>
+<constr>
+Comment
+Constraint type (LB, UB or EQ);UB
+Units in constraint separated by commas;295,
+Contiguous periods in which the constraint is enforced(in column B, the first period, in column C, the last one);0;47
+Bound in MW;0.0
+</constr>
+<constr>
+Comment
+Constraint type (LB, UB or EQ);UB
+Units in constraint separated by commas;296,
+Contiguous periods in which the constraint is enforced(in column B, the first period, in column C, the last one);0;47
+Bound in MW;0.0
+</constr>
+<constr>
+Comment
+Constraint type (LB, UB or EQ);UB
+Units in constraint separated by commas;297,
+Contiguous periods in which the constraint is enforced(in column B, the first period, in column C, the last one);0;47
+Bound in MW;0.0
+</constr>
+<constr>
+Comment
+Constraint type (LB, UB or EQ);UB
+Units in constraint separated by commas;306,
+Contiguous periods in which the constraint is enforced(in column B, the first period, in column C, the last one);0;47
+Bound in MW;0.0
+</constr>
+<constr>
+Comment
+Constraint type (LB, UB or EQ);UB
+Units in constraint separated by commas;234,235,236,
+Contiguous periods in which the constraint is enforced(in column B, the first period, in column C, the last one);0;1
+Bound in MW;565.0
+</constr>
+<constr>
+Comment
+Constraint type (LB, UB or EQ);UB
+Units in constraint separated by commas;234,235,236,
+Contiguous periods in which the constraint is enforced(in column B, the first period, in column C, the last one);2;7
+Bound in MW;565.0
+</constr>
+<constr>
+Comment
+Constraint type (LB, UB or EQ);UB
+Units in constraint separated by commas;234,235,236,
+Contiguous periods in which the constraint is enforced(in column B, the first period, in column C, the last one);8;9
+Bound in MW;566.0
+</constr>
+<constr>
+Comment
+Constraint type (LB, UB or EQ);UB
+Units in constraint separated by commas;234,235,236,
+Contiguous periods in which the constraint is enforced(in column B, the first period, in column C, the last one);10;11
+Bound in MW;567.0
+</constr>
+<constr>
+Comment
+Constraint type (LB, UB or EQ);UB
+Units in constraint separated by commas;234,235,236,
+Contiguous periods in which the constraint is enforced(in column B, the first period, in column C, the last one);12;15
+Bound in MW;570.0
+</constr>
+<constr>
+Comment
+Constraint type (LB, UB or EQ);UB
+Units in constraint separated by commas;234,235,236,
+Contiguous periods in which the constraint is enforced(in column B, the first period, in column C, the last one);16;17
+Bound in MW;565.0
+</constr>
+<constr>
+Comment
+Constraint type (LB, UB or EQ);UB
+Units in constraint separated by commas;234,235,236,
+Contiguous periods in which the constraint is enforced(in column B, the first period, in column C, the last one);18;25
+Bound in MW;560.0
+</constr>
+<constr>
+Comment
+Constraint type (LB, UB or EQ);UB
+Units in constraint separated by commas;234,235,236,
+Contiguous periods in which the constraint is enforced(in column B, the first period, in column C, the last one);26;27
+Bound in MW;557.0
+</constr>
+<constr>
+Comment
+Constraint type (LB, UB or EQ);UB
+Units in constraint separated by commas;234,235,236,
+Contiguous periods in which the constraint is enforced(in column B, the first period, in column C, the last one);28;33
+Bound in MW;557.0
+</constr>
+<constr>
+Comment
+Constraint type (LB, UB or EQ);UB
+Units in constraint separated by commas;234,235,236,
+Contiguous periods in which the constraint is enforced(in column B, the first period, in column C, the last one);34;41
+Bound in MW;557.0
+</constr>
+<constr>
+Comment
+Constraint type (LB, UB or EQ);UB
+Units in constraint separated by commas;234,235,236,
+Contiguous periods in which the constraint is enforced(in column B, the first period, in column C, the last one);42;45
+Bound in MW;560.0
+</constr>
+<constr>
+Comment
+Constraint type (LB, UB or EQ);UB
+Units in constraint separated by commas;234,235,236,
+Contiguous periods in which the constraint is enforced(in column B, the first period, in column C, the last one);46;47
+Bound in MW;565.0
+</constr>
+<constr>
+Comment
+Constraint type (LB, UB or EQ);UB
+Units in constraint separated by commas;245,246,247,248,249,250,251,252,
+Contiguous periods in which the constraint is enforced(in column B, the first period, in column C, the last one);0;47
+Bound in MW;0.0
+</constr>
+<constr>
+Comment
+Constraint type (LB, UB or EQ);UB
+Units in constraint separated by commas;286,
+Contiguous periods in which the constraint is enforced(in column B, the first period, in column C, the last one);0;47
+Bound in MW;0.0
+</constr>
+<constr>
+Comment
+Constraint type (LB, UB or EQ);UB
+Units in constraint separated by commas;311,312,313,314,
+Contiguous periods in which the constraint is enforced(in column B, the first period, in column C, the last one);0;47
+Bound in MW;53.0
+</constr>
+<constr>
+Comment
+Constraint type (LB, UB or EQ);UB
+Units in constraint separated by commas;325,326,327,
+Contiguous periods in which the constraint is enforced(in column B, the first period, in column C, the last one);0;47
+Bound in MW;49.0
+</constr>
+<constr>
+Comment
+Constraint type (LB, UB or EQ);UB
+Units in constraint separated by commas;283,284,285,
+Contiguous periods in which the constraint is enforced(in column B, the first period, in column C, the last one);0;47
+Bound in MW;0.0
+</constr>
+<constr>
+Comment
+Constraint type (LB, UB or EQ);UB
+Units in constraint separated by commas;243,244,
+Contiguous periods in which the constraint is enforced(in column B, the first period, in column C, the last one);0;47
+Bound in MW;120.0
+</constr>
+<constr>
+Comment
+Constraint type (LB, UB or EQ);UB
+Units in constraint separated by commas;1,
+Contiguous periods in which the constraint is enforced(in column B, the first period, in column C, the last one);0;1
+Bound in MW;270.0
+</constr>
+<constr>
+Comment
+Constraint type (LB, UB or EQ);UB
+Units in constraint separated by commas;1,
+Contiguous periods in which the constraint is enforced(in column B, the first period, in column C, the last one);2;3
+Bound in MW;300.0
+</constr>
+<constr>
+Comment
+Constraint type (LB, UB or EQ);UB
+Units in constraint separated by commas;1,
+Contiguous periods in which the constraint is enforced(in column B, the first period, in column C, the last one);4;5
+Bound in MW;310.0
+</constr>
+<constr>
+Comment
+Constraint type (LB, UB or EQ);UB
+Units in constraint separated by commas;1,
+Contiguous periods in which the constraint is enforced(in column B, the first period, in column C, the last one);6;47
+Bound in MW;320.0
+</constr>
+<constr>
+Comment
+Constraint type (LB, UB or EQ);UB
+Units in constraint separated by commas;260,261,262,263,264,265,266,267,268,269,270,271,
+Contiguous periods in which the constraint is enforced(in column B, the first period, in column C, the last one);0;47
+Bound in MW;143.0
+</constr>
+<constr>
+Comment
+Constraint type (LB, UB or EQ);UB
+Units in constraint separated by commas;253,254,255,256,257,258,259,
+Contiguous periods in which the constraint is enforced(in column B, the first period, in column C, the last one);0;47
+Bound in MW;94.0
+</constr>
+<constr>
+Comment
+Constraint type (LB, UB or EQ);UB
+Units in constraint separated by commas;315,316,317,318,319,320,
+Contiguous periods in which the constraint is enforced(in column B, the first period, in column C, the last one);0;47
+Bound in MW;55.00000000000001
+</constr>
+<constr>
+Comment
+Constraint type (LB, UB or EQ);UB
+Units in constraint separated by commas;5,
+Contiguous periods in which the constraint is enforced(in column B, the first period, in column C, the last one);0;47
+Bound in MW;365.0
+</constr>
+<constr>
+Comment
+Constraint type (LB, UB or EQ);UB
+Units in constraint separated by commas;298,299,300,301,302,303,304,305,
+Contiguous periods in which the constraint is enforced(in column B, the first period, in column C, the last one);0;15
+Bound in MW;125.0
+</constr>
+<constr>
+Comment
+Constraint type (LB, UB or EQ);UB
+Units in constraint separated by commas;298,299,300,301,302,303,304,305,
+Contiguous periods in which the constraint is enforced(in column B, the first period, in column C, the last one);16;35
+Bound in MW;120.0
+</constr>
+<constr>
+Comment
+Constraint type (LB, UB or EQ);UB
+Units in constraint separated by commas;298,299,300,301,302,303,304,305,
+Contiguous periods in which the constraint is enforced(in column B, the first period, in column C, the last one);36;47
+Bound in MW;125.0
+</constr>
+<constr>
+Comment
+Constraint type (LB, UB or EQ);UB
+Units in constraint separated by commas;230,231,232,233,
+Contiguous periods in which the constraint is enforced(in column B, the first period, in column C, the last one);0;15
+Bound in MW;120.0
+</constr>
+<constr>
+Comment
+Constraint type (LB, UB or EQ);UB
+Units in constraint separated by commas;230,231,232,233,
+Contiguous periods in which the constraint is enforced(in column B, the first period, in column C, the last one);16;35
+Bound in MW;114.99999999999999
+</constr>
+<constr>
+Comment
+Constraint type (LB, UB or EQ);UB
+Units in constraint separated by commas;230,231,232,233,
+Contiguous periods in which the constraint is enforced(in column B, the first period, in column C, the last one);36;47
+Bound in MW;120.0
+</constr>
+<constr>
+Comment
+Constraint type (LB, UB or EQ);UB
+Units in constraint separated by commas;2,3,
+Contiguous periods in which the constraint is enforced(in column B, the first period, in column C, the last one);0;47
+Bound in MW;720.0
+</constr>
+<constr>
+Comment
+Constraint type (LB, UB or EQ);UB
+Units in constraint separated by commas;204,205,206,207,208,209,210,211,212,213,214,215,216,217,218,219,220,
+Contiguous periods in which the constraint is enforced(in column B, the first period, in column C, the last one);0;47
+Bound in MW;358.0
+</constr>
+<constr>
+Comment
+Constraint type (LB, UB or EQ);UB
+Units in constraint separated by commas;4,
+Contiguous periods in which the constraint is enforced(in column B, the first period, in column C, the last one);0;47
+Bound in MW;360.0
+</constr>
+<constr>
+Comment
+Constraint type (LB, UB or EQ);UB
+Units in constraint separated by commas;241,242,
+Contiguous periods in which the constraint is enforced(in column B, the first period, in column C, the last one);0;47
+Bound in MW;0.0
+</constr>
+<constr>
+Comment
+Constraint type (LB, UB or EQ);UB
+Units in constraint separated by commas;125,126,127,128,
+Contiguous periods in which the constraint is enforced(in column B, the first period, in column C, the last one);0;47
+Bound in MW;320.0
+</constr>
+<constr>
+Comment
+Constraint type (LB, UB or EQ);UB
+Units in constraint separated by commas;129,130,131,132,
+Contiguous periods in which the constraint is enforced(in column B, the first period, in column C, the last one);0;5
+Bound in MW;98.0
+</constr>
+<constr>
+Comment
+Constraint type (LB, UB or EQ);UB
+Units in constraint separated by commas;129,130,131,132,
+Contiguous periods in which the constraint is enforced(in column B, the first period, in column C, the last one);6;9
+Bound in MW;104.0
+</constr>
+<constr>
+Comment
+Constraint type (LB, UB or EQ);UB
+Units in constraint separated by commas;129,130,131,132,
+Contiguous periods in which the constraint is enforced(in column B, the first period, in column C, the last one);10;11
+Bound in MW;101.0
+</constr>
+<constr>
+Comment
+Constraint type (LB, UB or EQ);UB
+Units in constraint separated by commas;129,130,131,132,
+Contiguous periods in which the constraint is enforced(in column B, the first period, in column C, the last one);12;19
+Bound in MW;98.0
+</constr>
+<constr>
+Comment
+Constraint type (LB, UB or EQ);UB
+Units in constraint separated by commas;129,130,131,132,
+Contiguous periods in which the constraint is enforced(in column B, the first period, in column C, the last one);20;41
+Bound in MW;96.0
+</constr>
+<constr>
+Comment
+Constraint type (LB, UB or EQ);UB
+Units in constraint separated by commas;129,130,131,132,
+Contiguous periods in which the constraint is enforced(in column B, the first period, in column C, the last one);42;47
+Bound in MW;95.0
+</constr>
+<constr>
+Comment
+Constraint type (LB, UB or EQ);UB
+Units in constraint separated by commas;61,62,63,
+Contiguous periods in which the constraint is enforced(in column B, the first period, in column C, the last one);0;47
+Bound in MW;520.0
+</constr>
+<constr>
+Comment
+Constraint type (LB, UB or EQ);UB
+Units in constraint separated by commas;324,
+Contiguous periods in which the constraint is enforced(in column B, the first period, in column C, the last one);0;47
+Bound in MW;0.0
+</constr>
+<constr>
+Comment
+Constraint type (LB, UB or EQ);UB
+Units in constraint separated by commas;307,308,309,310,
+Contiguous periods in which the constraint is enforced(in column B, the first period, in column C, the last one);0;47
+Bound in MW;998.0
+</constr>
+<constr>
+Comment
+Constraint type (LB, UB or EQ);LB
+Units in constraint separated by commas;33,34,35,36,
+Contiguous periods in which the constraint is enforced(in column B, the first period, in column C, the last one);0;47
+Bound in MW;700.0
+</constr>
+<constr>
+Comment
+Constraint type (LB, UB or EQ);LB
+Units in constraint separated by commas;89,90,
+Contiguous periods in which the constraint is enforced(in column B, the first period, in column C, the last one);0;47
+Bound in MW;150.0
+</constr>
+<constr>
+Comment
+Constraint type (LB, UB or EQ);LB
+Units in constraint separated by commas;234,235,236,
+Contiguous periods in which the constraint is enforced(in column B, the first period, in column C, the last one);0;1
+Bound in MW;385.0
+</constr>
+<constr>
+Comment
+Constraint type (LB, UB or EQ);LB
+Units in constraint separated by commas;234,235,236,
+Contiguous periods in which the constraint is enforced(in column B, the first period, in column C, the last one);2;7
+Bound in MW;264.0
+</constr>
+<constr>
+Comment
+Constraint type (LB, UB or EQ);LB
+Units in constraint separated by commas;234,235,236,
+Contiguous periods in which the constraint is enforced(in column B, the first period, in column C, the last one);8;9
+Bound in MW;264.0
+</constr>
+<constr>
+Comment
+Constraint type (LB, UB or EQ);LB
+Units in constraint separated by commas;234,235,236,
+Contiguous periods in which the constraint is enforced(in column B, the first period, in column C, the last one);10;11
+Bound in MW;264.0
+</constr>
+<constr>
+Comment
+Constraint type (LB, UB or EQ);LB
+Units in constraint separated by commas;234,235,236,
+Contiguous periods in which the constraint is enforced(in column B, the first period, in column C, the last one);12;15
+Bound in MW;264.0
+</constr>
+<constr>
+Comment
+Constraint type (LB, UB or EQ);LB
+Units in constraint separated by commas;234,235,236,
+Contiguous periods in which the constraint is enforced(in column B, the first period, in column C, the last one);16;17
+Bound in MW;264.0
+</constr>
+<constr>
+Comment
+Constraint type (LB, UB or EQ);LB
+Units in constraint separated by commas;234,235,236,
+Contiguous periods in which the constraint is enforced(in column B, the first period, in column C, the last one);18;25
+Bound in MW;264.0
+</constr>
+<constr>
+Comment
+Constraint type (LB, UB or EQ);LB
+Units in constraint separated by commas;234,235,236,
+Contiguous periods in which the constraint is enforced(in column B, the first period, in column C, the last one);26;27
+Bound in MW;264.0
+</constr>
+<constr>
+Comment
+Constraint type (LB, UB or EQ);LB
+Units in constraint separated by commas;234,235,236,
+Contiguous periods in which the constraint is enforced(in column B, the first period, in column C, the last one);28;33
+Bound in MW;185.0
+</constr>
+<constr>
+Comment
+Constraint type (LB, UB or EQ);LB
+Units in constraint separated by commas;234,235,236,
+Contiguous periods in which the constraint is enforced(in column B, the first period, in column C, the last one);34;41
+Bound in MW;264.0
+</constr>
+<constr>
+Comment
+Constraint type (LB, UB or EQ);LB
+Units in constraint separated by commas;234,235,236,
+Contiguous periods in which the constraint is enforced(in column B, the first period, in column C, the last one);42;45
+Bound in MW;264.0
+</constr>
+<constr>
+Comment
+Constraint type (LB, UB or EQ);LB
+Units in constraint separated by commas;234,235,236,
+Contiguous periods in which the constraint is enforced(in column B, the first period, in column C, the last one);46;47
+Bound in MW;380.0
+</constr>
+<constr>
+Comment
+Constraint type (LB, UB or EQ);LB
+Units in constraint separated by commas;1,
+Contiguous periods in which the constraint is enforced(in column B, the first period, in column C, the last one);0;1
+Bound in MW;270.0
+</constr>
+<constr>
+Comment
+Constraint type (LB, UB or EQ);LB
+Units in constraint separated by commas;1,
+Contiguous periods in which the constraint is enforced(in column B, the first period, in column C, the last one);2;3
+Bound in MW;300.0
+</constr>
+<constr>
+Comment
+Constraint type (LB, UB or EQ);LB
+Units in constraint separated by commas;1,
+Contiguous periods in which the constraint is enforced(in column B, the first period, in column C, the last one);4;5
+Bound in MW;310.0
+</constr>
+<constr>
+Comment
+Constraint type (LB, UB or EQ);LB
+Units in constraint separated by commas;1,
+Contiguous periods in which the constraint is enforced(in column B, the first period, in column C, the last one);6;47
+Bound in MW;320.0
+</constr>
+<constr>
+Comment
+Constraint type (LB, UB or EQ);LB
+Units in constraint separated by commas;129,130,131,132,
+Contiguous periods in which the constraint is enforced(in column B, the first period, in column C, the last one);0;5
+Bound in MW;75.0
+</constr>
+<constr>
+Comment
+Constraint type (LB, UB or EQ);LB
+Units in constraint separated by commas;129,130,131,132,
+Contiguous periods in which the constraint is enforced(in column B, the first period, in column C, the last one);6;9
+Bound in MW;75.0
+</constr>
+<constr>
+Comment
+Constraint type (LB, UB or EQ);LB
+Units in constraint separated by commas;129,130,131,132,
+Contiguous periods in which the constraint is enforced(in column B, the first period, in column C, the last one);10;11
+Bound in MW;75.0
+</constr>
+<constr>
+Comment
+Constraint type (LB, UB or EQ);LB
+Units in constraint separated by commas;129,130,131,132,
+Contiguous periods in which the constraint is enforced(in column B, the first period, in column C, the last one);12;19
+Bound in MW;75.0
+</constr>
+<constr>
+Comment
+Constraint type (LB, UB or EQ);LB
+Units in constraint separated by commas;129,130,131,132,
+Contiguous periods in which the constraint is enforced(in column B, the first period, in column C, the last one);20;41
+Bound in MW;75.0
+</constr>
+<constr>
+Comment
+Constraint type (LB, UB or EQ);LB
+Units in constraint separated by commas;129,130,131,132,
+Contiguous periods in which the constraint is enforced(in column B, the first period, in column C, the last one);42;47
+Bound in MW;75.0
+</constr>
+<constr>
+Comment
+Constraint type (LB, UB or EQ);EQ
+Units in constraint separated by commas;135,
+Contiguous periods in which the constraint is enforced(in column B, the first period, in column C, the last one);0;47
+Bound in MW;640.0
+</constr>
+<constr>
+Comment
+Constraint type (LB, UB or EQ);EQ
+Units in constraint separated by commas;134,
+Contiguous periods in which the constraint is enforced(in column B, the first period, in column C, the last one);0;47
+Bound in MW;1205.0
+</constr>
+<constr>
+Comment
+Constraint type (LB, UB or EQ);EQ
+Units in constraint separated by commas;58,59,60,
+Contiguous periods in which the constraint is enforced(in column B, the first period, in column C, the last one);0;47
+Bound in MW;533.0
+</constr>
+<constr>
+Comment
+Constraint type (LB, UB or EQ);EQ
+Units in constraint separated by commas;321,322,323,
+Contiguous periods in which the constraint is enforced(in column B, the first period, in column C, the last one);0;47
+Bound in MW;28.000000000000004
+</constr>
+<constr>
+Comment
+Constraint type (LB, UB or EQ);EQ
+Units in constraint separated by commas;136,137,138,139,140,
+Contiguous periods in which the constraint is enforced(in column B, the first period, in column C, the last one);0;47
+Bound in MW;80.0
+</constr>
+<constr>
+Comment
+Constraint type (LB, UB or EQ);EQ
+Units in constraint separated by commas;26,27,
+Contiguous periods in which the constraint is enforced(in column B, the first period, in column C, the last one);0;47
+Bound in MW;63.0
+</constr>
+<constr>
+Comment
+Constraint type (LB, UB or EQ);EQ
+Units in constraint separated by commas;28,29,30,31,32,
+Contiguous periods in which the constraint is enforced(in column B, the first period, in column C, the last one);0;47
+Bound in MW;65.0
+</constr>
+<constr>
+Comment
+Constraint type (LB, UB or EQ);EQ
+Units in constraint separated by commas;37,38,39,40,
+Contiguous periods in which the constraint is enforced(in column B, the first period, in column C, the last one);0;47
+Bound in MW;64.0
+</constr>
+<constr>
+Comment
+Constraint type (LB, UB or EQ);EQ
+Units in constraint separated by commas;141,142,143,
+Contiguous periods in which the constraint is enforced(in column B, the first period, in column C, the last one);0;47
+Bound in MW;63.0
+</constr>
+<constr>
+Comment
+Constraint type (LB, UB or EQ);EQ
+Units in constraint separated by commas;272,273,274,
+Contiguous periods in which the constraint is enforced(in column B, the first period, in column C, the last one);0;47
+Bound in MW;395.0
+</constr>
+<constr>
+Comment
+Constraint type (LB, UB or EQ);EQ
+Units in constraint separated by commas;277,278,
+Contiguous periods in which the constraint is enforced(in column B, the first period, in column C, the last one);0;47
+Bound in MW;0.0
+</constr>
+<constr>
+Comment
+Constraint type (LB, UB or EQ);EQ
+Units in constraint separated by commas;71,72,73,74,
+Contiguous periods in which the constraint is enforced(in column B, the first period, in column C, the last one);0;47
+Bound in MW;196.0
+</constr>
+<constr>
+Comment
+Constraint type (LB, UB or EQ);EQ
+Units in constraint separated by commas;307,308,309,310,
+Contiguous periods in which the constraint is enforced(in column B, the first period, in column C, the last one);0;47
+Bound in MW;0.0
+</constr>
+</END>
