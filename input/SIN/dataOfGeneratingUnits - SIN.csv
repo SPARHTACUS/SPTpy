@@ -1,0 +1,748 @@
+<BEGIN>;;;;;;;;;;;;;;;;
+<Hydro generating units>;;;;;;;;;;;;;;;;
+ID;Name;Hydro plant ID;Hydro plant name;Group ID;Group name;Bus ID;Bus name;Minimum generation (MW);Maximum generation (MW);Minimum turbine discharge (m3/s);Maximum turbine discharge (m3/s);Turbine type;Turbine or Pump?;Conversion rate MW/(m3/s/) for pumps;ID Bus - DESSEM;Comments
+1;G1-G.B. MUNHOZ;12;G.B. MUNHOZ;1;Group 1;800;name;240;418.5;290;360;Francis;Turbine;0;800;
+2;G2-G.B. MUNHOZ;12;G.B. MUNHOZ;1;Group 1;800;name;240;418.5;290;360;Francis;Turbine;0;800;
+3;G3-G.B. MUNHOZ;12;G.B. MUNHOZ;2;Group 2;800;name;240;418.5;300;372;Francis;Turbine;0;800;
+4;G4-G.B. MUNHOZ;12;G.B. MUNHOZ;2;Group 2;800;name;240;418.5;300;372;Francis;Turbine;0;800;
+5;G1-SALTO CAXIAS;24;SALTO CAXIAS;1;Group 1;808;name;235;310;415;525;Francis;Turbine;0;808;
+6;G2-SALTO CAXIAS;24;SALTO CAXIAS;1;Group 1;808;name;235;310;415;525;Francis;Turbine;0;808;
+7;G3-SALTO CAXIAS;24;SALTO CAXIAS;1;Group 1;808;name;235;310;415;525;Francis;Turbine;0;808;
+8;G4-SALTO CAXIAS;24;SALTO CAXIAS;1;Group 1;808;name;235;310;415;525;Francis;Turbine;0;808;
+9;G1-SLT.SANTIAGO;18;SLT.SANTIAGO;1;Group 1;925;name;270;355;360;382.27;Francis;Turbine;0;925;
+10;G2-SLT.SANTIAGO;18;SLT.SANTIAGO;1;Group 1;925;name;270;355;360;382.27;Francis;Turbine;0;925;
+11;G3-SLT.SANTIAGO;18;SLT.SANTIAGO;1;Group 1;926;name;270;355;360;382.27;Francis;Turbine;0;926;
+12;G4-SLT.SANTIAGO;18;SLT.SANTIAGO;1;Group 1;926;name;270;355;360;382.27;Francis;Turbine;0;926;
+13;G1-SEGREDO;23;SEGREDO;1;Group 1;810;name;165;315;209.7;349.5;Francis;Turbine;0;810;
+14;G2-SEGREDO;23;SEGREDO;1;Group 1;810;name;165;315;209.7;349.5;Francis;Turbine;0;810;
+15;G3-SEGREDO;23;SEGREDO;1;Group 1;810;name;165;315;209.7;349.5;Francis;Turbine;0;810;
+16;G4-SEGREDO;23;SEGREDO;1;Group 1;810;name;165;315;209.7;349.5;Francis;Turbine;0;810;
+17;G1-SALTO OSORIO;29;SALTO OSORIO;1;Group 1;919;name;130;182;173.4;289;Francis;Turbine;0;919;
+18;G2-SALTO OSORIO;29;SALTO OSORIO;1;Group 1;919;name;130;182;173.4;289;Francis;Turbine;0;919;
+19;G3-SALTO OSORIO;29;SALTO OSORIO;1;Group 1;919;name;130;182;173.4;289;Francis;Turbine;0;919;
+20;G4-SALTO OSORIO;29;SALTO OSORIO;1;Group 1;919;name;130;182;173.4;289;Francis;Turbine;0;919;
+21;G5-SALTO OSORIO;29;SALTO OSORIO;2;Group 2;919;name;130;177.5;173.4;289;Francis;Turbine;0;919;
+22;G6-SALTO OSORIO;29;SALTO OSORIO;2;Group 2;919;name;130;177.5;173.4;289;Francis;Turbine;0;919;
+23;G1-ITA;17;ITA;1;Group 1;904;name;200;290;215;313;Francis;Turbine;0;904;
+24;G2-ITA;17;ITA;1;Group 1;904;name;200;290;215;313;Francis;Turbine;0;904;
+25;G2-ITA;17;ITA;1;Group 1;904;name;200;290;215;313;Francis;Turbine;0;904;
+26;G4-ITA;17;ITA;1;Group 1;904;name;200;290;215;313;Francis;Turbine;0;904;
+27;G5-ITA;17;ITA;1;Group 1;904;name;200;290;215;313;Francis;Turbine;0;904;
+28;G1-MACHADINHO;26;MACHADINHO;1;Group 1;915;name;260;380;320;435;Francis;Turbine;0;915;
+29;G2-MACHADINHO;26;MACHADINHO;1;Group 1;915;name;260;380;320;435;Francis;Turbine;0;915;
+30;G3-MACHADINHO;26;MACHADINHO;1;Group 1;915;name;260;380;320;435;Francis;Turbine;0;915;
+31;G1-CAMPOS NOVOS;32;CAMPOS NOVOS;1;Group 1;1157;name;120;293.3;116.4;194;Francis;Turbine;0;1157;
+32;G2-CAMPOS NOVOS;32;CAMPOS NOVOS;1;Group 1;1157;name;120;293.3;116.4;194;Francis;Turbine;0;1157;Group changed after network reduction
+33;G3-CAMPOS NOVOS;32;CAMPOS NOVOS;1;Group 1;1157;name;120;293.3;116.4;194;Francis;Turbine;0;1157;Group changed after network reduction
+34;G1-BARRA GRANDE;34;BARRA GRANDE;1;Group 1;1150;name;190;230;100;164.8;Francis;Turbine;0;1150;
+35;G2-BARRA GRANDE;34;BARRA GRANDE;1;Group 1;1150;name;190;230;100;164.8;Francis;Turbine;0;1150;
+36;G3-BARRA GRANDE;34;BARRA GRANDE;1;Group 1;1150;name;190;230;100;164.8;Francis;Turbine;0;1150;
+37;G1-SERRA MESA;22;SERRA MESA;1;Group 1;36;name;240;425;320;397;Francis;Turbine;0;36;
+38;G2-SERRA MESA;22;SERRA MESA;1;Group 1;36;name;240;425;320;397;Francis;Turbine;0;36;
+39;G3-SERRA MESA;22;SERRA MESA;1;Group 1;36;name;240;425;320;397;Francis;Turbine;0;36;
+40;G1-LAJEADO;31;LAJEADO;1;Group 1;7206;name;100;180.5;340;680;Kaplan;Turbine;0;7206;
+41;G2-LAJEADO;31;LAJEADO;1;Group 1;7206;name;100;180.5;340;680;Kaplan;Turbine;0;7206;
+42;G3-LAJEADO;31;LAJEADO;1;Group 1;7206;name;100;180.5;340;680;Kaplan;Turbine;0;7206;
+43;G4-LAJEADO;31;LAJEADO;1;Group 1;7206;name;100;180.5;340;680;Kaplan;Turbine;0;7206;
+44;G5-LAJEADO;31;LAJEADO;1;Group 1;7206;name;100;180.5;340;680;Kaplan;Turbine;0;7206;
+45;G1-ESTREITO;28;ESTREITO TOC;1;Group 1;5595;name;80;135.9;471.6;786;Francis;Turbine;0;5595;
+46;G2-ESTREITO;28;ESTREITO TOC;1;Group 1;5595;name;80;135.9;471.6;786;Francis;Turbine;0;5595;
+47;G3-ESTREITO;28;ESTREITO TOC;1;Group 1;5595;name;80;135.9;471.6;786;Francis;Turbine;0;5595;
+48;G4-ESTREITO;28;ESTREITO TOC;1;Group 1;5595;name;80;135.9;471.6;786;Francis;Turbine;0;5595;
+49;G5-ESTREITO;28;ESTREITO TOC;1;Group 1;5595;name;80;135.9;471.6;786;Francis;Turbine;0;5595;
+50;G6-ESTREITO;28;ESTREITO TOC;1;Group 1;5595;name;80;135.9;471.6;786;Francis;Turbine;0;5595;
+51;G7-ESTREITO;28;ESTREITO TOC;1;Group 1;5595;name;80;135.9;471.6;786;Francis;Turbine;0;5595;
+52;G8-ESTREITO;28;ESTREITO TOC;1;Group 1;5595;name;80;135.9;471.6;786;Francis;Turbine;0;5595;
+53;G1-TUCURUI;2;TUCURUI;1;Group 1;6425;name;0;22.5;0;37;Francis;Turbine;0;6425;
+54;G2-TUCURUI;2;TUCURUI;1;Group 1;6425;name;0;22.5;0;37;Francis;Turbine;0;6425;
+55;G3-TUCURUI;2;TUCURUI;2;Group 2;6419;name;203;350;349.2;582;Francis;Turbine;0;6419;
+56;G4-TUCURUI;2;TUCURUI;2;Group 2;6419;name;203;350;349.2;582;Francis;Turbine;0;6419;
+57;G5-TUCURUI;2;TUCURUI;2;Group 2;6419;name;203;350;349.2;582;Francis;Turbine;0;6419;
+58;G6-TUCURUI;2;TUCURUI;2;Group 2;6419;name;203;350;349.2;582;Francis;Turbine;0;6419;
+59;G7-TUCURUI;2;TUCURUI;2;Group 2;6422;name;203;350;349.2;582;Francis;Turbine;0;6422;The group has been changed after network reduction
+60;G8-TUCURUI;2;TUCURUI;2;Group 2;6422;name;203;350;349.2;582;Francis;Turbine;0;6422;The group has been changed after network reduction
+61;G9-TUCURUI;2;TUCURUI;2;Group 2;6422;name;203;350;349.2;582;Francis;Turbine;0;6422;The group has been changed after network reduction
+62;G10-TUCURUI;2;TUCURUI;2;Group 2;6422;name;203;350;349.2;582;Francis;Turbine;0;6422;The group has been changed after network reduction
+63;G11-TUCURUI;2;TUCURUI;2;Group 2;6424;name;203;350;349.2;582;Francis;Turbine;0;6424;The group has been changed after network reduction
+64;G12-TUCURUI;2;TUCURUI;2;Group 2;6424;name;203;350;349.2;582;Francis;Turbine;0;6424;The group has been changed after network reduction
+65;G13-TUCURUI;2;TUCURUI;2;Group 2;6424;name;203;350;349.2;582;Francis;Turbine;0;6424;The group has been changed after network reduction
+66;G14-TUCURUI;2;TUCURUI;2;Group 2;6424;name;203;350;349.2;582;Francis;Turbine;0;6424;The group has been changed after network reduction
+67;G15-TUCURUI;2;TUCURUI;3;Group 3;6420;name;300;390;397.2;662;Francis;Turbine;0;6420;
+68;G16-TUCURUI;2;TUCURUI;3;Group 3;6420;name;300;390;397.2;662;Francis;Turbine;0;6420;
+69;G17-TUCURUI;2;TUCURUI;3;Group 3;6420;name;300;390;397.2;662;Francis;Turbine;0;6420;
+70;G18-TUCURUI;2;TUCURUI;3;Group 3;6424;name;300;390;397.2;662;Francis;Turbine;0;6424;The group has been changed after network reduction
+71;G19-TUCURUI;2;TUCURUI;3;Group 3;6424;name;300;390;397.2;662;Francis;Turbine;0;6424;The group has been changed after network reduction
+72;G20-TUCURUI;2;TUCURUI;3;Group 3;6424;name;300;390;397.2;662;Francis;Turbine;0;6424;The group has been changed after network reduction
+73;G21-TUCURUI;2;TUCURUI;3;Group 3;6424;name;300;390;397.2;662;Francis;Turbine;0;6424;The group has been changed after network reduction
+74;G22-TUCURUI;2;TUCURUI;3;Group 3;6425;name;300;390;397.2;662;Francis;Turbine;0;6425;The group has been changed after network reduction
+75;G23-TUCURUI;2;TUCURUI;3;Group 3;6425;name;300;390;397.2;662;Francis;Turbine;0;6425;The group has been changed after network reduction
+76;G24-TUCURUI;2;TUCURUI;3;Group 3;6425;name;300;390;397.2;662;Francis;Turbine;0;6425;The group has been changed after network reduction
+77;G25-TUCURUI;2;TUCURUI;3;Group 3;6425;name;300;390;397.2;662;Francis;Turbine;0;6425;The group has been changed after network reduction
+78;G1-BELO MONTE;3;BELO MONTE;1;Group 1;6729;name;450;611.1;600;768.4;Francis;Turbine;0;6729;
+79;G2-BELO MONTE;3;BELO MONTE;1;Group 1;6729;name;450;611.1;600;768.4;Francis;Turbine;0;6729;
+80;G3-BELO MONTE;3;BELO MONTE;1;Group 1;6729;name;450;611.1;600;768.4;Francis;Turbine;0;6729;
+81;G4-BELO MONTE;3;BELO MONTE;1;Group 1;6729;name;450;611.1;600;768.4;Francis;Turbine;0;6729;
+82;G5-BELO MONTE;3;BELO MONTE;1;Group 1;6729;name;450;611.1;600;768.4;Francis;Turbine;0;6729;
+83;G6-BELO MONTE;3;BELO MONTE;1;Group 1;6729;name;450;611.1;600;768.4;Francis;Turbine;0;6729;
+84;G7-BELO MONTE;3;BELO MONTE;1;Group 1;6729;name;450;611.1;600;768.4;Francis;Turbine;0;6729;
+85;G8-BELO MONTE;3;BELO MONTE;1;Group 1;6729;name;450;611.1;600;768.4;Francis;Turbine;0;6729;
+86;G9-BELO MONTE;3;BELO MONTE;1;Group 1;6729;name;450;611.1;600;768.4;Francis;Turbine;0;6729;
+87;G10-BELO MONTE;3;BELO MONTE;1;Group 1;6729;name;450;611.1;600;768.4;Francis;Turbine;0;6729;
+88;G11-BELO MONTE;3;BELO MONTE;1;Group 1;6729;name;450;611.1;600;768.4;Francis;Turbine;0;6729;
+89;G12-BELO MONTE;3;BELO MONTE;1;Group 1;6729;name;450;611.1;600;768.4;Francis;Turbine;0;6729;
+90;G13-BELO MONTE;3;BELO MONTE;1;Group 1;6729;name;450;611.1;600;768.4;Francis;Turbine;0;6729;
+91;G14-BELO MONTE;3;BELO MONTE;1;Group 1;6729;name;450;611.1;600;768.4;Francis;Turbine;0;6729;
+92;G15-BELO MONTE;3;BELO MONTE;1;Group 1;6729;name;450;611.1;600;768.4;Francis;Turbine;0;6729;
+93;G16-BELO MONTE;3;BELO MONTE;1;Group 1;6729;name;450;611.1;600;768.4;Francis;Turbine;0;6729;
+94;G17-BELO MONTE;3;BELO MONTE;1;Group 1;6729;name;450;611.1;600;768.4;Francis;Turbine;0;6729;
+95;G18-BELO MONTE;3;BELO MONTE;1;Group 1;6729;name;450;611.1;600;768.4;Francis;Turbine;0;6729;
+96;G1-STO ANTONIO;5;STO ANTONIO;1;5 blades;7062;name;11;69;227.2;568;Bulbo;Turbine;0;7062;
+97;G2-STO ANTONIO;5;STO ANTONIO;1;5 blades;7062;name;11;69;227.2;568;Bulbo;Turbine;0;7062;
+98;G3-STO ANTONIO;5;STO ANTONIO;1;5 blades;7062;name;11;69;227.2;568;Bulbo;Turbine;0;7062;
+99;G4-STO ANTONIO;5;STO ANTONIO;1;5 blades;7062;name;11;69;227.2;568;Bulbo;Turbine;0;7062;
+100;G5-STO ANTONIO;5;STO ANTONIO;1;5 blades;7050;name;11;69;227.2;568;Bulbo;Turbine;0;7050;The group has been changed after network reduction
+101;G6-STO ANTONIO;5;STO ANTONIO;1;5 blades;7050;name;11;69;227.2;568;Bulbo;Turbine;0;7050;The group has been changed after network reduction
+102;G7-STO ANTONIO;5;STO ANTONIO;1;5 blades;7050;name;11;69;227.2;568;Bulbo;Turbine;0;7050;The group has been changed after network reduction
+103;G8-STO ANTONIO;5;STO ANTONIO;1;5 blades;7050;name;11;69;227.2;568;Bulbo;Turbine;0;7050;The group has been changed after network reduction
+104;G9-STO ANTONIO;5;STO ANTONIO;1;5 blades;7050;name;11;69;227.2;568;Bulbo;Turbine;0;7050;The group has been changed after network reduction
+105;G10-STO ANTONIO;5;STO ANTONIO;1;5 blades;7050;name;11;69;227.2;568;Bulbo;Turbine;0;7050;The group has been changed after network reduction
+106;G11-STO ANTONIO;5;STO ANTONIO;1;5 blades;7050;name;11;69;227.2;568;Bulbo;Turbine;0;7050;The group has been changed after network reduction
+107;G12-STO ANTONIO;5;STO ANTONIO;1;5 blades;7050;name;11;69;227.2;568;Bulbo;Turbine;0;7050;The group has been changed after network reduction
+108;G13-STO ANTONIO;5;STO ANTONIO;2;4 blades;7062;name;21;73;239.2;598;Bulbo;Turbine;0;7062;
+109;G14-STO ANTONIO;5;STO ANTONIO;2;4 blades;7062;name;21;73;239.2;598;Bulbo;Turbine;0;7062;
+110;G15-STO ANTONIO;5;STO ANTONIO;2;4 blades;7062;name;21;73;239.2;598;Bulbo;Turbine;0;7062;
+111;G16-STO ANTONIO;5;STO ANTONIO;2;4 blades;7062;name;21;73;239.2;598;Bulbo;Turbine;0;7062;
+112;G17-STO ANTONIO;5;STO ANTONIO;2;4 blades;7062;name;21;73;239.2;598;Bulbo;Turbine;0;7062;
+113;G18-STO ANTONIO;5;STO ANTONIO;2;4 blades;7062;name;21;73;239.2;598;Bulbo;Turbine;0;7062;
+114;G19-STO ANTONIO;5;STO ANTONIO;2;4 blades;7062;name;21;73;239.2;598;Bulbo;Turbine;0;7062;
+115;G20-STO ANTONIO;5;STO ANTONIO;2;4 blades;7062;name;21;73;239.2;598;Bulbo;Turbine;0;7062;
+116;G21-STO ANTONIO;5;STO ANTONIO;1;5 blades;7064;name;11;69;227.2;568;Bulbo;Turbine;0;7064;The group has been changed after network reduction
+117;G22-STO ANTONIO;5;STO ANTONIO;1;5 blades;7064;name;11;69;227.2;568;Bulbo;Turbine;0;7064;The group has been changed after network reduction
+118;G23-STO ANTONIO;5;STO ANTONIO;2;4 blades;7064;name;21;73;239.2;598;Bulbo;Turbine;0;7064;The group has been changed after network reduction
+119;G24-STO ANTONIO;5;STO ANTONIO;2;4 blades;7064;name;21;73;239.2;598;Bulbo;Turbine;0;7064;The group has been changed after network reduction
+120;G25-STO ANTONIO;5;STO ANTONIO;2;4 blades;7064;name;21;73;239.2;598;Bulbo;Turbine;0;7064;The group has been changed after network reduction
+121;G26-STO ANTONIO;5;STO ANTONIO;2;4 blades;7064;name;21;73;239.2;598;Bulbo;Turbine;0;7064;The group has been changed after network reduction
+122;G27-STO ANTONIO;5;STO ANTONIO;2;4 blades;7064;name;21;73;239.2;598;Bulbo;Turbine;0;7064;The group has been changed after network reduction
+123;G28-STO ANTONIO;5;STO ANTONIO;2;4 blades;7064;name;21;73;239.2;598;Bulbo;Turbine;0;7064;The group has been changed after network reduction
+124;G29-STO ANTONIO;5;STO ANTONIO;2;4 blades;7064;name;21;73;239.2;598;Bulbo;Turbine;0;7064;The group has been changed after network reduction
+125;G30-STO ANTONIO;5;STO ANTONIO;2;4 blades;7064;name;21;73;239.2;598;Bulbo;Turbine;0;7064;The group has been changed after network reduction
+126;G31-STO ANTONIO;5;STO ANTONIO;1;5 blades;7064;name;11;69;227.2;568;Bulbo;Turbine;0;7064;The group has been changed after network reduction
+127;G32-STO ANTONIO;5;STO ANTONIO;1;5 blades;7064;name;11;69;227.2;568;Bulbo;Turbine;0;7064;The group has been changed after network reduction
+128;G33-STO ANTONIO;5;STO ANTONIO;1;5 blades;7064;name;11;69;227.2;568;Bulbo;Turbine;0;7064;The group has been changed after network reduction
+129;G34-STO ANTONIO;5;STO ANTONIO;1;5 blades;7064;name;11;69;227.2;568;Bulbo;Turbine;0;7064;The group has been changed after network reduction
+130;G35-STO ANTONIO;5;STO ANTONIO;1;5 blades;7064;name;11;69;227.2;568;Bulbo;Turbine;0;7064;The group has been changed after network reduction
+131;G36-STO ANTONIO;5;STO ANTONIO;1;5 blades;7064;name;11;69;227.2;568;Bulbo;Turbine;0;7064;The group has been changed after network reduction
+132;G37-STO ANTONIO;5;STO ANTONIO;2;4 blades;7064;name;21;73;239.2;598;Bulbo;Turbine;0;7064;The group has been changed after network reduction
+133;G38-STO ANTONIO;5;STO ANTONIO;2;4 blades;7064;name;21;73;239.2;598;Bulbo;Turbine;0;7064;The group has been changed after network reduction
+134;G39-STO ANTONIO;5;STO ANTONIO;2;4 blades;7064;name;21;73;239.2;598;Bulbo;Turbine;0;7064;The group has been changed after network reduction
+135;G40-STO ANTONIO;5;STO ANTONIO;2;4 blades;7064;name;21;73;239.2;598;Bulbo;Turbine;0;7064;The group has been changed after network reduction
+136;G41-STO ANTONIO;5;STO ANTONIO;2;4 blades;7064;name;21;73;239.2;598;Bulbo;Turbine;0;7064;The group has been changed after network reduction
+137;G42-STO ANTONIO;5;STO ANTONIO;2;4 blades;7064;name;21;73;239.2;598;Bulbo;Turbine;0;7064;The group has been changed after network reduction
+138;G43-STO ANTONIO;5;STO ANTONIO;2;4 blades;7064;name;21;73;239.2;598;Bulbo;Turbine;0;7064;The group has been changed after network reduction
+139;G44-STO ANTONIO;5;STO ANTONIO;2;4 blades;7064;name;21;73;239.2;598;Bulbo;Turbine;0;7064;The group has been changed after network reduction
+140;G45-STO ANTONIO230;5;STO ANTONIO;1;5 blades;6888;name;11;69;227.2;568;Bulbo;Turbine;0;6888;The group has been changed after network reduction
+141;G46-STO ANTONIO230;5;STO ANTONIO;1;5 blades;6888;name;11;69;227.2;568;Bulbo;Turbine;0;6888;The group has been changed after network reduction
+142;G47-STO ANTONIO230;5;STO ANTONIO;1;5 blades;6888;name;11;69;227.2;568;Bulbo;Turbine;0;6888;The group has been changed after network reduction
+143;G48-STO ANTONIO230;5;STO ANTONIO;1;5 blades;6892;name;11;69;227.2;568;Bulbo;Turbine;0;6892;The group has been changed after network reduction
+144;G49-STO ANTONIO230;5;STO ANTONIO;1;5 blades;6892;name;11;69;227.2;568;Bulbo;Turbine;0;6892;The group has been changed after network reduction
+145;G50-STO ANTONIO230;5;STO ANTONIO;1;5 blades;6892;name;11;69;227.2;568;Bulbo;Turbine;0;6892;The group has been changed after network reduction
+146;G1-JIRAU;4;JIRAU;1;MD;7051;name;23;75;230;538;Bulbo;Turbine;0;7051;
+147;G2-JIRAU;4;JIRAU;1;MD;7051;name;23;75;230;538;Bulbo;Turbine;0;7051;
+148;G3-JIRAU;4;JIRAU;1;MD;7051;name;23;75;230;538;Bulbo;Turbine;0;7051;
+149;G4-JIRAU;4;JIRAU;1;MD;7051;name;23;75;230;538;Bulbo;Turbine;0;7051;
+150;G5-JIRAU;4;JIRAU;1;MD;7051;name;23;75;230;538;Bulbo;Turbine;0;7051;
+151;G6-JIRAU;4;JIRAU;1;MD;7051;name;23;75;230;538;Bulbo;Turbine;0;7051;
+152;G7-JIRAU;4;JIRAU;1;MD;7051;name;23;75;230;538;Bulbo;Turbine;0;7051;
+153;G8-JIRAU;4;JIRAU;1;MD;7051;name;23;75;230;538;Bulbo;Turbine;0;7051;
+154;G9-JIRAU;4;JIRAU;1;MD;7051;name;23;75;230;538;Bulbo;Turbine;0;7051;
+155;G10-JIRAU;4;JIRAU;1;MD;7051;name;23;75;230;538;Bulbo;Turbine;0;7051;
+156;G11-JIRAU;4;JIRAU;1;MD;7051;name;23;75;230;538;Bulbo;Turbine;0;7051;
+157;G12-JIRAU;4;JIRAU;1;MD;7051;name;23;75;230;538;Bulbo;Turbine;0;7051;
+158;G13-JIRAU;4;JIRAU;1;MD;7051;name;23;75;230;538;Bulbo;Turbine;0;7051;
+159;G14-JIRAU;4;JIRAU;1;MD;7051;name;23;75;230;538;Bulbo;Turbine;0;7051;
+160;G15-JIRAU;4;JIRAU;1;MD;7051;name;23;75;230;538;Bulbo;Turbine;0;7051;
+161;G16-JIRAU;4;JIRAU;1;MD;7051;name;23;75;230;538;Bulbo;Turbine;0;7051;
+162;G17-JIRAU;4;JIRAU;1;MD;7051;name;23;75;230;538;Bulbo;Turbine;0;7051;
+163;G18-JIRAU;4;JIRAU;1;MD;7051;name;23;75;230;538;Bulbo;Turbine;0;7051;
+164;G19-JIRAU;4;JIRAU;1;MD;7051;name;23;75;230;538;Bulbo;Turbine;0;7051;
+165;G20-JIRAU;4;JIRAU;1;MD;7051;name;23;75;230;538;Bulbo;Turbine;0;7051;
+166;G21-JIRAU;4;JIRAU;1;MD;7051;name;23;75;230;538;Bulbo;Turbine;0;7051;
+167;G22-JIRAU;4;JIRAU;1;MD;7051;name;23;75;230;538;Bulbo;Turbine;0;7051;
+168;G23-JIRAU;4;JIRAU;1;MD;7051;name;23;75;230;538;Bulbo;Turbine;0;7051;
+169;G24-JIRAU;4;JIRAU;1;MD;7051;name;23;75;230;538;Bulbo;Turbine;0;7051;
+170;G25-JIRAU;4;JIRAU;1;MD;7051;name;23;75;230;538;Bulbo;Turbine;0;7051;
+171;G26-JIRAU;4;JIRAU;1;MD;7051;name;23;75;230;538;Bulbo;Turbine;0;7051;
+172;G27-JIRAU;4;JIRAU;1;MD;7051;name;23;75;230;538;Bulbo;Turbine;0;7051;
+173;G28-JIRAU;4;JIRAU;1;MD;7051;name;23;75;230;538;Bulbo;Turbine;0;7051;
+174;G29-JIRAU;4;JIRAU;1;MD;7061;name;23;75;230;538;Bulbo;Turbine;0;7061;The group has been changed after network reduction
+175;G30-JIRAU;4;JIRAU;1;MD;7061;name;23;75;230;538;Bulbo;Turbine;0;7061;The group has been changed after network reduction
+176;G31-JIRAU;4;JIRAU;1;MD;7061;name;23;75;230;538;Bulbo;Turbine;0;7061;The group has been changed after network reduction
+177;G32-JIRAU;4;JIRAU;1;MD;7061;name;23;75;230;538;Bulbo;Turbine;0;7061;The group has been changed after network reduction
+178;G33-JIRAU;4;JIRAU;1;MD;7061;name;23;75;230;538;Bulbo;Turbine;0;7061;The group has been changed after network reduction
+179;G34-JIRAU;4;JIRAU;1;MD;7061;name;23;75;230;538;Bulbo;Turbine;0;7061;The group has been changed after network reduction
+180;G35-JIRAU;4;JIRAU;1;MD;7061;name;23;75;230;538;Bulbo;Turbine;0;7061;The group has been changed after network reduction
+181;G36-JIRAU;4;JIRAU;1;MD;7061;name;23;75;230;538;Bulbo;Turbine;0;7061;The group has been changed after network reduction
+182;G37-JIRAU;4;JIRAU;1;MD;7061;name;23;75;230;538;Bulbo;Turbine;0;7061;The group has been changed after network reduction
+183;G38-JIRAU;4;JIRAU;1;MD;7061;name;23;75;230;538;Bulbo;Turbine;0;7061;The group has been changed after network reduction
+184;G39-JIRAU;4;JIRAU;1;MD;7061;name;23;75;230;538;Bulbo;Turbine;0;7061;The group has been changed after network reduction
+185;G40-JIRAU;4;JIRAU;1;MD;7061;name;23;75;230;538;Bulbo;Turbine;0;7061;The group has been changed after network reduction
+186;G41-JIRAU;4;JIRAU;1;MD;7061;name;23;75;230;538;Bulbo;Turbine;0;7061;The group has been changed after network reduction
+187;G42-JIRAU;4;JIRAU;1;MD;7061;name;23;75;230;538;Bulbo;Turbine;0;7061;The group has been changed after network reduction
+188;G43-JIRAU;4;JIRAU;1;MD;7061;name;23;75;230;538;Bulbo;Turbine;0;7061;The group has been changed after network reduction
+189;G44-JIRAU;4;JIRAU;1;MD;7061;name;23;75;230;538;Bulbo;Turbine;0;7061;The group has been changed after network reduction
+190;G45-JIRAU;4;JIRAU;1;MD;7061;name;23;75;230;538;Bulbo;Turbine;0;7061;The group has been changed after network reduction
+191;G46-JIRAU;4;JIRAU;1;MD;7061;name;23;75;230;538;Bulbo;Turbine;0;7061;The group has been changed after network reduction
+192;G47-JIRAU;4;JIRAU;1;MD;7061;name;23;75;230;538;Bulbo;Turbine;0;7061;The group has been changed after network reduction
+193;G48-JIRAU;4;JIRAU;1;MD;7061;name;23;75;230;538;Bulbo;Turbine;0;7061;The group has been changed after network reduction
+194;G49-JIRAU;4;JIRAU;1;MD;7061;name;23;75;230;538;Bulbo;Turbine;0;7061;The group has been changed after network reduction
+195;G50-JIRAU;4;JIRAU;1;MD;7061;name;23;75;230;538;Bulbo;Turbine;0;7061;The group has been changed after network reduction
+196;G1-SOBRADINHO;30;SOBRADINHO;1;Group 1;6294;name;46;175;356.5;713;Kaplan;Turbine;0;6294;
+197;G2-SOBRADINHO;30;SOBRADINHO;1;Group 1;6294;name;46;175;356.5;713;Kaplan;Turbine;0;6294;
+198;G3-SOBRADINHO;30;SOBRADINHO;1;Group 1;6294;name;46;175;356.5;713;Kaplan;Turbine;0;6294;
+199;G4-SOBRADINHO;30;SOBRADINHO;1;Group 1;6294;name;46;175;356.5;713;Kaplan;Turbine;0;6294;
+200;G5-SOBRADINHO;30;SOBRADINHO;1;Group 1;6294;name;46;175;356.5;713;Kaplan;Turbine;0;6294;
+201;G6-SOBRADINHO;30;SOBRADINHO;1;Group 1;6294;name;46;175;356.5;713;Kaplan;Turbine;0;6294;
+202;G1-P. PRIMAVERA;14;P. PRIMAVERA;1;Group 1;510;name;90;110;318;636;Kaplan;Turbine;0;510;
+203;G2-P. PRIMAVERA;14;P. PRIMAVERA;2;Group 2;510;name;30;110;318;636;Kaplan;Turbine;0;510;
+204;G3-P. PRIMAVERA;14;P. PRIMAVERA;2;Group 2;510;name;30;110;318;636;Kaplan;Turbine;0;510;
+205;G4-P. PRIMAVERA;14;P. PRIMAVERA;2;Group 2;510;name;30;110;318;636;Kaplan;Turbine;0;510;
+206;G5-P. PRIMAVERA;14;P. PRIMAVERA;2;Group 2;510;name;30;110;318;636;Kaplan;Turbine;0;510;
+207;G6-P. PRIMAVERA;14;P. PRIMAVERA;2;Group 2;510;name;30;110;318;636;Kaplan;Turbine;0;510;
+208;G7-P. PRIMAVERA;14;P. PRIMAVERA;2;Group 2;510;name;30;110;318;636;Kaplan;Turbine;0;510;
+209;G8-P. PRIMAVERA;14;P. PRIMAVERA;2;Group 2;510;name;30;110;318;636;Kaplan;Turbine;0;510;
+210;G9-P. PRIMAVERA;14;P. PRIMAVERA;2;Group 2;510;name;30;110;318;636;Kaplan;Turbine;0;510;
+211;G10-P. PRIMAVERA;14;P. PRIMAVERA;2;Group 2;510;name;30;110;318;636;Kaplan;Turbine;0;510;
+212;G11-P. PRIMAVERA;14;P. PRIMAVERA;2;Group 2;510;name;30;110;318;636;Kaplan;Turbine;0;510;
+213;G12-P. PRIMAVERA;14;P. PRIMAVERA;2;Group 2;510;name;30;110;318;636;Kaplan;Turbine;0;510;
+214;G13-P. PRIMAVERA;14;P. PRIMAVERA;2;Group 2;510;name;30;110;318;636;Kaplan;Turbine;0;510;
+215;G14-P. PRIMAVERA;14;P. PRIMAVERA;2;Group 2;510;name;30;110;318;636;Kaplan;Turbine;0;510;
+216;G1-JUPIA;13;JUPIA;1;Group 1;503;name;60;110.8;298;596;Kaplan;Turbine;0;503;
+217;G2-JUPIA;13;JUPIA;2;Group 2;502;name;40;110.8;298;596;Kaplan;Turbine;0;502;
+218;G3-JUPIA;13;JUPIA;1;Group 1;503;name;60;110.8;298;596;Kaplan;Turbine;0;503;
+219;G4-JUPIA;13;JUPIA;3;Group 3;502;name;25;110.8;298;596;Kaplan;Turbine;0;502;
+220;G5-JUPIA;13;JUPIA;3;Group 3;502;name;25;110.8;298;596;Kaplan;Turbine;0;502;
+221;G6-JUPIA;13;JUPIA;3;Group 3;502;name;25;110.8;298;596;Kaplan;Turbine;0;502;
+222;G7-JUPIA;13;JUPIA;3;Group 3;502;name;25;110.8;298;596;Kaplan;Turbine;0;502;
+223;G8-JUPIA;13;JUPIA;3;Group 3;502;name;25;110.8;298;596;Kaplan;Turbine;0;502;
+224;G9-JUPIA;13;JUPIA;3;Group 3;502;name;25;110.8;298;596;Kaplan;Turbine;0;502;
+225;G10-JUPIA;13;JUPIA;4;Group 4;502;name;50;110.8;298;596;Kaplan;Turbine;0;502;
+226;G11-JUPIA;13;JUPIA;3;Group 3;502;name;25;110.8;298;596;Kaplan;Turbine;0;502;
+227;G12-JUPIA;13;JUPIA;3;Group 3;502;name;25;110.8;298;596;Kaplan;Turbine;0;502;
+228;G13-JUPIA;13;JUPIA;4;Group 4;502;name;50;110.8;298;596;Kaplan;Turbine;0;502;
+229;G14-JUPIA;13;JUPIA;3;Group 3;502;name;25;110.8;298;596;Kaplan;Turbine;0;502;
+230;G1-TRES IRMAOS;33;TRES IRMAOS;1;Group 1;520;name;140;161.5;265;441;Francis;Turbine;0;520;
+231;G2-TRES IRMAOS;33;TRES IRMAOS;1;Group 1;520;name;140;161.5;265;441;Francis;Turbine;0;520;
+232;G3-TRES IRMAOS;33;TRES IRMAOS;1;Group 1;520;name;140;161.5;265;441;Francis;Turbine;0;520;
+233;G4-TRES IRMAOS;33;TRES IRMAOS;1;Group 1;520;name;140;161.5;265;441;Francis;Turbine;0;520;
+234;G5-TRES IRMAOS;33;TRES IRMAOS;1;Group 1;520;name;140;161.5;265;441;Francis;Turbine;0;520;
+235;G1-I. SOLTEIRA;6;I. SOLTEIRA;1;Group 1;501;name;130;176;288;480;Francis;Turbine;0;501;
+236;G2-I. SOLTEIRA;6;I. SOLTEIRA;1;Group 1;501;name;130;176;288;480;Francis;Turbine;0;501;
+237;G3-I. SOLTEIRA;6;I. SOLTEIRA;1;Group 1;501;name;130;176;288;480;Francis;Turbine;0;501;
+238;G4-I. SOLTEIRA;6;I. SOLTEIRA;1;Group 1;501;name;130;176;288;480;Francis;Turbine;0;501;
+239;G5-I. SOLTEIRA;6;I. SOLTEIRA;2;Group 2;501;name;90;170;278.4;464;Francis;Turbine;0;501;
+240;G6-I. SOLTEIRA;6;I. SOLTEIRA;2;Group 2;501;name;90;170;278.4;464;Francis;Turbine;0;501;
+241;G7-I. SOLTEIRA;6;I. SOLTEIRA;2;Group 2;501;name;90;170;278.4;464;Francis;Turbine;0;501;
+242;G8-I. SOLTEIRA;6;I. SOLTEIRA;2;Group 2;501;name;90;170;278.4;464;Francis;Turbine;0;501;
+243;G9-I. SOLTEIRA;6;I. SOLTEIRA;2;Group 2;501;name;90;170;278.4;464;Francis;Turbine;0;501;
+244;G10-I. SOLTEIRA;6;I. SOLTEIRA;2;Group 2;501;name;90;170;278.4;464;Francis;Turbine;0;501;
+245;G11-I. SOLTEIRA;6;I. SOLTEIRA;2;Group 2;501;name;90;170;278.4;464;Francis;Turbine;0;501;
+246;G12-I. SOLTEIRA;6;I. SOLTEIRA;2;Group 2;501;name;90;170;278.4;464;Francis;Turbine;0;501;
+247;G13-I. SOLTEIRA;6;I. SOLTEIRA;2;Group 2;501;name;90;170;278.4;464;Francis;Turbine;0;501;
+248;G14-I. SOLTEIRA;6;I. SOLTEIRA;2;Group 2;501;name;90;170;278.4;464;Francis;Turbine;0;501;
+249;G15-I. SOLTEIRA;6;I. SOLTEIRA;2;Group 2;501;name;90;170;278.4;464;Francis;Turbine;0;501;
+250;G16-I. SOLTEIRA;6;I. SOLTEIRA;3;Group 3;501;name;90;174;285;475;Francis;Turbine;0;501;
+251;G17-I. SOLTEIRA;6;I. SOLTEIRA;3;Group 3;501;name;90;174;285;475;Francis;Turbine;0;501;
+252;G18-I. SOLTEIRA;6;I. SOLTEIRA;3;Group 3;501;name;90;174;285;475;Francis;Turbine;0;501;
+253;G19-I. SOLTEIRA;6;I. SOLTEIRA;3;Group 3;501;name;90;174;285;475;Francis;Turbine;0;501;
+254;G20-I. SOLTEIRA;6;I. SOLTEIRA;3;Group 3;501;name;90;174;285;475;Francis;Turbine;0;501;
+255;G1-SAO SIMAO;11;SAO SIMAO;1;Group 1;303;name;235;285;425;445;Francis;Turbine;0;303;
+256;G2-SAO SIMAO;11;SAO SIMAO;1;Group 1;303;name;235;285;425;445;Francis;Turbine;0;303;
+257;G3-SAO SIMAO;11;SAO SIMAO;1;Group 1;303;name;235;285;425;445;Francis;Turbine;0;303;
+258;G4-SAO SIMAO;11;SAO SIMAO;1;Group 1;303;name;235;285;425;445;Francis;Turbine;0;303;
+259;G5-SAO SIMAO;11;SAO SIMAO;1;Group 1;303;name;235;285;425;445;Francis;Turbine;0;303;
+260;G6-SAO SIMAO;11;SAO SIMAO;1;Group 1;303;name;235;285;425;445;Francis;Turbine;0;303;
+261;G1-CACH.DOURADA;35;CACH.DOURADA;1;Group 1;750;name;0;17;40.2;67;Francis;Turbine;0;750;
+262;G2-CACH.DOURADA;35;CACH.DOURADA;1;Group 1;750;name;0;17;40.2;67;Francis;Turbine;0;750;
+263;G3-CACH.DOURADA;35;CACH.DOURADA;2;Group 2;751;name;0;54;127.8;213;Francis;Turbine;0;751;
+264;G4-CACH.DOURADA;35;CACH.DOURADA;2;Group 2;751;name;0;54;127.8;213;Francis;Turbine;0;751;
+265;G5-CACH.DOURADA;35;CACH.DOURADA;2;Group 2;752;name;0;54;127.8;213;Francis;Turbine;0;752;
+266;G6-CACH.DOURADA;35;CACH.DOURADA;3;Group 3;753;name;0;84;198.6;331;Francis;Turbine;0;753;
+267;G7-CACH.DOURADA;35;CACH.DOURADA;3;Group 3;753;name;0;84;198.6;331;Francis;Turbine;0;753;
+268;G8-CACH.DOURADA;35;CACH.DOURADA;3;Group 3;753;name;0;84;198.6;331;Francis;Turbine;0;753;
+269;G9-CACH.DOURADA;35;CACH.DOURADA;4;Group 4;754;name;0;105;241.2;402;Francis;Turbine;0;754;
+270;G10-CACH.DOURADA;35;CACH.DOURADA;4;Group 4;754;name;0;105;241.2;402;Francis;Turbine;0;754;
+271;G1-ITUMBIARA;9;ITUMBIARA;1;Group 1;18;name;200;347;375;537;Francis;Turbine;0;18;
+272;G2-ITUMBIARA;9;ITUMBIARA;1;Group 1;18;name;200;347;375;537;Francis;Turbine;0;18;
+273;G3-ITUMBIARA;9;ITUMBIARA;1;Group 1;18;name;200;347;375;537;Francis;Turbine;0;18;
+274;G4-ITUMBIARA;9;ITUMBIARA;1;Group 1;18;name;200;347;375;537;Francis;Turbine;0;18;
+275;G5-ITUMBIARA;9;ITUMBIARA;1;Group 1;18;name;200;347;375;537;Francis;Turbine;0;18;
+276;G6-ITUMBIARA;9;ITUMBIARA;1;Group 1;18;name;200;347;375;537;Francis;Turbine;0;18;
+277;G1-EMBORCACAO;25;EMBORCACAO;1;Group 1;300;name;112;298;157.2;262;Francis;Turbine;0;300;
+278;G2-EMBORCACAO;25;EMBORCACAO;1;Group 1;300;name;112;298;157.2;262;Francis;Turbine;0;300;
+279;G3-EMBORCACAO;25;EMBORCACAO;1;Group 1;300;name;112;298;157.2;262;Francis;Turbine;0;300;
+280;G4-EMBORCACAO;25;EMBORCACAO;1;Group 1;300;name;112;298;157.2;262;Francis;Turbine;0;300;
+281;G1-A. VERMELHA;20;A. VERMELHA;1;Group 1;500;name;55;232.7;295.8;493;Francis;Turbine;0;500;
+282;G2-A. VERMELHA;20;A. VERMELHA;1;Group 1;500;name;55;232.7;295.8;493;Francis;Turbine;0;500;
+283;G3-A. VERMELHA;20;A. VERMELHA;1;Group 1;500;name;55;232.7;295.8;493;Francis;Turbine;0;500;
+284;G4-A. VERMELHA;20;A. VERMELHA;1;Group 1;500;name;55;232.7;295.8;493;Francis;Turbine;0;500;
+285;G5-A. VERMELHA;20;A. VERMELHA;1;Group 1;500;name;55;232.7;295.8;493;Francis;Turbine;0;500;
+286;G6-A. VERMELHA;20;A. VERMELHA;1;Group 1;500;name;55;232.7;295.8;493;Francis;Turbine;0;500;
+287;G1-MARIMBONDO;15;MARIMBONDO;1;Group 1;20;name;110;190;290;368;Francis;Turbine;0;20;
+288;G2-MARIMBONDO;15;MARIMBONDO;1;Group 1;20;name;110;190;290;368;Francis;Turbine;0;20;
+289;G3-MARIMBONDO;15;MARIMBONDO;1;Group 1;20;name;110;190;290;368;Francis;Turbine;0;20;
+290;G4-MARIMBONDO;15;MARIMBONDO;1;Group 1;20;name;110;190;290;368;Francis;Turbine;0;20;
+291;G5-MARIMBONDO;15;MARIMBONDO;1;Group 1;20;name;110;190;290;368;Francis;Turbine;0;20;
+292;G6-MARIMBONDO;15;MARIMBONDO;1;Group 1;20;name;110;190;290;368;Francis;Turbine;0;20;
+293;G7-MARIMBONDO;15;MARIMBONDO;1;Group 1;20;name;110;190;290;368;Francis;Turbine;0;20;
+294;G8-MARIMBONDO;15;MARIMBONDO;1;Group 1;20;name;110;190;290;368;Francis;Turbine;0;20;
+295;G1-LC BARRETO;27;LC BARRETO;1;Group 1;12;name;125;184;236.6;338;Francis;Turbine;0;12;The minimum turbine discharge was increased to 0.7 of the maximum
+296;G2-LC BARRETO;27;LC BARRETO;1;Group 1;12;name;125;184;236.6;338;Francis;Turbine;0;12;The minimum turbine discharge was increased to 0.7 of the maximum
+297;G3-LC BARRETO;27;LC BARRETO;1;Group 1;12;name;125;184;236.6;338;Francis;Turbine;0;12;The minimum turbine discharge was increased to 0.7 of the maximum
+298;G4-LC BARRETO;27;LC BARRETO;1;Group 1;12;name;125;184;236.6;338;Francis;Turbine;0;12;The minimum turbine discharge was increased to 0.7 of the maximum
+299;G5-LC BARRETO;27;LC BARRETO;1;Group 1;12;name;125;184;236.6;338;Francis;Turbine;0;12;The minimum turbine discharge was increased to 0.7 of the maximum
+300;G6-LC BARRETO;27;LC BARRETO;1;Group 1;12;name;125;184;236.6;338;Francis;Turbine;0;12;The minimum turbine discharge was increased to 0.7 of the maximum
+301;G1-FURNAS;21;FURNAS;1;Group 1;16;name;100;152;145;211;Francis;Turbine;0;16;
+302;G2-FURNAS;21;FURNAS;1;Group 1;16;name;100;152;145;211;Francis;Turbine;0;16;
+303;G3-FURNAS;21;FURNAS;1;Group 1;16;name;100;152;145;211;Francis;Turbine;0;16;
+304;G4-FURNAS;21;FURNAS;1;Group 1;16;name;100;152;145;211;Francis;Turbine;0;16;
+305;G5-FURNAS;21;FURNAS;1;Group 1;16;name;100;152;145;211;Francis;Turbine;0;16;
+306;G6-FURNAS;21;FURNAS;1;Group 1;16;name;100;152;145;211;Francis;Turbine;0;16;
+307;G7-FURNAS;21;FURNAS;1;Group 1;16;name;100;152;145;211;Francis;Turbine;0;16;Group changed after network reduction
+308;G8-FURNAS;21;FURNAS;1;Group 1;16;name;100;152;145;211;Francis;Turbine;0;16;Group changed after network reduction
+309;G1-TRES MARIAS;37;TRES MARIAS;1;Group 1;304;name;18;66;75;150;Kaplan;Turbine;0;304;
+310;G2-TRES MARIAS;37;TRES MARIAS;1;Group 1;304;name;18;66;75;150;Kaplan;Turbine;0;304;
+311;G3-TRES MARIAS;37;TRES MARIAS;1;Group 1;304;name;18;66;75;150;Kaplan;Turbine;0;304;
+312;G4-TRES MARIAS;37;TRES MARIAS;1;Group 1;304;name;18;66;75;150;Kaplan;Turbine;0;304;
+313;G5-TRES MARIAS;37;TRES MARIAS;1;Group 1;304;name;18;66;75;150;Kaplan;Turbine;0;304;
+314;G6-TRES MARIAS;37;TRES MARIAS;1;Group 1;304;name;18;66;75;150;Kaplan;Turbine;0;304;
+315;G1-ITAPARICA;16;ITAPARICA;1;Group 1;5051;name;180;250;450;551;Francis;Turbine;0;5051;
+316;G2-ITAPARICA;16;ITAPARICA;1;Group 1;5051;name;180;250;450;551;Francis;Turbine;0;5051;
+317;G3-ITAPARICA;16;ITAPARICA;1;Group 1;5051;name;180;250;450;551;Francis;Turbine;0;5051;
+318;G4-ITAPARICA;16;ITAPARICA;1;Group 1;5054;name;180;250;450;551;Francis;Turbine;0;5054;Group changed after network reduction
+319;G5-ITAPARICA;16;ITAPARICA;1;Group 1;5054;name;180;250;450;551;Francis;Turbine;0;5054;Group changed after network reduction
+320;G6-ITAPARICA;16;ITAPARICA;1;Group 1;5054;name;180;250;450;551;Francis;Turbine;0;5054;Group changed after network reduction
+321;G1-MOXOTO;36;MOXOTO;1;Group 1;5030;name;50;100;260;550;Kaplan;Turbine;0;5030;
+322;G2-MOXOTO;36;MOXOTO;1;Group 1;5030;name;50;100;260;550;Kaplan;Turbine;0;5030;
+323;G3-MOXOTO;36;MOXOTO;1;Group 1;5032;name;50;100;260;550;Kaplan;Turbine;0;5032;Group changed after network reduction
+324;G4-MOXOTO;36;MOXOTO;1;Group 1;5032;name;50;100;260;550;Kaplan;Turbine;0;5032;Group changed after network reduction
+325;G1-P.AFONSO 123;19;P.AFONSO 123;1;PA-1;5005;name;50;60;61;84;Francis;Turbine;0;5005;
+326;G2-P.AFONSO 123;19;P.AFONSO 123;1;PA-1;5005;name;50;60;61;84;Francis;Turbine;0;5005;
+327;G3-P.AFONSO 123;19;P.AFONSO 123;1;PA-1;5006;name;50;60;61;84;Francis;Turbine;0;5006;
+328;G4-P.AFONSO 123;19;P.AFONSO 123;2;PA-2;5009;name;70;70;85;97;Francis;Turbine;0;5009;
+329;G5-P.AFONSO 123;19;P.AFONSO 123;2;PA-2;5010;name;70;70;85;97;Francis;Turbine;0;5010;
+330;G6-P.AFONSO 123;19;P.AFONSO 123;3;PA-3;5011;name;70;75;85;107;Francis;Turbine;0;5011;
+331;G7-P.AFONSO 123;19;P.AFONSO 123;4;PA-4;5012;name;50;76;63;105;Francis;Turbine;0;5012;
+332;G8-P.AFONSO 123;19;P.AFONSO 123;4;PA-4;5013;name;50;76;63;105;Francis;Turbine;0;5013;
+333;G9-P.AFONSO 123;19;P.AFONSO 123;4;PA-4;5014;name;50;76;63;105;Francis;Turbine;0;5014;
+334;G10-P.AFONSO 123;19;P.AFONSO 123;5;PA-5;5015;name;150;200;185;277;Francis;Turbine;0;5015;
+335;G11-P.AFONSO 123;19;P.AFONSO 123;5;PA-5;5015;name;150;200;185;277;Francis;Turbine;0;5015;
+336;G12-P.AFONSO 123;19;P.AFONSO 123;5;PA-5;5016;name;150;200;185;277;Francis;Turbine;0;5016;
+337;G13-P.AFONSO 123;19;P.AFONSO 123;5;PA-5;5016;name;150;200;185;277;Francis;Turbine;0;5016;
+338;G1-P.AFONSO 4;8;P.AFONSO 4;1;Group 1;5022;name;250;410;240;400;Francis;Turbine;0;5022;
+339;G2-P.AFONSO 4;8;P.AFONSO 4;1;Group 1;5022;name;250;410;240;400;Francis;Turbine;0;5022;
+340;G3-P.AFONSO 4;8;P.AFONSO 4;1;Group 1;5022;name;250;410;240;400;Francis;Turbine;0;5022;
+341;G4-P.AFONSO 4;8;P.AFONSO 4;1;Group 1;5022;name;250;410;240;400;Francis;Turbine;0;5022;
+342;G5-P.AFONSO 4;8;P.AFONSO 4;1;Group 1;5022;name;250;410;240;400;Francis;Turbine;0;5022;
+343;G6-P.AFONSO 4;8;P.AFONSO 4;1;Group 1;5022;name;250;410;240;400;Francis;Turbine;0;5022;
+344;G1-XINGO;7;XINGO;1;Group 1;5061;name;310;527;297.6;496;Francis;Turbine;0;5061;
+345;G2-XINGO;7;XINGO;1;Group 1;5061;name;310;527;297.6;496;Francis;Turbine;0;5061;
+346;G3-XINGO;7;XINGO;1;Group 1;5061;name;310;527;297.6;496;Francis;Turbine;0;5061;
+347;G4-XINGO;7;XINGO;1;Group 1;5061;name;310;527;297.6;496;Francis;Turbine;0;5061;
+348;G5-XINGO;7;XINGO;1;Group 1;5061;name;310;527;297.6;496;Francis;Turbine;0;5061;
+349;G6-XINGO;7;XINGO;1;Group 1;5061;name;310;527;297.6;496;Francis;Turbine;0;5061;
+350;G1-PIMENTAL;38;PIMENTAL;1;Group 1;6555;name;9.61;38.85;155.52;388.8;Bulbo;Turbine;0;6555;
+351;G2-PIMENTAL;38;PIMENTAL;1;Group 1;6555;name;9.61;38.85;155.52;388.8;Bulbo;Turbine;0;6555;
+352;G3-PIMENTAL;38;PIMENTAL;1;Group 1;6556;name;9.61;38.85;155.52;388.8;Bulbo;Turbine;0;6556;
+353;G4-PIMENTAL;38;PIMENTAL;1;Group 1;6556;name;9.61;38.85;155.52;388.8;Bulbo;Turbine;0;6556;
+354;G5-PIMENTAL;38;PIMENTAL;1;Group 1;6559;name;9.61;38.85;155.52;388.8;Bulbo;Turbine;0;6559;
+355;G6-PIMENTAL;38;PIMENTAL;1;Group 1;6559;name;9.61;38.85;155.52;388.8;Bulbo;Turbine;0;6559;
+356;G1-TELES PIRES;10;TELES PIRES;1;Group 1;4492;name;185;364;464.4;774;Francis;Turbine;0;4492;
+357;G2-TELES PIRES;10;TELES PIRES;1;Group 1;4492;name;185;364;464.4;774;Francis;Turbine;0;4492;
+358;G3-TELES PIRES;10;TELES PIRES;1;Group 1;4492;name;185;364;464.4;774;Francis;Turbine;0;4492;
+359;G4-TELES PIRES;10;TELES PIRES;1;Group 1;4492;name;185;364;464.4;774;Francis;Turbine;0;4492;
+360;G5-TELES PIRES;10;TELES PIRES;1;Group 1;4492;name;185;364;464.4;774;Francis;Turbine;0;4492;
+361;G1-ITAIPU;1;ITAIPU;1;50 Hz;85;name;170;700;394.2;657;Francis;Turbine;0;85;
+362;G2-ITAIPU;1;ITAIPU;1;50 Hz;85;name;170;700;394.2;657;Francis;Turbine;0;85;
+363;G3-ITAIPU;1;ITAIPU;1;50 Hz;85;name;170;700;394.2;657;Francis;Turbine;0;85;
+364;G4-ITAIPU;1;ITAIPU;1;50 Hz;85;name;170;700;394.2;657;Francis;Turbine;0;85;
+365;G5-ITAIPU;1;ITAIPU;1;50 Hz;85;name;170;700;394.2;657;Francis;Turbine;0;85;
+366;G6-ITAIPU;1;ITAIPU;1;50 Hz;85;name;170;700;394.2;657;Francis;Turbine;0;85;
+367;G7-ITAIPU;1;ITAIPU;1;50 Hz;85;name;170;700;394.2;657;Francis;Turbine;0;85;
+368;G8-ITAIPU;1;ITAIPU;1;50 Hz;85;name;170;700;394.2;657;Francis;Turbine;0;85;
+369;G9-ITAIPU;1;ITAIPU;1;50 Hz;85;name;170;700;394.2;657;Francis;Turbine;0;85;
+370;G10-ITAIPU;1;ITAIPU;1;50 Hz;85;name;170;700;394.2;657;Francis;Turbine;0;85;
+371;G11-ITAIPU;1;ITAIPU;2;60 Hz;1107;name;170;700;394.2;657;Francis;Turbine;0;1107;
+372;G12-ITAIPU;1;ITAIPU;2;60 Hz;1107;name;170;700;394.2;657;Francis;Turbine;0;1107;
+373;G13-ITAIPU;1;ITAIPU;2;60 Hz;1107;name;170;700;394.2;657;Francis;Turbine;0;1107;
+374;G14-ITAIPU;1;ITAIPU;2;60 Hz;1107;name;170;700;394.2;657;Francis;Turbine;0;1107;
+375;G15-ITAIPU;1;ITAIPU;2;60 Hz;1107;name;170;700;394.2;657;Francis;Turbine;0;1107;
+376;G16-ITAIPU;1;ITAIPU;2;60 Hz;1107;name;170;700;394.2;657;Francis;Turbine;0;1107;
+377;G17-ITAIPU;1;ITAIPU;2;60 Hz;1107;name;170;700;394.2;657;Francis;Turbine;0;1107;
+378;G18-ITAIPU;1;ITAIPU;2;60 Hz;1107;name;170;700;394.2;657;Francis;Turbine;0;1107;
+379;G19-ITAIPU;1;ITAIPU;2;60 Hz;1107;name;170;700;394.2;657;Francis;Turbine;0;1107;
+380;G20-ITAIPU;1;ITAIPU;2;60 Hz;1107;name;170;700;394.2;657;Francis;Turbine;0;1107;
+381;G1-CHAVANTES;39;CHAVANTES;1;Group 1;514;name;50;103.5;96;160;Francis;Turbine;0;514;
+382;G2-CHAVANTES;39;CHAVANTES;1;Group 1;514;name;50;103.5;96;160;Francis;Turbine;0;514;
+383;G3-CHAVANTES;39;CHAVANTES;1;Group 1;514;name;50;103.5;96;160;Francis;Turbine;0;514;
+384;G4-CHAVANTES;39;CHAVANTES;1;Group 1;514;name;50;103.5;96;160;Francis;Turbine;0;514;
+385;G1-ROSANA;40;ROSANA;1;Group 1;511;name;40;88.5;262.5;525;Kaplan;Turbine;0;511;
+386;G2-ROSANA;40;ROSANA;1;Group 1;511;name;40;88.5;262.5;525;Kaplan;Turbine;0;511;
+387;G3-ROSANA;40;ROSANA;1;Group 1;511;name;40;88.5;262.5;525;Kaplan;Turbine;0;511;
+388;G4-ROSANA;40;ROSANA;1;Group 1;511;name;40;88.5;262.5;525;Kaplan;Turbine;0;511;
+389;G1-TAQUARUCU;41;TAQUARUCU;1;Group 1;513;name;40;105;241.92;483.84;Kaplan;Turbine;0;513;
+390;G2-TAQUARUCU;41;TAQUARUCU;1;Group 1;513;name;40;105;241.92;483.84;Kaplan;Turbine;0;513;
+391;G3-TAQUARUCU;41;TAQUARUCU;1;Group 1;513;name;40;105;241.92;483.84;Kaplan;Turbine;0;513;
+392;G4-TAQUARUCU;41;TAQUARUCU;1;Group 1;513;name;40;105;241.92;483.84;Kaplan;Turbine;0;513;
+393;G5-TAQUARUCU;41;TAQUARUCU;1;Group 1;513;name;40;105;241.92;483.84;Kaplan;Turbine;0;513;
+394;G1-CAPIVARA;42;CAPIVARA;1;Group 1;507;name;63;163;320;398;Francis;Turbine;0;507;
+395;G2-CAPIVARA;42;CAPIVARA;2;Group 2;507;name;80;152;386;410;Francis;Turbine;0;507;
+396;G3-CAPIVARA;42;CAPIVARA;2;Group 2;507;name;80;152;386;410;Francis;Turbine;0;507;
+397;G4-CAPIVARA;42;CAPIVARA;2;Group 2;507;name;80;152;386;410;Francis;Turbine;0;507;
+398;G1-FONTES;43;FONTES;1;Group 1;253;name;0;44;10.2;17;Francis;Turbine;0;253;
+399;G1-FONTES BC;162;FONTES BC;1;Group 1;253;name;0;44;10.2;17;Francis;Turbine;0;253;
+400;G2-FONTES BC;162;FONTES BC;1;Group 1;253;name;0;44;10.2;17;Francis;Turbine;0;253;
+401;G1-NILO PEÇANHA;44;NILO PEÇANHA;1;Group 1;250;name;0;48.97;10.8;18;Francis;Turbine;0;250;
+402;G2-NILO PEÇANHA;44;NILO PEÇANHA;1;Group 1;250;name;0;48.97;10.8;18;Francis;Turbine;0;250;
+403;G3-NILO PEÇANHA;44;NILO PEÇANHA;1;Group 2;250;name;0;72.44;16.2;27;Francis;Turbine;0;250;
+404;G4-NILO PEÇANHA;44;NILO PEÇANHA;1;Group 2;250;name;0;72.44;16.2;27;Francis;Turbine;0;250;
+405;G5-NILO PEÇANHA;44;NILO PEÇANHA;1;Group 2;250;name;0;72.44;16.2;27;Francis;Turbine;0;250;
+406;G6-NILO PEÇANHA;44;NILO PEÇANHA;1;Group 2;250;name;0;72.44;16.2;27;Francis;Turbine;0;250;
+407;G1-PEREIRA PASSOS;45;PEREIRA PASSOS;1;Group 1;255;name;0;51.02;95.4;159;Francis;Turbine;0;255;
+408;G2-PEREIRA PASSOS;45;PEREIRA PASSOS;1;Group 1;255;name;0;51.02;95.4;159;Francis;Turbine;0;255;
+409;G1-FUNIL;46;FUNIL;1;Group 1;14;name;45;74;75;126;Francis;Turbine;0;14;
+410;G2-FUNIL;46;FUNIL;1;Group 1;14;name;45;74;75;126;Francis;Turbine;0;14;
+411;G3-FUNIL;46;FUNIL;1;Group 1;14;name;45;74;75;126;Francis;Turbine;0;14;
+412;G1-PARAIBUNA;48;PARAIBUNA;1;Group 1;526;name;0;43;36;60;Francis;Turbine;0;526;
+413;G2-PARAIBUNA;48;PARAIBUNA;1;Group 1;526;name;0;43;36;60;Francis;Turbine;0;526;
+414;G1-SANTA BRANCA;49; SANTA BRANCA;1;Group 1;296;name;0;28;43.2;72;Francis;Turbine;0;296;
+415;G2-SANTA BRANCA;49; SANTA BRANCA;1;Group 1;296;name;0;28;43.2;72;Francis;Turbine;0;296;
+416;G1-JAGUARI;50;JAGUARI;1;Group 1;525;name;0;14;19.2;32;Francis;Turbine;0;525;
+417;G2-JAGUARI;50;JAGUARI;1;Group 1;525;name;0;14;19.2;32;Francis;Turbine;0;525;
+418;G1-PICADA;54;PICADA;1;Group 1;4016;name;12.5;25;13.2;22;Francis;Turbine;0;4016;
+419;G2-PICADA;54;PICADA;1;Group 1;4016;name;12.5;25;13.2;22;Francis;Turbine;0;4016;
+420;G1-SOBRAGI;55;SOBRAGI;1;Group 1;317;name;11;18.8;18;30;Francis;Turbine;0;317;
+421;G2-SOBRAGI;55;SOBRAGI;1;Group 1;317;name;11;18.8;18;30;Francis;Turbine;0;317;
+422;G3-SOBRAGI;55;SOBRAGI;1;Group 1;317;name;11;18.8;18;30;Francis;Turbine;0;317;
+423;G1-SIMPLÍCIO;56;SIMPLÍCIO;1;Group 1;9500;name;50;101.9;61.8;103;Francis;Turbine;0;9500;
+424;G2-SIMPLÍCIO;56;SIMPLÍCIO;1;Group 1;9500;name;50;101.9;61.8;103;Francis;Turbine;0;9500;
+425;G3-SIMPLÍCIO;56;SIMPLÍCIO;1;Group 1;9500;name;50;101.9;61.8;103;Francis;Turbine;0;9500;
+426;G1-ILHA DOS POMBOS;57;ILHA DOS POMBOS;1;Group 1;257;name;9.64;27.9;63.6;106;Francis;Turbine;0;257;
+427;G2-ILHA DOS POMBOS;57;ILHA DOS POMBOS;2;Group 2;257;name;9.6;27.8;63;105;Francis;Turbine;0;257;
+428;G3-ILHA DOS POMBOS;57;ILHA DOS POMBOS;3;Group 3;257;name;11.17;32.61;74.4;124;Francis;Turbine;0;257;
+429;G4-ILHA DOS POMBOS;57;ILHA DOS POMBOS;4;Group 4;257;name;17;50;114;190;Francis;Turbine;0;257;
+430;G5-ILHA DOS POMBOS;57;ILHA DOS POMBOS;5;Group 5;257;name;17.18;52.39;119.4;199;Francis;Turbine;0;257;
+431;PUMP-VIGÁRIO;53;VIGARIO;1;Group 1;262;name;0;0;0;190;Pump;Pump;0.44;262;
+432;PUMP-SANTA CECÍLIA;51;SANTA CECÍLIA;1;Group 1;260;name;0;0;0;160;Pump;Pump;0.2;260;
+433;G1-CORUMBÁ IV;58;CORUMBÁ IV;1;Group 1;3641;name;45;64.8;71.76;104;Francis;Turbine;0;3641;
+434;G2-CORUMBÁ IV;58;CORUMBÁ IV;1;Group 1;3641;name;45;64.8;71.76;104;Francis;Turbine;0;3641;
+435;G1-CORUMBÁ III;59;CORUMBÁ III;1;Group 1;3642;name;33;47.8;95.22;138;Francis;Turbine;0;3642;
+436;G2-CORUMBÁ III;59;CORUMBÁ III;2;Group 2;3642;name;33.5;48.6;96.6;140;Francis;Turbine;0;3642;
+437;G1-CORUMBÁ I;60;CORUMBÁ I;1;Group 1;35;name;86.25;125;131.11;190;Francis;Turbine;0;35;
+438;G2-CORUMBÁ I;60;CORUMBÁ I;1;Group 1;35;name;86.25;125;131.11;190;Francis;Turbine;0;35;
+439;G3-CORUMBÁ I;60;CORUMBÁ I;1;Group 1;35;name;86.25;125;131.11;190;Francis;Turbine;0;35;
+440;G1-BATALHA;61;BATALHA;1;Group 1;9446;name;8;27;23.1;77;Kaplan;Turbine;0;9446;
+441;G2-BATALHA;61;BATALHA;1;Group 1;9446;name;8;27;23.1;77;Kaplan;Turbine;0;9446;
+442;G1-SERRA DO FACÃO;62;SERRA DO FACÃO;1;Group 1;3014;name;63.78;106.3;97.2;162;Francis;Turbine;0;3014;
+443;G2-SERRA DO FACÃO;62;SERRA DO FACÃO;1;Group 1;3014;name;63.78;106.3;97.2;162;Francis;Turbine;0;3014;
+444;G1-NOVA PONTE;63;NOVA PONTE;1;Group 1;302;name;102;170;115.2;192;Francis;Turbine;0;302;
+445;G2-NOVA PONTE;63;NOVA PONTE;1;Group 1;302;name;102;170;115.2;192;Francis;Turbine;0;302;
+446;G3-NOVA PONTE;63;NOVA PONTE;1;Group 1;302;name;102;170;115.2;192;Francis;Turbine;0;302;
+447;G1-MIRANDA;64;MIRANDA;1;Group 1;312;name;80;136;135;225;Francis;Turbine;0;312;
+448;G2-MIRANDA;64;MIRANDA;1;Group 1;312;name;80;136;135;225;Francis;Turbine;0;312;
+449;G3-MIRANDA;64;MIRANDA;1;Group 1;312;name;80;136;135;225;Francis;Turbine;0;312;
+450;G1-AMADOR AGUIAR I;65;AMADOR AGUIAR I;1;Group 1;4052;name;59.51;81;99;165;Francis;Turbine;0;4052;
+451;G2-AMADOR AGUIAR I;65;AMADOR AGUIAR I;2;Group 2;4052;name;62.6;81;99;165;Francis;Turbine;0;4052;
+452;G3-AMADOR AGUIAR I;65;AMADOR AGUIAR I;2;Group 2;4052;name;62.6;81;99;165;Francis;Turbine;0;4052;
+453;G1-AMADOR AGUIAR II;66;AMADOR AGUIAR II;1;Group 1;4054;name;35;70;107.4;179;Francis;Turbine;0;4054;
+454;G2-AMADOR AGUIAR II;66;AMADOR AGUIAR II;1;Group 1;4054;name;35;70;107.4;179;Francis;Turbine;0;4054;
+455;G3-AMADOR AGUIAR II;66;AMADOR AGUIAR II;1;Group 1;4054;name;35;70;107.4;179;Francis;Turbine;0;4054;
+456;G1-ESPORA;67;ESPORA;1;Group 1;3744;name;3.21;10.7;7.2;24;Kaplan;Turbine;0;3744;
+457;G2-ESPORA;67;ESPORA;1;Group 1;3744;name;3.21;10.7;7.2;24;Kaplan;Turbine;0;3744;
+458;G3-ESPORA;67;ESPORA;1;Group 1;3744;name;3.21;10.7;7.2;24;Kaplan;Turbine;0;3744;
+459;G1-SALTO;68;SALTO;1;Group 1;9442;name;34.8;58;78;130;Francis;Turbine;0;9442;
+460;G2-SALTO;68;SALTO;1;Group 1;9442;name;34.8;58;78;130;Francis;Turbine;0;9442;
+461;G1-SALTO DO RIO VERDINHO;69;SALTO DO RIO VERDINHO;1;Group 1;9443;name;27.9;46.5;76.2;127;Francis;Turbine;0;9443;
+462;G2-SALTO DO RIO VERDINHO;69;SALTO DO RIO VERDINHO;1;Group 1;9443;name;27.9;46.5;76.2;127;Francis;Turbine;0;9443;
+463;G1-CAÇU;70;CAÇU;1;Group 1;9448;name;9.75;32.5;40.2;134;Kaplan;Turbine;0;9448;
+464;G2-CAÇU;70;CAÇU;1;Group 1;9448;name;9.75;32.5;40.2;134;Kaplan;Turbine;0;9448;
+465;G1-BARRA DOS COQUEIROS;71;BARRA DOS COQUEIROS;1;Group 1;9449;name;13.5;45;41.7;139;Kaplan;Turbine;0;9449;
+466;G2-BARRA DOS COQUEIROS;71;BARRA DOS COQUEIROS;1;Group 1;9449;name;13.5;45;41.7;139;Kaplan;Turbine;0;9449;
+467;G1-FOZ DO RIO CLARO;72;FOZ DO RIO CLARO;1;Group 1;9447;name;10.26;34.2;44.7;149;Kaplan;Turbine;0;9447;
+468;G2-FOZ DO RIO CLARO;72;FOZ DO RIO CLARO;1;Group 1;9447;name;10.26;34.2;44.7;149;Kaplan;Turbine;0;9447;
+469;G1-CAMARGOS;73;CAMARGOS;1;Group 1;1501;name;8.5;22.5;44;110;Kaplan;Turbine;0;1501;
+470;G2-CAMARGOS;73;CAMARGOS;1;Group 1;1501;name;8.5;22.5;44;110;Kaplan;Turbine;0;1501;
+471;G1-ITUTINGA;74;ITUTINGA;1;Group 1;1538;name;6;12.5;28.5;57;Kaplan;Turbine;0;1538;
+472;G2-ITUTINGA;74;ITUTINGA;1;Group 1;1538;name;6;12.5;28.5;57;Kaplan;Turbine;0;1538;
+473;G3-ITUTINGA;74;ITUTINGA;2;Group 2;1538;name;13;14;58;63;Kaplan;Turbine;0;1538;
+474;G4-ITUTINGA;74;ITUTINGA;3;Group 3;1538;name;12;13.5;54;59;Kaplan;Turbine;0;1538;
+475;G1-FUNIL GRANDE;75;FUNIL - GRANDE;1;Group 1;4044;name;19.3;60;78;195;Kaplan;Turbine;0;4044;
+476;G2-FUNIL GRANDE;75;FUNIL - GRANDE;1;Group 1;4044;name;19.3;60;78;195;Kaplan;Turbine;0;4044;
+477;G3-FUNIL GRANDE;75;FUNIL - GRANDE;1;Group 1;4044;name;19.3;60;78;195;Kaplan;Turbine;0;4044;
+478;G1-MASCARENHAS DE MORAES;76;MASCARENHAS DE MORAES;1;Group 1;24;name;23;40;65.4;109;Francis;Turbine;0;24;
+479;G2-MASCARENHAS DE MORAES;76;MASCARENHAS DE MORAES;1;Group 1;24;name;23;40;65.4;109;Francis;Turbine;0;24;
+480;G3-MASCARENHAS DE MORAES;76;MASCARENHAS DE MORAES;2;Group 2;24;name;26;48;73.8;123;Francis;Turbine;0;24;
+481;G4-MASCARENHAS DE MORAES;76;MASCARENHAS DE MORAES;2;Group 2;24;name;26;48;73.8;123;Francis;Turbine;0;24;
+482;G5-MASCARENHAS DE MORAES;76;MASCARENHAS DE MORAES;3;Group 3;22;name;36;49.4;85.2;142;Francis;Turbine;0;22;
+483;G6-MASCARENHAS DE MORAES;76;MASCARENHAS DE MORAES;3;Group 3;22;name;36;49.4;85.2;142;Francis;Turbine;0;22;
+484;G7-MASCARENHAS DE MORAES;76;MASCARENHAS DE MORAES;3;Group 3;22;name;36;49.4;85.2;142;Francis;Turbine;0;22;
+485;G8-MASCARENHAS DE MORAES;76;MASCARENHAS DE MORAES;3;Group 3;22;name;36;49.4;85.2;142;Francis;Turbine;0;22;
+486;G9-MASCARENHAS DE MORAES;76;MASCARENHAS DE MORAES;4;Group 4;22;name;36;52;88.8;148;Francis;Turbine;0;22;
+487;G10-MASCARENHAS DE MORAES;76;MASCARENHAS DE MORAES;4;Group 4;22;name;36;52;88.8;148;Francis;Turbine;0;22;
+488;G1-JAGUARA;77;JAGUARA;1;Group 1;301;name;75;106;161.4;269;Francis;Turbine;0;301;
+489;G2-JAGUARA;77;JAGUARA;2;Group 2;301;name;80;106;161.4;269;Francis;Turbine;0;301;
+490;G3-JAGUARA;77;JAGUARA;1;Group 1;301;name;75;106;161.4;269;Francis;Turbine;0;301;
+491;G4-JAGUARA;77;JAGUARA;1;Group 1;301;name;75;106;161.4;269;Francis;Turbine;0;301;
+492;G1-IGARAPAVA;78;IGARAPAVA;1;Group 1;343;name;12;42;90;296;Kaplan;Turbine;0;343;
+493;G2-IGARAPAVA;78;IGARAPAVA;1;Group 1;343;name;12;42;90;296;Kaplan;Turbine;0;343;
+494;G3-IGARAPAVA;78;IGARAPAVA;1;Group 1;343;name;12;42;90;296;Kaplan;Turbine;0;343;
+495;G4-IGARAPAVA;78;IGARAPAVA;1;Group 1;343;name;12;42;90;296;Kaplan;Turbine;0;343;
+496;G5-IGARAPAVA;78;IGARAPAVA;1;Group 1;343;name;12;42;90;296;Kaplan;Turbine;0;343;
+497;G1-VOLTA GRANDE;79;VOLTA GRANDE;1;Group 1;305;name;50;95;190;396;Kaplan;Turbine;0;305;
+498;G2-VOLTA GRANDE;79;VOLTA GRANDE;1;Group 1;305;name;50;95;190;396;Kaplan;Turbine;0;305;
+499;G3-VOLTA GRANDE;79;VOLTA GRANDE;1;Group 1;305;name;50;95;190;396;Kaplan;Turbine;0;305;
+500;G4-VOLTA GRANDE;79;VOLTA GRANDE;1;Group 1;305;name;50;95;190;396;Kaplan;Turbine;0;305;
+501;G1-PORTO COLÔMBIA;80;PORTO COLÔMBIA;1;Group 1;28;name;40;80;150;497;Kaplan;Turbine;0;28;
+502;G2-PORTO COLÔMBIA;80;PORTO COLÔMBIA;1;Group 1;28;name;40;80;150;497;Kaplan;Turbine;0;28;
+503;G3-PORTO COLÔMBIA;80;PORTO COLÔMBIA;1;Group 1;28;name;40;80;150;497;Kaplan;Turbine;0;28;
+504;G4-PORTO COLÔMBIA;80;PORTO COLÔMBIA;1;Group 1;28;name;40;80;150;497;Kaplan;Turbine;0;28;
+505;G1-CACONDE;81;CACONDE;1;Group 1;521;name;24.72;41.2;28.8;48;Francis;Turbine;0;521;
+506;G2-CACONDE;81;CACONDE;2;Group 2;521;name;23.52;39.2;27.6;46;Francis;Turbine;0;521;
+507;G1-E. DA CUNHA;82;E. DA CUNHA;1;Group 1;522;name;16.32;27.2;22.2;37;Francis;Turbine;0;522;
+508;G2-E. DA CUNHA;82;E. DA CUNHA;1;Group 1;522;name;16.32;27.2;22.2;37;Francis;Turbine;0;522;
+509;G3-E. DA CUNHA;82;E. DA CUNHA;1;Group 1;522;name;16.32;27.2;22.2;37;Francis;Turbine;0;522;
+510;G4-E. DA CUNHA;82;E. DA CUNHA;1;Group 1;522;name;16.32;27.2;22.2;37;Francis;Turbine;0;522;
+511;G1-A. S. OLIVEIRA;83;A. S. OLIVEIRA;1;Group 1;523;name;6.4;16;36;89;Kaplan;Turbine;0;523;
+512;G2-A. S. OLIVEIRA;83;A. S. OLIVEIRA;1;Group 1;523;name;6.4;16;36;89;Kaplan;Turbine;0;523;
+513;G1-SÃO DOMINGOS;84;SÃO DOMINGOS;1;Group 1;1866;name;9.6;24;32.4;81;Kaplan;Turbine;0;1866;
+514;G2-SÃO DOMINGOS;84;SÃO DOMINGOS;1;Group 1;1866;name;9.6;24;32.4;81;Kaplan;Turbine;0;1866;
+515;PUMP-PEDREIRA;87;PEDREIRA;1;Group 1;483;name;0;0;0;395;Pump;Pump;0.25;483;
+516;PUMP-TRAIÇÃO;88;TRAIÇÃO;1;Group 1;483;name;0;0;0;270;Pump;Pump;0.3;483;
+517;G1-BARRA BONITA;91;BARRA BONITA;1;Group 1;516;name;14;35;75.6;189;Kaplan;Turbine;0;516;
+518;G2-BARRA BONITA;91;BARRA BONITA;1;Group 1;516;name;14;35;75.6;189;Kaplan;Turbine;0;516;
+519;G3-BARRA BONITA;91;BARRA BONITA;1;Group 1;516;name;14;35;75.6;189;Kaplan;Turbine;0;516;
+520;G4-BARRA BONITA;91;BARRA BONITA;1;Group 1;516;name;14;35;75.6;189;Kaplan;Turbine;0;516;
+521;G1-BARIRI;92;BARIRI;1;Group 1;515;name;19.2;48;103;257;Kaplan;Turbine;0;515;
+522;G2-BARIRI;92;BARIRI;1;Group 1;515;name;19.2;48;103;257;Kaplan;Turbine;0;515;
+523;G3-BARIRI;92;BARIRI;1;Group 1;515;name;19.2;48;103;257;Kaplan;Turbine;0;515;
+524;G1-IBITINGA;93;IBITINGA;1;Group 1;517;name;17;43.8;94;234;Kaplan;Turbine;0;517;
+525;G2-IBITINGA;93;IBITINGA;1;Group 1;517;name;17;43.8;94;234;Kaplan;Turbine;0;517;
+526;G3-IBITINGA;93;IBITINGA;1;Group 1;517;name;17;43.8;94;234;Kaplan;Turbine;0;517;
+527;G1-PROMISSÃO;94;PROMISSÃO;1;Group 1;519;name;35;88;173;431;Kaplan;Turbine;0;519;
+528;G2-PROMISSÃO;94;PROMISSÃO;1;Group 1;519;name;35;88;173;431;Kaplan;Turbine;0;519;
+529;G3-PROMISSÃO;94;PROMISSÃO;1;Group 1;519;name;35;88;173;431;Kaplan;Turbine;0;519;
+530;G1-N.AVANHANDAVA;95;N.AVANHANDAVA;1;Group 1;518;name;46;115.8;191;477;Kaplan;Turbine;0;518;
+531;G2-N.AVANHANDAVA;95;N.AVANHANDAVA;1;Group 1;518;name;46;115.8;191;477;Kaplan;Turbine;0;518;
+532;G3-N.AVANHANDAVA;95;N.AVANHANDAVA;1;Group 1;518;name;46;115.8;191;477;Kaplan;Turbine;0;518;
+533;G1-HENRY BORDEN;96;HENRY BORDEN;1;External 1;7452;name;0;40;0;7;Pelton;Turbine;0;7452;
+534;G2-HENRY BORDEN;96;HENRY BORDEN;2;External 2;7452;name;0;36;0;6;Pelton;Turbine;0;7452;
+535;G3-HENRY BORDEN;96;HENRY BORDEN;3;External 3;7451;name;0;65;0;11;Pelton;Turbine;0;7451;
+536;G4-HENRY BORDEN;96;HENRY BORDEN;3;External 3;7453;name;0;65;0;11;Pelton;Turbine;0;7453;Group changed after network reduction
+537;G5-HENRY BORDEN;96;HENRY BORDEN;3;External 3;7453;name;0;65;0;11;Pelton;Turbine;0;7453;Group changed after network reduction
+538;G6-HENRY BORDEN;96;HENRY BORDEN;3;External 3;7453;name;0;65;0;11;Pelton;Turbine;0;7453;Group changed after network reduction
+539;G7-HENRY BORDEN;96;HENRY BORDEN;3;External 3;7451;name;0;65;0;11;Pelton;Turbine;0;7451;Group changed after network reduction
+540;G8-HENRY BORDEN;96;HENRY BORDEN;4;Underground 1;7454;name;0;68;0;12;Pelton;Turbine;0;7454;
+541;G9-HENRY BORDEN;96;HENRY BORDEN;5;Underground 2;7454;name;0;70;0;12;Pelton;Turbine;0;7454;Group changed after network reduction
+542;G10-HENRY BORDEN;96;HENRY BORDEN;5;Underground 2;7454;name;0;70;0;12;Pelton;Turbine;0;7454;Group changed after network reduction
+543;G11-HENRY BORDEN;96;HENRY BORDEN;5;Underground 2;7458;name;0;70;0;12;Pelton;Turbine;0;7458;Group changed after network reduction
+544;G12-HENRY BORDEN;96;HENRY BORDEN;5;Underground 2;7458;name;0;70;0;12;Pelton;Turbine;0;7458;Group changed after network reduction
+545;G13-HENRY BORDEN;96;HENRY BORDEN;5;Underground 2;7459;name;0;70;0;12;Pelton;Turbine;0;7459;Group changed after network reduction
+546;G14-HENRY BORDEN;96;HENRY BORDEN;5;Underground 2;7459;name;0;70;0;12;Pelton;Turbine;0;7459;Group changed after network reduction
+547;G1-JURUMIRIM;97;JURUMIRIM;1;Group 1;506;name;21;48.9;73;182;Kaplan;Turbine;0;506;
+548;G2-JURUMIRIM;97;JURUMIRIM;1;Group 1;506;name;21;48.9;73;182;Kaplan;Turbine;0;506;
+549;G1-PIRAJU;98;PIRAJU;1;Group 1;614;name;16;40;72;181;Kaplan;Turbine;0;614;
+550;G2-PIRAJU;98;PIRAJU;1;Group 1;614;name;16;40;72;181;Kaplan;Turbine;0;614;
+551;G1-OURINHOS;99;OURINHOS;1;Group 1;2031;name;6;14.7;65;162;Kaplan;Turbine;0;2031;
+552;G2-OURINHOS;99;OURINHOS;1;Group 1;2031;name;6;14.7;65;162;Kaplan;Turbine;0;2031;
+553;G3-OURINHOS;99;OURINHOS;1;Group 1;2031;name;6;14.7;65;162;Kaplan;Turbine;0;2031;
+554;G1-L. N. GARCEZ;100;L. N. GARCEZ;1;Group 1;512;name;7;18.45;60;145;Kaplan;Turbine;0;512;
+555;G2-L. N. GARCEZ;100;L. N. GARCEZ;1;Group 1;512;name;7;18.45;60;145;Kaplan;Turbine;0;512;
+556;G3-L. N. GARCEZ;100;L. N. GARCEZ;1;Group 1;512;name;7;18.45;60;145;Kaplan;Turbine;0;512;
+557;G4-L. N. GARCEZ;100;L. N. GARCEZ;1;Group 1;512;name;7;18.45;60;145;Kaplan;Turbine;0;512;
+558;G1-CANOAS II;101;CANOAS II;1;Group 1;509;name;7;24;75;187;Kaplan;Turbine;0;509;
+559;G2-CANOAS II;101;CANOAS II;1;Group 1;509;name;7;24;75;187;Kaplan;Turbine;0;509;
+560;G3-CANOAS II;101;CANOAS II;1;Group 1;509;name;7;24;75;187;Kaplan;Turbine;0;509;
+561;G1-CANOAS I;102;CANOAS I;1;Group 1;508;name;8;27.5;77;189;Kaplan;Turbine;0;508;
+562;G2-CANOAS I;102;CANOAS I;1;Group 1;508;name;8;27.5;77;189;Kaplan;Turbine;0;508;
+563;G3-CANOAS I;102;CANOAS I;1;Group 1;508;name;8;27.5;77;189;Kaplan;Turbine;0;508;
+564;G1-MAUÁ;103;MAUÁ;1;Group 1;983;name;60;117;60;113;Francis;Turbine;0;983;
+565;G2-MAUÁ;103;MAUÁ;1;Group 1;983;name;60;117;60;113;Francis;Turbine;0;983;
+566;G3-MAUÁ;103;MAUÁ;1;Group 1;983;name;60;117;60;113;Francis;Turbine;0;983;
+567;G1-SANTA CLARA - PR;104;SANTA CLARA - PR;1;Group 1;806;name;35;60;49;81;Francis;Turbine;0;806;
+568;G2-SANTA CLARA - PR;104;SANTA CLARA - PR;1;Group 1;806;name;35;60;49;81;Francis;Turbine;0;806;
+569;G1-FUNDÃO;105;FUNDÃO;1;Group 1;2475;name;35;60;49;81;Francis;Turbine;0;2475;
+570;G2-FUNDÃO;105;FUNDÃO;1;Group 1;2475;name;35;60;49;81;Francis;Turbine;0;2475;
+571;G1-BAIXO IGUAÇU;107;BAIXO IGUAÇU;1;Group 1;9356;name;41;117;340;840;Kaplan;Turbine;0;9356;
+572;G2-BAIXO IGUAÇU;107;BAIXO IGUAÇU;1;Group 1;9356;name;41;117;340;840;Kaplan;Turbine;0;9356;
+573;G3-BAIXO IGUAÇU;107;BAIXO IGUAÇU;1;Group 1;9356;name;41;117;340;840;Kaplan;Turbine;0;9356;
+574;G1-MANSO;108;MANSO;1;Group 1;21;name;31;52.5;60;100;Francis;Turbine;0;21;
+575;G2-MANSO;108;MANSO;1;Group 1;21;name;31;52.5;60;100;Francis;Turbine;0;21;
+576;G3-MANSO;108;MANSO;1;Group 1;21;name;31;52.5;60;100;Francis;Turbine;0;21;
+577;G4-MANSO;108;MANSO;1;Group 1;21;name;31;52.5;60;100;Francis;Turbine;0;21;
+578;G1-ITIQUIRA I;109;ITIQUIRA I;1;Group 1;4523;name;18;30.4;24;40;Francis;Turbine;0;4523;
+579;G2-ITIQUIRA I;109;ITIQUIRA I;1;Group 1;4523;name;18;30.4;24;40;Francis;Turbine;0;4523;
+580;G1-ITIQUIRA II;110;ITIQUIRA II;1;Group 1;4525;name;28;48.3;24;39;Francis;Turbine;0;4525;
+581;G2-ITIQUIRA II;110;ITIQUIRA II;1;Group 1;4525;name;28;48.3;24;39;Francis;Turbine;0;4525;
+582;G1-PONTE PEDRA;111;PONTE PEDRA;1;Group 1;4520;name;40;58.7;16;26;Francis;Turbine;0;4520;
+583;G2-PONTE PEDRA;111;PONTE PEDRA;1;Group 1;4520;name;40;58.7;16;26;Francis;Turbine;0;4520;
+584;G3-PONTE PEDRA;111;PONTE PEDRA;1;Group 1;4520;name;40;58.7;16;26;Francis;Turbine;0;4520;
+585;G1-JAURU;112;JAURU;1;Group 1;4809;name;19;40.5;26;42;Francis;Turbine;0;4809;
+586;G2-JAURU;112;JAURU;1;Group 1;4809;name;19;40.5;26;42;Francis;Turbine;0;4809;
+587;G3-JAURU;112;JAURU;2;Group 2;4809;name;19;40.5;26;43;Francis;Turbine;0;4809;
+588;G1-PASSO FUNDO;113;PASSO FUNDO;1;Group 1;917;name;70;113;31;51;Francis;Turbine;0;917;
+589;G2-PASSO FUNDO;113;PASSO FUNDO;1;Group 1;917;name;70;113;31;51;Francis;Turbine;0;917;
+590;G1-MONJOLINHO;114;MONJOLINHO;1;Group 1;931;name;18.92;37.12;41;67;Francis;Turbine;0;931;
+591;G2-MONJOLINHO;114;MONJOLINHO;1;Group 1;931;name;18.92;37.12;41;67;Francis;Turbine;0;931;
+592;G1-GARIBALDI;115;GARIBALDI;1;Group 1;9735;name;32;63;100;167;Francis;Turbine;0;9735;
+593;G2-GARIBALDI;115;GARIBALDI;1;Group 1;9735;name;32;63;100;167;Francis;Turbine;0;9735;
+594;G3-GARIBALDI;115;GARIBALDI;1;Group 1;9735;name;32;63;100;167;Francis;Turbine;0;9735;
+595;G1-QUEBRA-QUEIXO;116;QUEBRA-QUEIXO;1;Group 1;2836;name;25;40.5;23;38;Francis;Turbine;0;2836;
+596;G2-QUEBRA-QUEIXO;116;QUEBRA-QUEIXO;2;Group 2;2836;name;15;40.5;23;38;Francis;Turbine;0;2836;
+597;G3-QUEBRA-QUEIXO;116;QUEBRA-QUEIXO;2;Group 2;2836;name;15;40.5;23;38;Francis;Turbine;0;2836;
+598;G1-SÃO JOSÉ;117;SÃO JOSÉ;1;Group 1;9220;name;8;25.5;58;144;Kaplan;Turbine;0;9220;
+599;G2-SÃO JOSÉ;117;SÃO JOSÉ;1;Group 1;9220;name;8;25.5;58;144;Kaplan;Turbine;0;9220;
+600;G1-PASSO S. JOÃO;118;PASSO S. JOÃO;1;Group 1;9218;name;10;38.5;57;163;Kaplan;Turbine;0;9218;
+601;G2-PASSO S. JOÃO;118;PASSO S. JOÃO;1;Group 1;9218;name;10;38.5;57;163;Kaplan;Turbine;0;9218;
+602;G1-FOZ DO CHAPECÓ;119;FOZ DO CHAPECÓ;1;Group 1;1070;name;150;213.75;284;472;Francis;Turbine;0;1070;
+603;G2-FOZ DO CHAPECÓ;119;FOZ DO CHAPECÓ;1;Group 1;1070;name;150;213.75;284;472;Francis;Turbine;0;1070;
+604;G3-FOZ DO CHAPECÓ;119;FOZ DO CHAPECÓ;1;Group 1;1070;name;150;213.75;284;472;Francis;Turbine;0;1070;
+605;G4-FOZ DO CHAPECÓ;119;FOZ DO CHAPECÓ;1;Group 1;1070;name;150;213.75;284;472;Francis;Turbine;0;1070;
+606;G1-PASSO REAL;121;PASSO REAL;1;Group 1;1175;name;40;82;97;242;Kaplan;Turbine;0;1175;
+607;G2-PASSO REAL;121;PASSO REAL;2;Group 2;1175;name;40;76;90;224;Kaplan;Turbine;0;1175;
+608;G1-JACUÍ;122;JACUÍ;1;Group 1;1162;name;18;30;23;39;Francis;Turbine;0;1162;
+609;G2-JACUÍ;122;JACUÍ;1;Group 1;1162;name;18;30;23;39;Francis;Turbine;0;1162;
+610;G3-JACUÍ;122;JACUÍ;1;Group 1;1162;name;18;30;23;39;Francis;Turbine;0;1162;
+611;G4-JACUÍ;122;JACUÍ;1;Group 1;1162;name;18;30;23;39;Francis;Turbine;0;1162;
+612;G5-JACUÍ;122;JACUÍ;1;Group 1;1162;name;18;30;23;39;Francis;Turbine;0;1162;
+613;G6-JACUÍ;122;JACUÍ;1;Group 1;1162;name;18;30;23;39;Francis;Turbine;0;1162;
+614;G1-ITAÚBA;123;ITAÚBA;1;Group 1;1155;name;75;125;93;155;Francis;Turbine;0;1155;
+615;G2-ITAÚBA;123;ITAÚBA;1;Group 1;1155;name;75;125;93;155;Francis;Turbine;0;1155;
+616;G3-ITAÚBA;123;ITAÚBA;1;Group 1;1155;name;75;125;93;155;Francis;Turbine;0;1155;
+617;G4-ITAÚBA;123;ITAÚBA;1;Group 1;1155;name;75;125;93;155;Francis;Turbine;0;1155;
+618;G1-DONA FRANCISCA;124;DONA FRANCISCA;1;Group 1;1176;name;32;62.5;113;188;Francis;Turbine;0;1176;
+619;G2-DONA FRANCISCA;124;DONA FRANCISCA;1;Group 1;1176;name;32;62.5;113;188;Francis;Turbine;0;1176;
+620;G1-CASTRO ALVES;125;CASTRO ALVES;1;Group 1;1166;name;19.44;43.33;22;53;Kaplan;Turbine;0;1166;
+621;G2-CASTRO ALVES;125;CASTRO ALVES;1;Group 1;1166;name;19.44;43.33;22;53;Kaplan;Turbine;0;1166;
+622;G3-CASTRO ALVES;125;CASTRO ALVES;1;Group 1;1166;name;19.44;43.33;22;53;Kaplan;Turbine;0;1166;
+623;G1-MONTE CLARO;126;MONTE CLARO;1;Group 1;1159;name;20;65.35;75;186;Kaplan;Turbine;0;1159;
+624;G2-MONTE CLARO;126;MONTE CLARO;1;Group 1;1159;name;20;65.35;75;186;Kaplan;Turbine;0;1159;
+625;G1-14 DE JULHO;127;14 DE JULHO;1;Group 1;1168;name;15.54;51.8;70;170;Kaplan;Turbine;0;1168;
+626;G2-14 DE JULHO;127;14 DE JULHO;1;Group 1;1168;name;15.54;51.8;70;170;Kaplan;Turbine;0;1168;
+627;G1-SALTO PILÃO;128;SALTO PILÃO;1;Group 1;2863;name;36.46;95.94;35;55;Francis;Turbine;0;2863;
+628;G2-SALTO PILÃO;128;SALTO PILÃO;1;Group 1;2863;name;36.46;95.94;35;55;Francis;Turbine;0;2863;
+629;G1-C. CACHOEIRA;129;CAPIVARI-CACHOEIRA;1;Group 1;804;name;15;68.6;2.5;10;Pelton;Turbine;0;804;
+630;G2-C. CACHOEIRA;129;CAPIVARI-CACHOEIRA;1;Group 1;804;name;15;68.6;2.5;10;Pelton;Turbine;0;804;
+631;G3-C. CACHOEIRA;129;CAPIVARI-CACHOEIRA;1;Group 1;804;name;15;68.6;2.5;10;Pelton;Turbine;0;804;
+632;G4-C. CACHOEIRA;129;CAPIVARI-CACHOEIRA;1;Group 1;804;name;15;68.6;2.5;10;Pelton;Turbine;0;804;
+633;G1-ROSAL;130;ROSAL;1;Group 1;2696;name;20;27.5;10;16;Francis;Turbine;0;2696;
+634;G2-ROSAL;130;ROSAL;2;Group 2;2696;name;15;27.5;10;16;Francis;Turbine;0;2696;
+635;G1-GUILMAN-AMORIM;131;GUILMAN-AMORIM;1;Group 1;306;name;21.5;35.9;21;34;Francis;Turbine;0;306;
+636;G2-GUILMAN-AMORIM;131;GUILMAN-AMORIM;1;Group 1;306;name;21.5;35.9;21;34;Francis;Turbine;0;306;
+637;G3-GUILMAN-AMORIM;131;GUILMAN-AMORIM;1;Group 1;306;name;21.5;35.9;21;34;Francis;Turbine;0;306;
+638;G4-GUILMAN-AMORIM;131;GUILMAN-AMORIM;2;Group 2;306;name;25.1;35.9;21;34;Francis;Turbine;0;306;
+639;G1-SÁ CARVALHO;132;SÁ CARVALHO;1;Group 1;1599;name;1;15;10;16;Francis;Turbine;0;1599;
+640;G2-SÁ CARVALHO;132;SÁ CARVALHO;2;Group 2;1599;name;8;15;10;16;Francis;Turbine;0;1599;
+641;G3-SÁ CARVALHO;132;SÁ CARVALHO;3;Group 3;1599;name;9;18;12;19;Francis;Turbine;0;1599;
+642;G4-SÁ CARVALHO;132;SÁ CARVALHO;4;Group 4;1599;name;22.5;30;20;32;Francis;Turbine;0;1599;
+643;G1-CANDONGA;133;CANDONGA;1;Group 1;1559;name;25;45;43;106;Kaplan;Turbine;0;1559;
+644;G2-CANDONGA;133;CANDONGA;1;Group 1;1559;name;25;45;43;106;Kaplan;Turbine;0;1559;
+645;G3-CANDONGA;133;CANDONGA;1;Group 1;1559;name;25;45;43;106;Kaplan;Turbine;0;1559;
+646;G1-BAGUARI;134;BAGUARI;1;Group 1;1496;name;14;35;88;218;Kaplan;Turbine;0;1496;
+647;G2-BAGUARI;134;BAGUARI;1;Group 1;1496;name;14;35;88;218;Kaplan;Turbine;0;1496;
+648;G3-BAGUARI;134;BAGUARI;1;Group 1;1496;name;14;35;88;218;Kaplan;Turbine;0;1496;
+649;G4-BAGUARI;134;BAGUARI;1;Group 1;1496;name;14;35;88;218;Kaplan;Turbine;0;1496;
+650;G1-AIMORÉS;135;AIMORÉS;1;Group 1;4042;name;35;110;173;432;Kaplan;Turbine;0;4042;
+651;G2-AIMORÉS;135;AIMORÉS;1;Group 1;4042;name;35;110;173;432;Kaplan;Turbine;0;4042;
+652;G3-AIMORÉS;135;AIMORÉS;1;Group 1;4042;name;35;110;173;432;Kaplan;Turbine;0;4042;
+653;G1-MASCARENHAS;136;MASCARENHAS;1;Group 1;2600;name;18;45;122;304;Kaplan;Turbine;0;2600;
+654;G2-MASCARENHAS;136;MASCARENHAS;1;Group 1;2600;name;18;45;122;304;Kaplan;Turbine;0;2600;
+655;G3-MASCARENHAS;136;MASCARENHAS;2;Group 2;2600;name;20;49.5;122;304;Kaplan;Turbine;0;2600;
+656;G4-MASCARENHAS;136;MASCARENHAS;2;Group 2;2600;name;20;49.5;122;304;Kaplan;Turbine;0;2600;
+657;G1-SALTO GRANDE;137;SALTO GRANDE;1;Group 1;1502;name;19;27;21;35;Francis;Turbine;0;1502;
+658;G2-SALTO GRANDE;137;SALTO GRANDE;1;Group 1;1502;name;19;27;21;35;Francis;Turbine;0;1502;
+659;G3-SALTO GRANDE;137;SALTO GRANDE;2;Group 2;1502;name;15;24;19;31;Francis;Turbine;0;1502;
+660;G4-SALTO GRANDE;137;SALTO GRANDE;2;Group 2;1502;name;15;24;19;31;Francis;Turbine;0;1502;
+661;G1-PORTO ESTRELA;138;PORTO ESTRELA;1;Group 1;1594;name;20;56;50;124;Kaplan;Turbine;0;1594;
+662;G2-PORTO ESTRELA;138;PORTO ESTRELA;1;Group 1;1594;name;20;56;50;124;Kaplan;Turbine;0;1594;
+663;G1-SANTA CLARA - MG;139;SANTA CLARA - MG;1;Group 1;1511;name;10.1;20.6;20;44;Francis;Turbine;0;1511;
+664;G2-SANTA CLARA - MG;139;SANTA CLARA - MG;1;Group 1;1511;name;10.1;20.6;20;44;Francis;Turbine;0;1511;
+665;G3-SANTA CLARA - MG;139;SANTA CLARA - MG;1;Group 1;1511;name;10.1;20.6;20;44;Francis;Turbine;0;1511;
+666;G1-IRAPÉ;140;IRAPÉ;1;Group 1;4064;name;70;133;54;89;Francis;Turbine;0;4064;
+667;G2-IRAPÉ;140;IRAPÉ;1;Group 1;4064;name;70;133;54;89;Francis;Turbine;0;4064;
+668;G3-IRAPÉ;140;IRAPÉ;1;Group 1;4064;name;70;133;54;89;Francis;Turbine;0;4064;
+669;G1-ITAPEBI;141;ITAPEBI;1;Group 1;5975;name;90;154;132;220;Francis;Turbine;0;5975;
+670;G2-ITAPEBI;141;ITAPEBI;1;Group 1;5975;name;90;154;132;220;Francis;Turbine;0;5975;
+671;G3-ITAPEBI;141;ITAPEBI;1;Group 1;5975;name;90;154;132;220;Francis;Turbine;0;5975;
+672;G1-PEDRA DO CAVALO;142;PEDRA DO CAVALO;1;Group 1;5888;name;40;80;54;90;Francis;Turbine;0;5888;
+673;G2-PEDRA DO CAVALO;142;PEDRA DO CAVALO;1;Group 1;5888;name;40;80;54;90;Francis;Turbine;0;5888;
+674;G1-RETIRO BAIXO;143;RETIRO BAIXO;1;Group 1;4068;name;12.7;42.35;53;131;Kaplan;Turbine;0;4068;
+675;G2-RETIRO BAIXO;143;RETIRO BAIXO;1;Group 1;4068;name;12.7;42.35;53;131;Kaplan;Turbine;0;4068;
+676;G1-QUEIMADO;144;QUEIMADO;1;Group 1;4039;name;17.3;35;15;24;Francis;Turbine;0;4039;
+677;G2-QUEIMADO;144;QUEIMADO;1;Group 1;4039;name;17.3;35;15;24;Francis;Turbine;0;4039;
+678;G3-QUEIMADO;144;QUEIMADO;1;Group 1;4039;name;17.3;35;15;24;Francis;Turbine;0;4039;
+679;G1-BOA ESPERANÇA;145;BOA ESPERANÇA;1;Group 1;5520;name;47.1;55;87;145;Francis;Turbine;0;5520;
+680;G2-BOA ESPERANÇA;145;BOA ESPERANÇA;1;Group 1;5520;name;47.1;55;87;145;Francis;Turbine;0;5520;
+681;G3-BOA ESPERANÇA;145;BOA ESPERANÇA;2;Group 2;5522;name;53.1;63.55;100;167;Francis;Turbine;0;5522;
+682;G4-BOA ESPERANÇA;145;BOA ESPERANÇA;2;Group 2;5522;name;53.1;63.55;100;167;Francis;Turbine;0;5522;
+683;G1-CANA BRAVA;146;CANA BRAVA;1;Group 1;3964;name;120;150;231;385;Francis;Turbine;0;3964;
+684;G2-CANA BRAVA;146;CANA BRAVA;1;Group 1;3964;name;120;150;231;385;Francis;Turbine;0;3964;
+685;G3-CANA BRAVA;146;CANA BRAVA;1;Group 1;3964;name;120;150;231;385;Francis;Turbine;0;3964;
+686;G1-SÃO SALVADOR;147;SÃO SALVADOR;1;Group 1;3968;name;60;121.6;234;585;Kaplan;Turbine;0;3968;
+687;G2-SÃO SALVADOR;147;SÃO SALVADOR;1;Group 1;3968;name;60;121.6;234;585;Kaplan;Turbine;0;3968;
+688;G1-PEIXE ANGICAL;148;PEIXE ANGICAL;1;Group 1;7110;name;70;166.25;280;691;Kaplan;Turbine;0;7110;
+689;G2-PEIXE ANGICAL;148;PEIXE ANGICAL;1;Group 1;7110;name;70;166.25;280;691;Kaplan;Turbine;0;7110;
+690;G3-PEIXE ANGICAL;148;PEIXE ANGICAL;1;Group 1;7110;name;70;166.25;280;691;Kaplan;Turbine;0;7110;
+691;G1-DARDANELOS;149;DARDANELOS;1;Group 1;4890;name;34.8;58;41;68;Francis;Turbine;0;4890;
+692;G2-DARDANELOS;149;DARDANELOS;1;Group 1;4890;name;34.8;58;41;68;Francis;Turbine;0;4890;Group changed after network reduction
+693;G3-DARDANELOS;149;DARDANELOS;1;Group 1;4891;name;34.8;58;41;68;Francis;Turbine;0;4891;Group changed after network reduction
+694;G4-DARDANELOS;149;DARDANELOS;1;Group 1;4891;name;34.8;58;41;68;Francis;Turbine;0;4891;
+695;G5-DARDANELOS;149;DARDANELOS;2;Group 2;4891;name;17.4;29;21;34;Francis;Turbine;0;4891;
+696;G1-RONDON II;150;RONDON II;1;Group 1;6831;name;19.7;24.4;28;46;Francis;Turbine;0;6831;
+697;G2-RONDON II;150;RONDON II;1;Group 1;6831;name;19.7;24.4;28;46;Francis;Turbine;0;6831;
+698;G3-RONDON II;150;RONDON II;1;Group 1;6831;name;19.7;24.4;28;46;Francis;Turbine;0;6831;
+699;G1-GUAPORÉ;151;GUAPORÉ;1;Group 1;4804;name;24;40;17;28;Francis;Turbine;0;4804;
+700;G2-GUAPORÉ;151;GUAPORÉ;1;Group 1;4804;name;24;40;17;28;Francis;Turbine;0;4804;
+701;G3-GUAPORÉ;151;GUAPORÉ;1;Group 1;4804;name;24;40;17;28;Francis;Turbine;0;4804;
+702;G1-SAMUEL;152;SAMUEL;1;Group 1;6891;name;22.2;43.2;102;169;Francis;Turbine;0;6891;
+703;G2-SAMUEL;152;SAMUEL;1;Group 1;6891;name;22.2;43.2;102;169;Francis;Turbine;0;6891;
+704;G3-SAMUEL;152;SAMUEL;1;Group 1;6891;name;22.2;43.2;102;169;Francis;Turbine;0;6891;
+705;G4-SAMUEL;152;SAMUEL;1;Group 1;6891;name;22.2;43.2;102;169;Francis;Turbine;0;6891;
+706;G5-SAMUEL;152;SAMUEL;1;Group 1;6891;name;22.2;43.2;102;169;Francis;Turbine;0;6891;
+707;G1-BALBINA;153;BALBINA;1;Group 1;8597;name;20;50;102;255;Kaplan;Turbine;0;8597;
+708;G2-BALBINA;153;BALBINA;1;Group 1;8597;name;20;50;102;255;Kaplan;Turbine;0;8597;
+709;G3-BALBINA;153;BALBINA;1;Group 1;8597;name;20;50;102;255;Kaplan;Turbine;0;8597;
+710;G4-BALBINA;153;BALBINA;1;Group 1;8597;name;20;50;102;255;Kaplan;Turbine;0;8597;
+711;G5-BALBINA;153;BALBINA;1;Group 1;8597;name;20;50;102;255;Kaplan;Turbine;0;8597;
+712;G1-SANTO ANTÔNIO JARI;154;SANTO ANTÔNIO JARI;1;Group 1;8269;name;51;129.9;234;585;Kaplan;Turbine;0;8269;
+713;G2-SANTO ANTÔNIO JARI;154;SANTO ANTÔNIO JARI;1;Group 1;8269;name;51;129.9;234;585;Kaplan;Turbine;0;8269;
+714;G3-SANTO ANTÔNIO JARI;154;SANTO ANTÔNIO JARI;1;Group 1;8269;name;51;129.9;234;585;Kaplan;Turbine;0;8269;
+715;G1-SINOP;155;SINOP;1;Group 1;4478;name;61;201;320;800;Kaplan;Turbine;0;4478;
+716;G2-SINOP;155;SINOP;1;Group 1;4478;name;61;201;320;800;Kaplan;Turbine;0;4478;
+717;G1-COLÍDER;156;COLÍDER;1;Group 1;4462;name;30;100;207;517;Kaplan;Turbine;0;4462;
+718;G2-COLÍDER;156;COLÍDER;1;Group 1;4462;name;30;100;207;517;Kaplan;Turbine;0;4462;
+719;G3-COLÍDER;156;COLÍDER;1;Group 1;4462;name;30;100;207;517;Kaplan;Turbine;0;4462;
+720;G1-SÃO MANOEL;157;SÃO MANOEL;1;Group 1;4489;name;85;175;380;947;Kaplan;Turbine;0;4489;
+721;G2-SÃO MANOEL;157;SÃO MANOEL;1;Group 1;4489;name;85;175;380;947;Kaplan;Turbine;0;4489;
+722;G3-SÃO MANOEL;157;SÃO MANOEL;1;Group 1;4489;name;85;175;380;947;Kaplan;Turbine;0;4489;
+723;G4-SÃO MANOEL;157;SÃO MANOEL;1;Group 1;4489;name;85;175;380;947;Kaplan;Turbine;0;4489;
+724;G1-CURUÁ-UNA;158;CURUÁ-UNA;1;Group 1;99751;name;4;10;25;62;Kaplan;Turbine;0;99751;
+725;G2-CURUÁ-UNA;158;CURUÁ-UNA;1;Group 1;99751;name;4;10;25;62;Kaplan;Turbine;0;99751;
+726;G3-CURUÁ-UNA;158;CURUÁ-UNA;2;Group 2;99752;name;4.12;10.3;26;64;Kaplan;Turbine;0;99752;
+727;G1-CACHOEIRA CALDEIRÃO;159;CACHOEIRA CALDEIRÃO;1;Group 1;8276;name;22.65;73;220;547;Bulbo;Turbine;0;8276;
+728;G2-CACHOEIRA CALDEIRÃO;159;CACHOEIRA CALDEIRÃO;1;Group 1;8276;name;22.65;73;220;547;Bulbo;Turbine;0;8276;
+729;G3-CACHOEIRA CALDEIRÃO;159;CACHOEIRA CALDEIRÃO;1;Group 1;8276;name;22.65;73;220;547;Bulbo;Turbine;0;8276;
+730;G1-COARACY NUNES;160;COARACY NUNES;1;Group 1;8224;name;6.38;24;50;123;Kaplan;Turbine;0;8224;
+731;G2-COARACY NUNES;160;COARACY NUNES;1;Group 1;8224;name;6.38;24;50;123;Kaplan;Turbine;0;8224;
+732;G3-COARACY NUNES;160;COARACY NUNES;2;Group 2;8225;name;6.88;30;62;153;Kaplan;Turbine;0;8225;
+733;G1-FERREIRA GOMES;161;FERREIRA GOMES;1;Group 1;8279;name;20;84;230;574;Kaplan;Turbine;0;8279;
+734;G2-FERREIRA GOMES;161;FERREIRA GOMES;1;Group 1;8279;name;20;84;230;574;Kaplan;Turbine;0;8279;
+735;G3-FERREIRA GOMES;161;FERREIRA GOMES;1;Group 1;8279;name;20;84;230;574;Kaplan;Turbine;0;8279;
+736;G1-LAJES;47;LAJES;1;Group 1;8279;name;0;0;0;0;Kaplan;Turbine;0;8279;
+737;G1-SANTA BRANCA;49;SANTA BRANCA;1;Group 1;8279;name;0;0;0;0;Kaplan;Turbine;0;8279;
+738;G1-SANTANA;52;SANTANA;1;Group 1;8279;name;0;0;0;0;Kaplan;Turbine;0;8279;
+739;G1-GUARAPIRANGA;85;GUARAPIRANGA;1;Group 1;8279;name;0;0;0;0;Kaplan;Turbine;0;8279;
+740;G1-BILLINGS;86;BILLINGS;1;Group 1;8279;name;0;0;0;0;Kaplan;Turbine;0;8279;
+741;G1-EDGARD DE SOUZA;90;EDGARD DE SOUZA;1;Group 1;8279;name;0;0;0;0;Kaplan;Turbine;0;8279;
+742;G1-JORDÃO;106;JORDÃO;1;Group 1;8279;name;0;0;0;0;Kaplan;Turbine;0;8279;
+743;G1-ERNESTINA;120;ERNESTINA;1;Group 1;8279;name;0;0;0;0;Kaplan;Turbine;0;8279;
+</Hydro generating units>;;;;;;;;;;;;;;;;
+</END>;;;;;;;;;;;;;;;;
