@@ -4,7 +4,9 @@ Modelo computacional open-source para unit commitment hidrotérmico em Python.
 
 Programa open-source distribuído sob [licença MIT](https://github.com/SPARHTACUS/SPTpy/blob/main/LICENSE.md). 
 
-# PDDIP (P)arallel (D)ual (D)ynamic (i)nteger (P)rogramming algorithm
+# PDDIP (P)arallel (D)ual (D)ynamic (i)nteger (P)rogramming
+
+This is the source code of the PDDiP algorithm.
 
 All input and output data are in .csv. We use Case 1 of our test system called 'SIN' to describe the input and output data below.
 
