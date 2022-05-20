@@ -14,7 +14,7 @@ All input and output data are in .csv. We use Case 1 of our test system called '
 
 **Network**: (network - SIN.csv) contains the buses and transmission lines, along with their reactances in p.u. in a 100-MW base and limits in MW
 
-**Power plants**: (powerPlants - SIN.csv) hydro reservoirs and thermal generating units. The cascade configurations for the reservoirs are given in this file, as well as the default bounds on reservoir volumes in hm<sup>3</sup> and spillage in (m<sup>3</sup>/s). For the thermal generating units, the bounds in generation are given in MW, the ramping limits are in MW/h, the default generation costs are in \$/(MWh/h), and the minimum up and down-times are given in hours. The cost of load curtailment is given in \$/(MWh/h).
+**Power plants**: (powerPlants - SIN.csv) hydro reservoirs and thermal generating units. The cascade configurations for the reservoirs are given in this file, as well as the default bounds on reservoir volumes in hm<sup>3</sup> and spillage in (m<sup>3</sup>/s). For the thermal generating units, the bounds in generation are given in MW, the ramping limits are in MW/h, the default generation costs are in 1/(MWh/h), and the minimum up and down-times are given in hours. The cost of load curtailment is given in 1/(MWh/h).
 
 **Data of hydro generating units**: (dataOfGeneratingUnits - SIN.csv). In this work, we aggregate the generating units of the hydro plants and we neglect all forbidden zones. Nonetheless, data of turbine discharge, pumping rates and connection buses are taken from the data of hydro generating units given in this file.
 
