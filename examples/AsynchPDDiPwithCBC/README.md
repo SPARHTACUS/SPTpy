@@ -1,4 +1,4 @@
-Solves the 20 cases of the SIN test system with the asynchronous parallel DDiP algorithm with CBC.
+Solves the 20 cases of the SIN test system with the **asynchronous parallel DDiP algorithm with CBC**.
 
 Use 20 processes.
 
