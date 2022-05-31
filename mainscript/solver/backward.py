@@ -92,7 +92,7 @@ def recvSubgradFromAnotherBackwardWorker(params, it, optModelsRelax, couplVarsRe
 
 def backwardStep(params, thermals, it, ub, lb, backwardInfo, objValRelax, optModels,optModelsRelax,\
                 lbda, fixedVars, couplVars, couplVarsRelax, couplConstrsRelax,\
-                alphaRelax, betaRelax, beta, alpha, radiusTR, redFlag,\
+                alphaRelax, betaRelax, beta, alpha, redFlag,\
                 bufferBackward,\
                 bComm, bRank, status, eventTracker = None):
     '''Backward step in the DDiP'''
@@ -178,11 +178,6 @@ def backwardStep(params, thermals, it, ub, lb, backwardInfo, objValRelax, optMod
                                                                 and params.I_am_a_forwardWorker:
             for i in params.binVarsPerSubh[b]:
                 couplVars[b][i].var_type = CONTINUOUS
-
-            if params.regularizeTR:
-                # Make the trust region ineffective
-                radiusTR[b].lb = int(1e9)
-                radiusTR[b].ub = int(1e9)
 
         if b > 0 and not(params.BDBackwardProb):
             tempFeasConstrs = addVIBasedOnRamp(params, thermals, b,\

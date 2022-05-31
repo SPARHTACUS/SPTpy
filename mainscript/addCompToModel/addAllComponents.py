@@ -262,11 +262,6 @@ def addAllComp(params, hydros, thermals, network, MP, SP, SPnetwork, b: int,\
 
     alphaVarMP = MP.add_var(var_type = CONTINUOUS, obj = 1, name = 'alpha') if BDbinaries else None
 
-    if params.regularizeTR:
-        radiusTR = MP.add_var(var_type = CONTINUOUS, obj = 0, lb = 0, ub = 0, name = 'radiusTR')
-    else:
-        radiusTR = {}
-
-    return(couplConstrs, couplVars, alpha, beta, alphaVarMP, radiusTR,\
+    return(couplConstrs, couplVars, alpha, beta, alphaVarMP,\
             copyOfMPBinVars, constrOfCopyOfMPBinVars, dispStat, constrTgDisp,\
             copyGenVars, constrCopyGenVars, alphaVarSPnetwork)

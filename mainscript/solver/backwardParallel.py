@@ -63,7 +63,7 @@ def recvMessageFromGenCoord(params, it, redFlag, status, fixedVars,\
 def backwardStepPar(params, thermals, it, ub, lb, backwardInfo, objValRelax,\
                     optModels, optModelsRelax, lbda,\
                     fixedVars, couplVars, couplVarsRelax, couplConstrsRelax,\
-                    alphaRelax, betaRelax, beta, alpha, radiusTR, redFlag,\
+                    alphaRelax, betaRelax, beta, alpha, redFlag,\
                     bufferBackward, wRank, bComm, bRank):
     '''Backward step in the DDiP'''
 
@@ -106,7 +106,7 @@ def backwardStepPar(params, thermals, it, ub, lb, backwardInfo, objValRelax,\
                                             backwardInfo, objValRelax, optModels, optModelsRelax,\
                                             lbda, fixedVars, couplVars,\
                                             couplVarsRelax, couplConstrsRelax,\
-                                            alphaRelax, betaRelax, beta, alpha, radiusTR, redFlag,\
+                                            alphaRelax, betaRelax, beta, alpha, redFlag,\
                                             bufferBackward,\
                                             bComm, bRank, status,\
                                             eventTracker)

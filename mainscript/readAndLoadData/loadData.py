@@ -29,9 +29,7 @@ def setParams(rootFolder, commWorld, rankWorld, sizeWorld, experiment, expName):
                 forwardWs = experiment['forwardWs'],\
                 backwardWs = experiment['backwardWs'],\
                 expName = expName,\
-                solveOnlyFirstSubhorizonInput = experiment['solveOnlyFirstSubhorizonInput'],\
-                regularizeTRs = experiment['regularizeTRs'],\
-                iniRadiusS = experiment['iniRadiusS'])
+                solveOnlyFirstSubhorizonInput = experiment['solveOnlyFirstSubhorizonInput'])
 
     for k in [k for k in experiment.keys() if hasattr(params, k)]:
         oldValue = getattr(params, k)
@@ -40,9 +38,7 @@ def setParams(rootFolder, commWorld, rankWorld, sizeWorld, experiment, expName):
         else:
             setattr(params, k, experiment[k])
 
-    #"D:/pDDiPCBC/output/" + params.ps + '/case '+params.case+'/'+expName+'/'
-    params.outputFolder = "D:/pDDiPCBC/output/" + params.ps + '/case '+params.case+'/'+expName+'/'#rootFolder + '/output/' + params.ps + '/case '+params.case+'/'+expName+'/'
-    #rootFolder + '/output/' + params.ps + '/case '+params.case+'/'+expName+'/'#
+    params.outputFolder = rootFolder + '/output/' + params.ps + '/case '+params.case+'/'+expName+'/'
 
     if (rankWorld == 0) and not(os.path.isdir(params.outputFolder)):
         os.makedirs(params.outputFolder)
@@ -298,7 +294,8 @@ def loadData(rootFolder, commWorld, sizeWorld, rankWorld, experiment, expName):
                                                                 params, network, hydros, thermals)
 
     # read the data of hydro generating units
-    readHydroGeneratingUnits(params.inputFolder +'dataOfGeneratingUnits - ' +\
+    if len(hydros.id) > 0:
+        readHydroGeneratingUnits(params.inputFolder +'dataOfGeneratingUnits - ' +\
                                                                 params.ps +'.csv', params, hydros)
 
     for b in range(len(network.busID)):
@@ -311,16 +308,16 @@ def loadData(rootFolder, commWorld, sizeWorld, rankWorld, experiment, expName):
 
     # read the gross load and renewable generation
     grossLoadAndRenewableGen(params.inputFolder + 'case ' + str(params.case) +'/' +'gross load - '+\
-                'SIN - case ' + str(params.case) + '.csv',\
+                params.ps + ' - case ' + str(params.case) + '.csv',\
                 params.inputFolder + 'case ' + str(params.case) +'/' + 'renewable generation - ' + \
-                'SIN - case ' + str(params.case) + '.csv' , params, network, rankWorld)
+                params.ps + ' - case ' + str(params.case) + '.csv' , params, network, rankWorld)
 
     # read the start-up and shut-down trajectories of thermal units
     readTrajectories(params.inputFolder + 'trajectories - ' + params.ps +'.csv', params, thermals)
 
     # read the incremental inflows to the reservoirs
     readInflows(params.inputFolder + 'case ' + str(params.case) +'/' + 'inflows - ' + \
-                'SIN - case ' + str(params.case) + '.csv', params, hydros)
+                params.ps + ' - case ' + str(params.case) + '.csv', params, hydros)
 
     # bounds on the generation of groups of thermal units
     readBoundsOnGenOfThermals(params.inputFolder + 'case ' + str(params.case) +'/'+\

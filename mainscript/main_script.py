@@ -138,15 +138,13 @@ def main(expList, expNames):
 
 if __name__ == '__main__':
 
-    experiments = {'case': ['1'],\
-                    'nSubhorizonsPerProcess': [[1, 16, 24, 48,\
-                                        2, 2, 2, 2, 4, 4, 4, 16, 16, 16, 24, 24, 24, 48, 48, 48]],\
+    experiments = {'case': [str(i) for i in range(1, 21, 1)],\
+                    'nSubhorizonsPerProcess': [[1, 8, 16, 24,\
+                                        2, 2, 2, 2, 4, 4, 4, 8, 8, 8, 16, 16, 16, 24, 24, 24]],\
                     'forwardWs': [[1, 2, 3]],\
                     'backwardWs': [list(range(4, 20, 1))],\
                     'solveOnlyFirstSubhorizonInput': [4*[False] + [True] + 20*[False]],\
-                    'regularizeTRs': [20*[False]],\
-                    'iniRadiusS': [20*[0]],\
-                    'trials': [0]}
+                    'trials': [0, 1, 2, 3, 4]}
 
     experiment = {k: None for k in experiments}
 

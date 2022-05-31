@@ -90,7 +90,7 @@ class BD:
 
         self.constrCopyVars, self.copyVars, self.copyBinVars = [], [], []
 
-        self.alphaVarMP, self.dispStatMP, self.radiusTR = None, None, None
+        self.alphaVarMP, self.dispStatMP = None, None
 
         self.copyOfCouplVars, self.copyOfcouplConstrs = [], []
 
@@ -223,7 +223,7 @@ class BD:
     def addAllComp(self, params, hydros, thermals, network, fixedVars, b, binVars):
         '''Add the appropriate variables and constraints to the master problem and subproblem'''
 
-        couplConstrs, couplVars, alpha, beta, alphaVarMP, radiusTR, copyOfMPBinVars,\
+        couplConstrs, couplVars, alpha, beta, alphaVarMP, copyOfMPBinVars,\
                 constrOfCopyOfMPBinVars, dispStat, constrTgDisp,\
                     copyGenVars, constrCopyGenVars, alphaVarSPnetwork = addAllComp(\
                                         params, hydros, thermals, network,\
@@ -245,19 +245,17 @@ class BD:
 
         self.alphaVarMP = alphaVarMP
 
-        self.radiusTR = radiusTR
-
         self.alphaVar = alpha
         self.betaVar = beta
 
         if params.BDnetworkSubhorizon:
             self.SP.setCouplingVarsAndCreateAuxVars(couplVars, couplConstrs,\
                                                     copyGenVars, constrCopyGenVars,\
-                                                    alphaVarSPnetwork, alpha, beta, radiusTR)
+                                                    alphaVarSPnetwork, alpha, beta)
 
         self.objective = self.SP.MP.objective if params.BDnetworkSubhorizon else self.SP.objective
 
-        return(couplConstrs, couplVars, alpha, beta, self.radiusTR)
+        return(couplConstrs, couplVars, alpha, beta)
 
     def optimize(self, max_seconds: float = 1e12, max_nodes: int = 100000):
         '''Solve the subhorizon problem with BD'''
@@ -283,51 +281,6 @@ class BD:
 
         self.tempFeasConstrs = addVIBasedOnRamp(self.params, self.thermals, self.b,\
                                     self.MP, self.copyOfcouplConstrs, self.copyVars, self.fixedVars)
-
-        if self.params.regularizeTR and (self.outerIteration > 0) and\
-                        ((self.b > 0) or ((self.b == 0) and self.solveFirstSubhWithReg)):
-
-            indZeros = set(np.where(self.bestSolUB <= 0.5)[0]) &\
-                                                        set(self.params.binDispVarsPerSubh[self.b])
-            indOnes = set(self.params.binDispVarsPerSubh[self.b]) - indZeros
-
-            indZeros = list(indZeros)
-            indOnes = list(indOnes)
-
-            if (self.b > 0):
-                self.radiusTR.lb = 0
-                self.radiusTR.ub = int(1e6)
-            else:
-                self.radiusTR.lb = self.params.iniRadius
-                self.radiusTR.ub = self.params.iniRadius
-
-            self.trustRegion.append(self.MP.add_constr(xsum(self.copyVars[i] for i in indZeros) +\
-                                                    xsum((1 - self.copyVars[i]) for i in indOnes)\
-                                                    <= self.radiusTR, name ='trustRegion'))
-
-            if (self.b > 0):
-                orgObjFunc = self.MP.objective
-                self.MP.objective = self.radiusTR
-
-                self.MP.reset()
-                stt = self.MP.optimize(max(max_seconds-(dt() - ini), 0))
-
-                if stt in (OptS.OPTIMAL, OptS.FEASIBLE):
-                    minRadius = int(ceil(self.MP.objective_value))
-                    self.radiusTR.lb = minRadius
-                    self.radiusTR.ub = minRadius
-                    self.MP.objective = orgObjFunc
-
-                elif (stt==OptS.NO_SOLUTION_FOUND) and ((self.params.lastTime - dt()) <= 0):
-                    innerRedFlag = np.array(1, dtype = 'int')
-
-                else:
-                    np.savetxt('infeasRefSol.csv', self.bestSolUB, fmt = '%.4f')
-                    self.MP.write('MP' + str(self.b) + '.lp')
-                    self.MP.write('MP' + str(self.b) + '.mps')
-                    raise Exception(f'The radius problem of subhorizon {self.b}' +\
-                                                                        f' is not feasible: {stt}')
-
 
         lb = max(-1e12, self.iniLB) if (self.b == 0) else -1e12
         ub = np.array(1e12, dtype = 'd')

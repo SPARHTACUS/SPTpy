@@ -66,7 +66,7 @@ def recvInfoFromGenCoord(params, it, redFlag, status, optModels, couplVars, beta
     return(redFlag, timeCommunicating, timeAddingCuts)
 
 def forwardStepPar(params, thermals, it, subhorizonInfo, couplVars, fixedVars, previousSol,\
-                couplConstrs, optModels, bestSol, radiusTR, presentCosts, futureCosts,\
+                couplConstrs, optModels, bestSol, presentCosts, futureCosts,\
                 alpha, beta, redFlag, ub, lb, gap, wRank, fComm, fRank, fSize):
     '''Parallel forward step of the DDiP'''
 
@@ -91,40 +91,11 @@ def forwardStepPar(params, thermals, it, subhorizonInfo, couplVars, fixedVars, p
 
     fwPackageRecv = np.array([0, 0, 0, 0, 0, 0], dtype = 'd')
 
-    if params.regularizeTR:
-
-        for b in range(params.nSubhorizons - 1):
-            alpha[b].obj = 0
-
-        ubUpdated = False
-        # Only start working once an initial solution is available
-        while not(ubUpdated) and (redFlag != 1):
-            params.winUB.Lock(rank = 0)
-            params.winUB.Get([ub, MPI.DOUBLE], target_rank = 0)
-            params.winUB.Unlock(rank = 0)
-            if ub < 1e12:
-                params.winBestSol.Lock(rank = 0)
-                params.winBestSol.Get([bestSol, MPI.DOUBLE], target_rank = 0)
-                params.winBestSol.Unlock(rank = 0)
-                eventTracker.append(('BestSolupdated','106', ub, ' ',\
-                                            ' ', ' ', ' ', fRank,\
-                                                ' ',  ' ', it, 0, dt()-params.start))
-                fixedVars[:] = bestSol[:]
-                ubUpdated = True
-            else:
-                sleep(5)
-
-        if params.regularizeTR and (redFlag != 1):
-            redFlag, _0, _1 = recvInfoFromGenCoord(params, it,\
-                                                    redFlag, status, optModels, couplVars,\
-                                                    beta, objValuesRelaxs, subgrads, evaluatedSol,\
-                                                    fwPackageRecv, fRank, fComm, eventTracker)
-
     while redFlag != 1:
         ub, lb, gap, redFlag, _1, previousSol, dualInfoFromMatchRecv = forwardStep(params,\
                                             thermals, it,\
                                                 subhorizonInfo, couplVars, fixedVars, previousSol,\
-                                                    couplConstrs, optModels, bestSol, radiusTR,\
+                                                    couplConstrs, optModels, bestSol,\
                                                         presentCosts, futureCosts,\
                                                             alpha, beta, redFlag, ub, lb, gap,\
                                                                 bufferForward,\
@@ -161,19 +132,6 @@ def forwardStepPar(params, thermals, it, subhorizonInfo, couplVars, fixedVars, p
                 del bufferForward[k]
 
             iniCheck = dt()
-
-        if params.regularizeTR:
-            params.winUB.Lock(rank = 0)
-            params.winUB.Get([ub, MPI.DOUBLE], target_rank = 0)
-            params.winUB.Unlock(rank = 0)
-
-            params.winBestSol.Lock(rank = 0)
-            params.winBestSol.Get([bestSol, MPI.DOUBLE], target_rank = 0)
-            params.winBestSol.Unlock(rank = 0)
-            fixedVars[:] = bestSol[:]
-            eventTracker.append(('BestSolupdated', '174', ub, ' ',\
-                                    ' ', ' ', ' ', fRank,\
-                                        ' ', ' ', it, ' ', dt() - params.start))
 
         if not(params.asynchronous):
             eventTracker.append(('EndOfIteration', '179', ' ', ' ',\

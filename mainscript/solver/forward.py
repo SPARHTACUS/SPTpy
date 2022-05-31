@@ -149,43 +149,24 @@ def recvAndAddCuts(params, it, optModels, couplVars, beta,\
     return(recvAllBackwards, backwardSrc, counter, timeCommunicating, timeAddingCuts)
 
 def solveSubhorizonProblem(params, b, it, ub, lb, gap, redFlag, optModels, fixedVars,\
-        bestSol, previousSol, couplVars, presentCosts, futureCosts,  beta, alpha, radiusTR, fRank):
+        bestSol, previousSol, couplVars, presentCosts, futureCosts,  beta, alpha, fRank):
     '''Solve the subhorizon problem'''
 
     totalRunTime, dist, distBin, distStatusBin, distStatusBinBestSol = 0, 0, 0, 0, 0
 
     ini = dt()
 
-    if (ub < 1e12) and b > 0 and params.regularizeTR and not(params.BDSubhorizonProb):
-        orgObjFunc = optModels[b].objective
-        optModels[b].objective = radiusTR[b]
+    optModels[b].reset()
+    if params.solver == GUROBI:
+        optModels[b].solver.set_int_param("Presolve", 2)
+        optModels[b].solver.set_int_param("ScaleFlag", 3)
+        optModels[b].solver.set_dbl_param("BarConvTol", 1e-16)
+        if b == 0 and it > 0:
+            optModels[b].solver.set_dbl_param("BestBdStop", ub - params.relGapDDiP*ub)
 
-        radiusTR[b].lb = 0
-        radiusTR[b].ub = int(1e6)
-        optModels[b].reset()
-        msStatus = optModels[b].optimize(max_seconds = max(params.lastTime - dt(), 0))
+    msStatus = optModels[b].optimize(max_seconds = max(params.lastTime - dt(), 0))
 
-        if msStatus in (OptS.OPTIMAL, OptS.FEASIBLE):
-            minRadius = int(ceil(optModels[b].objective_value))
-            radiusTR[b].lb = minRadius
-            radiusTR[b].ub = minRadius
-            optModels[b].objective = orgObjFunc
-
-    else:
-        msStatus = OptS.OPTIMAL
-
-    if msStatus in (OptS.OPTIMAL, OptS.FEASIBLE):
-        optModels[b].reset()
-        if params.solver == GUROBI:
-            optModels[b].solver.set_int_param("Presolve", 2)
-            optModels[b].solver.set_int_param("ScaleFlag", 3)
-            optModels[b].solver.set_dbl_param("BarConvTol", 1e-16)
-            if b == 0 and it > 0:
-                optModels[b].solver.set_dbl_param("BestBdStop", ub - params.relGapDDiP*ub)
-
-        msStatus = optModels[b].optimize(max_seconds = max(params.lastTime - dt(), 0))
-
-        totalRunTime += (dt() - ini)
+    totalRunTime += (dt() - ini)
 
     f = open(params.outputFolder + "fRank" + str(fRank) + "_subhorizon" + str(b)+".txt",'a',\
                                                                             encoding="utf-8")
@@ -215,7 +196,7 @@ def solveSubhorizonProblem(params, b, it, ub, lb, gap, redFlag, optModels, fixed
             dist, distBin, distStatusBin, distStatusBinBestSol, previousSol, msStatus, ub, lb, gap)
 
 def prepareTheSubhProblem(params, thermals, b, it, optModels, couplVars,\
-                        fixedVars, ub, lb, bestSol, radiusTR, couplConstrs, futureCosts):
+                        fixedVars, ub, lb, bestSol, couplConstrs, futureCosts):
     '''Change nature of variables, if necessary
         Change the rhs of the appropriate cosntraints to the latest solution'''
 
@@ -248,37 +229,13 @@ def prepareTheSubhProblem(params, thermals, b, it, optModels, couplVars,\
         elif params.I_am_a_backwardWorker and (it >= 1) and (b == 0):
             optModels[b].iniLB = lb
 
-    trustRegion = setTrustRegion(params, b, ub, bestSol, radiusTR, couplVars, optModels)
-
-    return(trustRegion, tempFeasConstrs)
-
-def setTrustRegion(params, b, ub, bestSol, radiusTR, couplVars, optModels):
-    '''Add the trust region to the model'''
-
-    if not(params.BDSubhorizonProb or params.BDnetworkSubhorizon)\
-                                                            and params.regularizeTR and (ub < 1e12):
-        indZeros = set(np.where(bestSol <= 0.5)[0]) & set(params.binDispVarsPerSubh[b])
-        indOnes = set(params.binDispVarsPerSubh[b]) - indZeros
-
-        indZeros = list(indZeros)
-        indOnes = list(indOnes)
-
-        radiusTR[b].lb = params.iniRadius
-        radiusTR[b].ub = params.iniRadius
-
-        trustRegion = optModels[b].add_constr(xsum(couplVars[b][i] for i in indZeros) +\
-                                                    xsum((1 -couplVars[b][i]) for i in indOnes)\
-                                                    <= radiusTR[b], name = 'trustRegion')
-    else:
-        trustRegion = []
-
-    return(trustRegion)
+    return(tempFeasConstrs)
 
 def checkConvergenceAndGetSolution(params, b, it, ub, lb, redFlag, optModels, bestSol, fixedVars,\
                                     previousSol, presentCosts, futureCosts, beta, alpha, couplVars):
     '''Check convergence and get the solution from subhorizon b'''
 
-    if ((b == 0 and it != 0) and not(params.regularizeTR)) or (params.nSubhorizons == 1):
+    if ((b == 0 and it != 0)) or (params.nSubhorizons == 1):
         lb = max(optModels[0].objective_bound, lb)
 
     gap = (ub - lb)/ub
@@ -379,7 +336,7 @@ def printMetricsForCurrentSubhorizon(params, b: int, dist: float,\
 
 def forwardStep(params, thermals,\
                 it, subhorizonInfo, couplVars, fixedVars, previousSol, couplConstrs,\
-                optModels, bestSol, radiusTR,\
+                optModels, bestSol,\
                 presentCosts, futureCosts,\
                 alpha, beta, redFlag, ub, lb, gap, bufferForward,\
                 status, objValuesRelaxs, subgrads, evaluatedSol, fwPackageRecv,\
@@ -396,36 +353,13 @@ def forwardStep(params, thermals,\
             subhorizonInfo[b][k].append(0)
 
     for b in range(params.nSubhorizons):
-        if (it != 0) and (b == 0) and params.regularizeTR and (fSize == 1):
-            totalTimeLBReg = 0
-            iniTimeLBReg = dt()
-
-            radiusTR[b].lb = 0
-            radiusTR[b].ub = int(1e6)
-
-            optModels[b].reset()
-
-            if params.BDSubhorizonProb:
-                # In the BD-decomposed subproblem, solve it without the trust-region constraint
-                # in order to get a valid bound
-                optModels[b].solveFirstSubhWithReg = False
-
-            msStatus = optModels[b].optimize(max_seconds = max(params.lastTime - dt(), 0))
-            totalTimeLBReg += (dt() - iniTimeLBReg)
-
-            if msStatus in (OptS.OPTIMAL, OptS.FEASIBLE):
-                lb = max(optModels[b].objective_bound, lb)
-            else:
-                redFlag = np.array(1, dtype = 'int')
-
-            subhorizonInfo[b]['time'][-1] += totalTimeLBReg
 
         if redFlag != 0:
             break
 
-        trustRegion, tempFeasConstrs = prepareTheSubhProblem(params, thermals, b, it,\
+        tempFeasConstrs = prepareTheSubhProblem(params, thermals, b, it,\
                                                         optModels, couplVars,\
-                                                            fixedVars, ub, lb, bestSol, radiusTR,\
+                                                            fixedVars, ub, lb, bestSol,\
                                                                 couplConstrs, futureCosts)
 
         redFlag, totalRunTime, dist, distBin, distStatusBin, distStatusBinBestSol,\
@@ -434,18 +368,17 @@ def forwardStep(params, thermals,\
                                                             gap, redFlag, optModels, fixedVars,\
                                                             bestSol, previousSol, couplVars,\
                                                             presentCosts, futureCosts,\
-                                                            beta, alpha, radiusTR, fRank)
+                                                            beta, alpha, fRank)
 
         if (redFlag == 0) and (msStatus in (OptS.OPTIMAL, OptS.FEASIBLE)):
 
-            if (it != 0) and (b == 0) and not(params.regularizeTR) and (fSize == 1):
+            if (it != 0) and (b == 0) and (fSize == 1):
                 lb = max(optModels[b].objective_bound, lb)
                 gap = (ub - lb)/ub
                 if gap <= params.relGapDDiP:
                     redFlag = np.array(1, dtype = 'int')
 
-            if (optModels[b].objective_bound > lb) and not(params.regularizeTR) and\
-                                                            (it > 0) and (b == 0) and (fSize > 1):
+            if (optModels[b].objective_bound > lb) and (it > 0) and (b == 0) and (fSize > 1):
                 lb = max(optModels[b].objective_bound, lb)
                 gap = (ub - lb)/ub
                 bufferForward[('lb', it, b)] = [np.array([lb, it, b], dtype = 'd'), None]
@@ -484,8 +417,7 @@ def forwardStep(params, thermals,\
                                             it, b, ' ', ' ', dt() - params.start))
 
         elif msStatus in (OptS.OTHER, OptS.NO_SOLUTION_FOUND):
-            if (optModels[b].objective_bound > lb) and not(params.regularizeTR) and\
-                                                                            (it > 0) and (b == 0):
+            if (optModels[b].objective_bound > lb) and (it > 0) and (b == 0):
                 lb = max(optModels[b].objective_bound, lb)
                 gap = (ub - lb)/ub
                 if (fSize > 1):
@@ -498,10 +430,7 @@ def forwardStep(params, thermals,\
 
 
         if (redFlag == 0) and not(params.BDSubhorizonProb or params.BDnetworkSubhorizon):
-            if params.regularizeTR and trustRegion != []:
-                optModels[b].remove([trustRegion] + tempFeasConstrs)
-            else:
-                optModels[b].remove(tempFeasConstrs)
+            optModels[b].remove(tempFeasConstrs)
 
         subhorizonInfo[b]['time'][-1] = totalRunTime
         if params.BDSubhorizonProb or params.BDnetworkSubhorizon:
@@ -523,8 +452,7 @@ def forwardStep(params, thermals,\
 
         totalTimeCommunicating, totalTimeAddingCuts = 0, 0
 
-        if ((it > 0) or params.regularizeTR) and (fSize > 1) and (b < (params.nSubhorizons - 2))\
-            and params.asynchronous:
+        if (it > 0) and (fSize > 1) and (b < (params.nSubhorizons - 2)) and params.asynchronous:
             msgRecv = True
             while msgRecv:
                 if (fComm.Iprobe(source = 0, tag = 10, status = status)):

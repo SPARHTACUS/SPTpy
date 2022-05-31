@@ -66,7 +66,7 @@ class BD_Network:
 
         self.constrCopyGenVars, self.copyGenVars = [], []
 
-        self.alphaVarMP, self.dispStatMP, self.radiusTR = None, None, None
+        self.alphaVarMP, self.dispStatMP = None, None
 
         self.copyOfCouplVars, self.copyOfcouplConstrs = [], []
 
@@ -203,7 +203,7 @@ class BD_Network:
 
     def setCouplingVarsAndCreateAuxVars(self, couplVars, couplConstrs,\
                                         copyGenVars, constrCopyGenVars,\
-                                        alphaVarSPnetwork, alpha, beta, radiusTR):
+                                        alphaVarSPnetwork, alpha, beta):
         '''Set the coupling variables, the objective functions and create auxiliary variables that
         will be used for estimating the SP's optimal cost'''
         self.copyOfCouplVars = couplVars
@@ -216,7 +216,6 @@ class BD_Network:
 
         self.alphaVar = alpha
         self.betaVar = beta
-        self.radiusTR = radiusTR
 
         self.objective = self.MP.objective
 
@@ -236,7 +235,7 @@ class BD_Network:
 
         self.thermals = thermals
 
-        couplConstrs, couplVars, alpha, beta, alphaVarMP, radiusTR,\
+        couplConstrs, couplVars, alpha, beta, alphaVarMP,\
             copyOfMPBinVars, constrOfCopyOfMPBinVars, dispStat, constrTgDisp,\
             copyGenVars, constrCopyGenVars, alphaVarSPnetwork = addAllComp(\
                                 params, hydros, thermals, network, self.MP, self.MP,\
@@ -245,9 +244,9 @@ class BD_Network:
 
         self.setCouplingVarsAndCreateAuxVars(couplVars, couplConstrs, copyGenVars,\
                                                 constrCopyGenVars,\
-                                                alphaVarSPnetwork, alpha, beta, radiusTR)
+                                                alphaVarSPnetwork, alpha, beta)
 
-        return(couplConstrs, couplVars, alpha, beta, self.radiusTR)
+        return(couplConstrs, couplVars, alpha, beta)
 
     def optimize(self, max_seconds: float = 1e12, max_nodes: int = 10000):
         '''Solve the subhorizon problem with BD'''

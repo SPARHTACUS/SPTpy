@@ -10,15 +10,14 @@ class OptOptions:
     'Class of optimization and problem parameters'
     def __init__(self, rootFolder: str, rankWorld: int, sizeWorld: int, case: str,\
                     nSubhorizons: list, forwardWs: list, backwardWs: list, expName: str,\
-                    solveOnlyFirstSubhorizonInput = None, regularizeTRs = None, iniRadiusS = None):
+                    solveOnlyFirstSubhorizonInput = None):
 
         self.setup(rootFolder, rankWorld, sizeWorld, case, nSubhorizons, forwardWs, backwardWs,\
-                    expName,\
-                    solveOnlyFirstSubhorizonInput, regularizeTRs, iniRadiusS)
+                    expName, solveOnlyFirstSubhorizonInput)
 
     def setup(self, rootFolder: str, rankWorld: int, sizeWorld: int, case: str,\
                     nSubhorizons: list, forwardWs: list, backwardWs: list, expName:str,\
-                    solveOnlyFirstSubhorizonInput, regularizeTRs, iniRadiusS):
+                    solveOnlyFirstSubhorizonInput):
         'Initialize the attributes'
 
         self.expName = expName
@@ -28,12 +27,12 @@ class OptOptions:
 
         self.nSubhorizons = nSubhorizons[rankWorld] # Number of subhorizons
 
-        self.asynchronous = False if sizeWorld == 1 else False
+        self.asynchronous = False if sizeWorld == 1 else True
 
         self.T = 48                     # number of periods in the planning horizon
         self.relGapDDiP = 1e-3          # relative gap tolerance for the DDiP
         self.maxItDDiP =200 if self.asynchronous else 200# maximum number of iterations for the DDiP
-        self.timeLimit =3600            # time limit in seconds
+        self.timeLimit = 3*3600         # time limit in seconds
         self.case = case#'1'#           # id of the instance
         self.caseDate = None            # only used for the Brazilian system
         self.start = 0                  # used to control the time limit. It is the time stamp
@@ -45,7 +44,7 @@ class OptOptions:
         self.inputFolder = rootFolder + '/input/' + self.ps +'/'
         self.outputFolder = ''
 
-        self.solver = GUROBI # GUROBI or CBC
+        self.solver = CBC # GUROBI or CBC
 
         if not(self.asynchronous) and rankWorld == 0 and sizeWorld > 1:
             if len(forwardWs) > 1:
@@ -66,13 +65,6 @@ class OptOptions:
                                     if nSubhorizons[r] <= self.nSubhorizons and\
                                     r in backwardWs and not(solveOnlyFirstSubhorizonInput[r])])\
                                 if self.I_am_a_forwardWorker and not(self.asynchronous) else None
-
-        if regularizeTRs is None:
-            self.regularizeTR = False
-            self.iniRadius = 1e6
-        else:
-            self.regularizeTR = regularizeTRs[rankWorld]
-            self.iniRadius = int(iniRadiusS[rankWorld])
 
         self.threads = 0 if sizeWorld == 1 else (2 if self.asynchronous else 1)
 
@@ -97,12 +89,12 @@ class OptOptions:
 
         # BDSubhorizonProb applies Benders decomposition to subhorizon problems by separating the
         # binary variables
-        self.BDSubhorizonProb = False if self.I_am_a_forwardWorker and self.nSubhorizons <= 16 else False
+        self.BDSubhorizonProb = True if self.I_am_a_forwardWorker and self.nSubhorizons <= 16 else False
         # decompose the problem into a generation problem and a network problem
-        self.BDnetworkSubhorizon = False if self.I_am_a_forwardWorker else False
+        self.BDnetworkSubhorizon = True if self.I_am_a_forwardWorker else False
         # BDBackwardProb is used to solve the backward subhorizon's problems with BD
         # by separating the network
-        self.BDBackwardProb = False if self.I_am_a_backwardWorker and self.nSubhorizons <= 4 else False
+        self.BDBackwardProb = True if self.I_am_a_backwardWorker and self.nSubhorizons <= 4 else False
 
         if ((self.T % self.nSubhorizons)) > 0:
             raise Exception('Im wRank ' + str(rankWorld) + '. My temporal decomposition does not' +\

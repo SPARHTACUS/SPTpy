@@ -30,7 +30,6 @@ def buildModels(params, redFlag, thermals, hydros, network, fixedVars,\
     alpha = {b: None for b in range(params.nSubhorizons)} # var of the cost-to-go func in forward
     # var of the cost-to-go func in backward
     alphaRelax = {b: None for b in range(params.nSubhorizons)}
-    radiusTR = {b: None for b in range(params.nSubhorizons)}     # radius var only used in forward
 
     optModels = [None for b in range(params.nSubhorizons)]
     optModelsRelax = [None for b in range(params.nSubhorizons)]
@@ -123,30 +122,30 @@ def buildModels(params, redFlag, thermals, hydros, network, fixedVars,\
         if params.BDSubhorizonProb or params.BDnetworkSubhorizon or params.BDBackwardProb:
             if params.I_am_a_forwardWorker:
                 if params.BDSubhorizonProb:
-                    couplConstrs[b], couplVars[b], alpha_, beta_, r_ = optModels[b].addAllComp(\
+                    couplConstrs[b], couplVars[b], alpha_, beta_ = optModels[b].addAllComp(\
                                                         params, hydros, thermals,\
                                                         network, fixedVars, b,\
                                                         binVars = BINARY)
 
                 if params.BDnetworkSubhorizon and not(params.BDSubhorizonProb):
-                    couplConstrs[b], couplVars[b], alpha_, beta_, r_ = optModels[b].addAllComp(\
+                    couplConstrs[b], couplVars[b], alpha_, beta_ = optModels[b].addAllComp(\
                                                         params, hydros, thermals,\
                                                         network, fixedVars, b,\
                                                         binVars = BINARY)
             else:
-                alpha_, beta_, r_ = None, None, None
+                alpha_, beta_ = None, None
 
             if params.I_am_a_backwardWorker:
                 if params.BDBackwardProb:
                     varNature = BINARY if params.solveOnlyFirstSubhorizon and b == 0 else CONTINUOUS
-                    couplConstrsRelax[b], couplVarsRelax[b], alph_, bet_, _0 =\
+                    couplConstrsRelax[b], couplVarsRelax[b], alph_, bet_ =\
                                                                 optModelsRelax[b].addAllComp(\
                                                                 params, hydros, thermals,\
                                                                 network, fixedVars, b,\
                                                                 binVars = varNature)
                 else:
                     couplConstrsRelax[b], couplVarsRelax[b], alph_, bet_,\
-                                        _0, _1, _2, _3, _4, _5, _6, _7, _8 = addAllComp(params,\
+                                            _0, _1, _2, _3, _4, _5, _6, _7 = addAllComp(params,\
                                             hydros, thermals, network,\
                                             optModelsRelax[b], optModelsRelax[b], optModelsRelax[b],
                                             b, fixedVars, BDbinaries = False,\
@@ -161,7 +160,7 @@ def buildModels(params, redFlag, thermals, hydros, network, fixedVars,\
                                 (params.solveOnlyFirstSubhorizon and b == 0)) else CONTINUOUS
             # varNature is BINARY for forward processes, and for backward processes who will
             # only solve their respective first subhorizons
-            couplConstrs[b], couplVars[b], alpha_, beta_, _0, r_, _1, _2, _3, _4, _5, _6, _7 =\
+            couplConstrs[b], couplVars[b], alpha_, beta_, _0, _1, _2, _3, _4, _5, _6, _7 =\
                                                     addAllComp(params,\
                                                     hydros, thermals, network,\
                                                     optModels[b], optModels[b], optModels[b],\
@@ -180,10 +179,8 @@ def buildModels(params, redFlag, thermals, hydros, network, fixedVars,\
 
         beta[b] = beta_
         alpha[b] = alpha_
-        if params.regularizeTR:
-            radiusTR[b] = r_
 
-    return(beta, betaRelax, alpha, alphaRelax, radiusTR,\
+    return(beta, betaRelax, alpha, alphaRelax,\
             optModels, optModelsRelax, couplConstrs, couplVars, couplConstrsRelax, couplVarsRelax)
 
 def runSolver(params, hydros, thermals, network,\
@@ -245,8 +242,7 @@ def runSolver(params, hydros, thermals, network,\
     buildingTimes = [0 for b in range(params.nSubhorizons)]     # times taken to build the
                                                                 # subhorizon models
 
-    beta, betaRelax, alpha, alphaRelax, radiusTR,\
-        optModels, optModelsRelax,\
+    beta, betaRelax, alpha, alphaRelax, optModels, optModelsRelax,\
             couplConstrs, couplVars, couplConstrsRelax, couplVarsRelax = buildModels(\
                                                         params, redFlag,\
                                                             thermals, hydros, network, fixedVars,\
@@ -268,7 +264,7 @@ def runSolver(params, hydros, thermals, network,\
         if params.I_am_a_forwardWorker:
             ub, lb, gap, redFlag = forwardStepPar(params, thermals,\
                                             it, subhorizonInfo, couplVars, fixedVars,\
-                                            previousSol, couplConstrs, optModels, bestSol,radiusTR,\
+                                            previousSol, couplConstrs, optModels, bestSol,\
                                             presentCosts, futureCosts,\
                                             alpha, beta, redFlag, ub, lb, gap,\
                                             wRank, fComm, fRank, fSize)
@@ -278,7 +274,7 @@ def runSolver(params, hydros, thermals, network,\
                                             it, ub, lb, backwardInfo, objValRelax,\
                                             optModels, optModelsRelax, lbda,\
                                             fixedVars, couplVars, couplVarsRelax,couplConstrsRelax,\
-                                            alphaRelax, betaRelax, beta, alpha, radiusTR,\
+                                            alphaRelax, betaRelax, beta, alpha,\
                                             redFlag, bufferBackward,\
                                             wRank, bComm, bRank)
 
@@ -290,7 +286,7 @@ def runSolver(params, hydros, thermals, network,\
         ub, lb, gap, redFlag, subhsDone, previousSol, _0 = forwardStep(params, thermals, it,\
                                         subhorizonInfo, couplVars, fixedVars, previousSol,\
                                             couplConstrs,\
-                                            optModels, bestSol, radiusTR,\
+                                            optModels, bestSol,\
                                                 presentCosts, futureCosts,\
                                                 alpha, beta, redFlag, ub, lb, gap,\
                                                     {}, {}, {}, {}, {}, {}, fComm, fRank, fSize, [])
@@ -327,7 +323,7 @@ def runSolver(params, hydros, thermals, network,\
                                             it, ub, lb, backwardInfo, objValRelax,\
                                             optModels, optModelsRelax, lbda,\
                                             fixedVars, couplVars, couplVarsRelax,couplConstrsRelax,\
-                                            alphaRelax, betaRelax, beta, alpha, radiusTR, redFlag,\
+                                            alphaRelax, betaRelax, beta, alpha, redFlag,\
                                             {}, bComm, bRank, None)
         totalRunTimeBackward = dt() - totalRunTimeBackward
 
