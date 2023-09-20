@@ -1,0 +1,10 @@
+[TYPECHECK]
+ignored-modules=gurobipy, mpi4py
+[MESSAGES CONTROL]
+disable=C0326, C0325, C0103, C0200, C0201, C0206
+[DESIGN]
+disable=R0912, R0913, R0914, R1732
+[MESSAGES]
+disable=W0105, W0212, W0125, W1116
+[MASTER]
+init-hook="from pylint.config import find_pylintrc; import os, sys; sys.path.append(os.path.dirname(find_pylintrc()))"
